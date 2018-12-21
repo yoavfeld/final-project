@@ -8,8 +8,14 @@ path_wb_command = '/Applications/workbench/bin_macosx64/wb_command';
 th = 0;
 
 [audio, fs] = audioread('/Users/yoav.feldman/ML/hcp/7T_MOVIE1_CC1.mp4');
-[envU, ~] = envelope(audio(:,1));
-envelope = downsample(envU, fs); %downsample the audio to 1hz
+[envU, ~] = envelope(audio(:,1), 3e5, 'peak');
+env = downsample(envU, fs); %downsample the audio to 1hz
+
+%plot(audio(:,1),'r')
+%hold on
+%plot(envU,'g')
+%hold on
+%plot(env,'b')
 
 sub_names=dir(path_subjects);
 sub_vec = {sub_names(3:(end),1).name};
@@ -35,7 +41,7 @@ for part=1:length(parts_end_tr)
 
         % Calculate correlation:
         sub = zscore(sub_file.cdata(:,startTR:endTR)');
-        norm_env = zscore(envelope(startTR:endTR));
+        norm_env = zscore(env(startTR:endTR));
         samples = endTR-startTR;
         corr = (1/(samples-1))*sum(sub.*norm_env);
         
