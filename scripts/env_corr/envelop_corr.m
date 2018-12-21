@@ -8,8 +8,8 @@ path_wb_command = '/Applications/workbench/bin_macosx64/wb_command';
 th = 0;
 
 [audio, fs] = audioread('/Users/yoav.feldman/ML/hcp/7T_MOVIE1_CC1.mp4');
-envU = downsample(audio(:,1), fs); %[envU, ~] = envelope(audio(:,1));
-normalized_env = zscore(envU);
+[envU, ~] = envelope(audio(:,1));
+envelope = downsample(envU, fs); %downsample the audio to 1hz
 
 sub_names=dir(path_subjects);
 sub_vec = {sub_names(3:(end),1).name};
@@ -24,7 +24,7 @@ for part=1:length(parts_end_tr)
     endTR = parts_end_tr(part);
     
     for i=1:n
-        %load subject file + other subjects avg file
+        %load subject file
         sub_file_path = fullfile(path_subjects,sub_vec(i), path_inner);
         sub_file = ciftiopen(string(sub_file_path),path_wb_command);
 
@@ -35,13 +35,17 @@ for part=1:length(parts_end_tr)
 
         % Calculate correlation:
         sub = zscore(sub_file.cdata(:,startTR:endTR)');
-        env = normalized_env(startTR:endTR);
+        norm_env = zscore(envelope(startTR:endTR));
         samples = endTR-startTR;
-        corr = (1/(samples-1))*sum(sub.*env);
+        corr = (1/(samples-1))*sum(sub.*norm_env);
+        
+        % debug
+        %histogram(corr);
+        %max(corr)
         
         %filter low values
-        under_th_mask = abs(corr)>th;
-        corr(:,~under_th_mask) = NaN;
+        mask = abs(corr)>th;
+        corr(:,~mask) = NaN;
         res = res + corr;
         
         %fprintf('finish subject %d\n' ,i)
