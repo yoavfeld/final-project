@@ -1,5 +1,5 @@
 
-path_general='/Users/yoav.feldman/ML/final-project/scripts/env_corr_2/';
+path_general='/Users/yoav.feldman/ML/final-project/scripts/env_corr/';
 path_data='/Users/yoav.feldman/ML/final-project/scripts/data/';
 path_subjects = [path_data '2mm'];
 path_avg_mat = [path_data 'avg'];
