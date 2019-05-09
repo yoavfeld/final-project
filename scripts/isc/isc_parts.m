@@ -1,8 +1,8 @@
-path_general='/Users/yoav.feldman/ML/hcp/grayordinate/isc/';
-path_subjects = [path_general '2mm'];
-path_avg_mat = [path_general 'avg'];
-path_inner = 'MNINonLinear/Results/tfMRI_MOVIE1_7T_AP/tfMRI_MOVIE1_7T_AP_Atlas_MSMAll_hp2000_clean.dtseries.nii';
 path_wb_command = '/Applications/workbench/bin_macosx64/wb_command';
+data_path = [pwd, '/../data'];
+path_subjects = [data_path '/2mm'];
+path_avg_mat = [data_path '/avg'];
+path_inner = 'MNINonLinear/Results/tfMRI_MOVIE1_7T_AP/tfMRI_MOVIE1_7T_AP_Atlas_MSMAll_hp2000_clean.dtseries.nii';
 
 sub_names=dir(path_subjects);
 sub_vec = {sub_names(3:(end),1).name};
@@ -38,6 +38,10 @@ for part=1:length(parts_end_tr)
         samples = endTR-startTR;
         res = res + (1/(samples-1))*sum(avg.*sub);
         
+        %res = res + (1/(samples-1))*(sub(j,:).*avg); iscf seed
+        %res = res + (1/(samples-1))*(sub'*avg); iscf network
+        
+        
         %fprintf('finish subject %d\n' ,i)
     end
     fprintf('finish movie part %d\n' ,part)
@@ -45,7 +49,7 @@ for part=1:length(parts_end_tr)
     res = res./n;
     nii_file = sub_file;
     nii_file.cdata = res';
-    res_file_path = strcat(path_general, 'res_', num2str(part), '.dtseries.nii');
+    res_file_path = strcat(pwd, '/res_', num2str(part), '.dtseries.nii');
     ciftisavereset(nii_file, res_file_path ,path_wb_command);
 end
 toc
