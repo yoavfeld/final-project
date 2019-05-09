@@ -7,14 +7,22 @@ path_inner = 'MNINonLinear/Results/tfMRI_MOVIE1_7T_AP/tfMRI_MOVIE1_7T_AP_Atlas_M
 path_wb_command = '/Applications/workbench/bin_macosx64/wb_command';
 th = 0;
 
-[audio, fs] = audioread('/Users/yoav.feldman/ML/hcp/7T_MOVIE1_CC1.mp4');
-[envU, ~] = envelope(audio(:,1), 3e5, 'peak');
+[x, fs] = audioread('/Users/yoav.feldman/ML/hcp/7T_MOVIE1_CC1.mp4');
+audio = x(:,1);
+
+[envU, ~] = envelope(audio, 3e5, 'rms'); % - max corr 0.51
+%[envU, ~] = envelope(audio, 3e5, 'peak'); % - max corr 0.46
+%[envU, ~] = envelope(audio, fs, 'rms'); % - max corr 0.32
+%[envU, ~] = envelope(audio, fs, 'peak'); % - max corr 0.28
+%envU = abs(hilbert(audio)) % - max corr 0.30;
+
+
 env = downsample(envU, fs); %downsample the audio to 1hz
 
-%plot(audio(:,1),'r')
+%plot(audio,'r')
 %hold on
 %plot(envU,'g')
-%hold on
+%figure(2)
 %plot(env,'b')
 
 sub_names=dir(path_subjects);
@@ -22,8 +30,6 @@ sub_vec = {sub_names(3:(end),1).name};
 n = length(sub_vec);
 %n =2; %debug׳
 
-parts_start_tr = [20,284,525,735,818];
-parts_end_tr = [264,505,715,798,901];
 tic
 
 for i=1:n
@@ -37,6 +43,9 @@ for i=1:n
     avg = avg + sub_file.cdata;
 end
 avg = avg./n;
+
+parts_start_tr = [20,284,525,735,818];
+parts_end_tr = [264,505,715,798,901];
 
 for part=1:length(parts_end_tr)
     startTR = parts_start_tr(part);
@@ -55,6 +64,6 @@ for part=1:length(parts_end_tr)
     max(corr)
     nii_file = sub_file;
     nii_file.cdata = corr';
-    res_file_path = strcat(path_general, 'res_', num2str(part), '.dtseries.nii');
-    ciftisavereset(nii_file, res_file_path ,path_wb_command);
+    %res_file_path = strcat(path_general, 'res_', num2str(part), '.dtseries.nii');
+    %ciftisavereset(nii_file, res_file_path ,path_wb_command);
 end

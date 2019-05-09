@@ -2,11 +2,11 @@
 %corr_file = 'fc_rest_dmn_cov.mat';
 corr_file = 'fc_rest_all_brain_cov.mat';
 %corr_file = 'isfc_movie1_cov.mat';
-corr_file = 'fc_movie_all_brain_cov.mat';
+%corr_file = 'fc_movie_all_brain_cov.mat';
 
 labels_file = '7t_labels.mat'; 
 th = 0 % threshold of corr values
-count = 20 % how many highest correlations to take from each subject
+count = 1 % how many highest correlations to take from each subject
 from = 1 % from which highest correlation to start
 
 load(corr_file);
