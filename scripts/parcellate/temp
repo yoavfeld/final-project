@@ -1,0 +1,2370 @@
+Name:                     rest_parcellated/125525_Output_Atlas_CortSubcort_Rest.Parcels.LR.ptseries.nii
+Type:                     CIFTI - Parcel Series
+Structure:                CortexLeft CortexRight 
+Data Size:                2.58 Megabytes
+Maps to Surface:          true
+Maps to Volume:           true
+Maps with LabelTable:     false
+Maps with Palette:        true
+All Map Palettes Equal:   true
+Map Interval Units:       NIFTI_UNITS_SEC
+Map Interval Start:       0.000
+Map Interval Step:        1.000
+Number of Maps:           900
+Number of Rows:           718
+Number of Columns:        900
+Volume Dim[0]:            91
+Volume Dim[1]:            109
+Volume Dim[2]:            91
+Palette Type:             File (One for all maps)
+CIFTI Dim[0]:             900
+CIFTI Dim[1]:             718
+ALONG_ROW map type:       SERIES
+    Start:                0.000
+    Step:                 1.000
+    Units:                Seconds
+ALONG_COLUMN map type:    PARCELS
+    Has Volume Data:      true
+    Volume Dims:          91,109,91
+    CortexLeft:           32492 vertices
+    CortexRight:          32492 vertices
+    Parcel 1:             Visual_3
+        CortexLeft:       827 vertices
+    Parcel 2:             Visual2_27
+        CortexLeft:       75 vertices
+    Parcel 3:             Visual2_28
+        CortexLeft:       110 vertices
+    Parcel 4:             Visual2_29
+        CortexLeft:       605 vertices
+    Parcel 5:             Visual2_30
+        CortexLeft:       406 vertices
+    Parcel 6:             Visual2_31
+        CortexLeft:       305 vertices
+    Parcel 7:             Visual2_32
+        CortexLeft:       66 vertices
+    Parcel 8:             Somatomotor_20
+        CortexLeft:       790 vertices
+    Parcel 9:             Somatomotor_21
+        CortexLeft:       563 vertices
+    Parcel 10:            Cingulo-Opercular_29
+        CortexLeft:       150 vertices
+    Parcel 11:            Dorsal_Attention_11
+        CortexLeft:       83 vertices
+    Parcel 12:            Language_9
+        CortexLeft:       124 vertices
+    Parcel 13:            Visual2_33
+        CortexLeft:       146 vertices
+    Parcel 14:            Frontoparietal_28
+        CortexLeft:       201 vertices
+    Parcel 15:            Frontoparietal_29
+        CortexLeft:       243 vertices
+    Parcel 16:            Visual2_34
+        CortexLeft:       58 vertices
+    Parcel 17:            Visual2_35
+        CortexLeft:       133 vertices
+    Parcel 18:            Visual2_36
+        CortexLeft:       148 vertices
+    Parcel 19:            Visual2_37
+        CortexLeft:       72 vertices
+    Parcel 20:            Visual2_38
+        CortexLeft:       54 vertices
+    Parcel 21:            Visual2_39
+        CortexLeft:       59 vertices
+    Parcel 22:            Visual2_40
+        CortexLeft:       64 vertices
+    Parcel 23:            Visual2_41
+        CortexLeft:       60 vertices
+    Parcel 24:            Auditory_7
+        CortexLeft:       74 vertices
+    Parcel 25:            Language_10
+        CortexLeft:       165 vertices
+    Parcel 26:            Language_11
+        CortexLeft:       177 vertices
+    Parcel 27:            Posterior_Multimodal_4
+        CortexLeft:       150 vertices
+    Parcel 28:            Language_12
+        CortexLeft:       146 vertices
+    Parcel 29:            Frontoparietal_30
+        CortexLeft:       98 vertices
+    Parcel 30:            Default_37
+        CortexLeft:       139 vertices
+    Parcel 31:            Default_38
+        CortexLeft:       201 vertices
+    Parcel 32:            Default_39
+        CortexLeft:       96 vertices
+    Parcel 33:            Default_40
+        CortexLeft:       74 vertices
+    Parcel 34:            Default_41
+        CortexLeft:       92 vertices
+    Parcel 35:            Default_42
+        CortexLeft:       106 vertices
+    Parcel 36:            Somatomotor_22
+        CortexLeft:       113 vertices
+    Parcel 37:            Cingulo-Opercular_30
+        CortexLeft:       193 vertices
+    Parcel 38:            Cingulo-Opercular_31
+        CortexLeft:       237 vertices
+    Parcel 39:            Somatomotor_23
+        CortexLeft:       175 vertices
+    Parcel 40:            Somatomotor_24
+        CortexLeft:       210 vertices
+    Parcel 41:            Somatomotor_25
+        CortexLeft:       125 vertices
+    Parcel 42:            Somatomotor_26
+        CortexLeft:       212 vertices
+    Parcel 43:            Cingulo-Opercular_32
+        CortexLeft:       206 vertices
+    Parcel 44:            Cingulo-Opercular_33
+        CortexLeft:       200 vertices
+    Parcel 45:            Cingulo-Opercular_34
+        CortexLeft:       202 vertices
+    Parcel 46:            Dorsal_Attention_12
+        CortexLeft:       101 vertices
+    Parcel 47:            Somatomotor_27
+        CortexLeft:       178 vertices
+    Parcel 48:            Visual2_42
+        CortexLeft:       131 vertices
+    Parcel 49:            Visual2_43
+        CortexLeft:       118 vertices
+    Parcel 50:            Dorsal_Attention_13
+        CortexLeft:       156 vertices
+    Parcel 51:            Somatomotor_28
+        CortexLeft:       438 vertices
+    Parcel 52:            Somatomotor_29
+        CortexLeft:       531 vertices
+    Parcel 53:            Somatomotor_30
+        CortexLeft:       339 vertices
+    Parcel 54:            Somatomotor_31
+        CortexLeft:       161 vertices
+    Parcel 55:            Somatomotor_32
+        CortexLeft:       277 vertices
+    Parcel 56:            Somatomotor_33
+        CortexLeft:       95 vertices
+    Parcel 57:            Cingulo-Opercular_35
+        CortexLeft:       95 vertices
+    Parcel 58:            Cingulo-Opercular_36
+        CortexLeft:       63 vertices
+    Parcel 59:            Cingulo-Opercular_37
+        CortexLeft:       84 vertices
+    Parcel 60:            Cingulo-Opercular_38
+        CortexLeft:       141 vertices
+    Parcel 61:            Default_43
+        CortexLeft:       83 vertices
+    Parcel 62:            Default_44
+        CortexLeft:       132 vertices
+    Parcel 63:            Frontoparietal_31
+        CortexLeft:       168 vertices
+    Parcel 64:            Default_45
+        CortexLeft:       93 vertices
+    Parcel 65:            Default_46
+        CortexLeft:       101 vertices
+    Parcel 66:            Default_47
+        CortexLeft:       52 vertices
+    Parcel 67:            Default_48
+        CortexLeft:       197 vertices
+    Parcel 68:            Default_49
+        CortexLeft:       217 vertices
+    Parcel 69:            Default_50
+        CortexLeft:       256 vertices
+    Parcel 70:            Default_51
+        CortexLeft:       148 vertices
+    Parcel 71:            Default_52
+        CortexLeft:       162 vertices
+    Parcel 72:            Default_53
+        CortexLeft:       155 vertices
+    Parcel 73:            Frontoparietal_32
+        CortexLeft:       234 vertices
+    Parcel 74:            Language_13
+        CortexLeft:       141 vertices
+    Parcel 75:            Language_14
+        CortexLeft:       192 vertices
+    Parcel 76:            Default_54
+        CortexLeft:       115 vertices
+    Parcel 77:            Frontoparietal_33
+        CortexLeft:       179 vertices
+    Parcel 78:            Cingulo-Opercular_39
+        CortexLeft:       236 vertices
+    Parcel 79:            Language_15
+        CortexLeft:       101 vertices
+    Parcel 80:            Frontoparietal_34
+        CortexLeft:       97 vertices
+    Parcel 81:            Language_16
+        CortexLeft:       107 vertices
+    Parcel 82:            Frontoparietal_35
+        CortexLeft:       152 vertices
+    Parcel 83:            Frontoparietal_36
+        CortexLeft:       146 vertices
+    Parcel 84:            Cingulo-Opercular_40
+        CortexLeft:       201 vertices
+    Parcel 85:            Frontoparietal_37
+        CortexLeft:       137 vertices
+    Parcel 86:            Cingulo-Opercular_41
+        CortexLeft:       255 vertices
+    Parcel 87:            Default_55
+        CortexLeft:       165 vertices
+    Parcel 88:            Default_56
+        CortexLeft:       157 vertices
+    Parcel 89:            Frontoparietal_38
+        CortexLeft:       106 vertices
+    Parcel 90:            Default_57
+        CortexLeft:       101 vertices
+    Parcel 91:            Frontoparietal_39
+        CortexLeft:       179 vertices
+    Parcel 92:            Frontoparietal_40
+        CortexLeft:       135 vertices
+    Parcel 93:            Default_58
+        CortexLeft:       234 vertices
+    Parcel 94:            Default_59
+        CortexLeft:       113 vertices
+    Parcel 95:            Dorsal_Attention_14
+        CortexLeft:       112 vertices
+    Parcel 96:            Dorsal_Attention_15
+        CortexLeft:       342 vertices
+    Parcel 97:            Frontoparietal_41
+        CortexLeft:       101 vertices
+    Parcel 98:            Frontoparietal_42
+        CortexLeft:       73 vertices
+    Parcel 99:            Cingulo-Opercular_42
+        CortexLeft:       127 vertices
+    Parcel 100:           Somatomotor_34
+        CortexLeft:       186 vertices
+    Parcel 101:           Somatomotor_35
+        CortexLeft:       140 vertices
+    Parcel 102:           Somatomotor_36
+        CortexLeft:       129 vertices
+    Parcel 103:           Auditory_8
+        CortexLeft:       100 vertices
+    Parcel 104:           Auditory_9
+        CortexLeft:       180 vertices
+    Parcel 105:           Cingulo-Opercular_43
+        CortexLeft:       128 vertices
+    Parcel 106:           Cingulo-Opercular_44
+        CortexLeft:       154 vertices
+    Parcel 107:           Auditory_10
+        CortexLeft:       69 vertices
+    Parcel 108:           Cingulo-Opercular_45
+        CortexLeft:       193 vertices
+    Parcel 109:           Cingulo-Opercular_46
+        CortexLeft:       129 vertices
+    Parcel 110:           Orbito-Affective_3
+        CortexLeft:       144 vertices
+    Parcel 111:           Frontoparietal_43
+        CortexLeft:       125 vertices
+    Parcel 112:           Orbito-Affective_4
+        CortexLeft:       116 vertices
+    Parcel 113:           Cingulo-Opercular_47
+        CortexLeft:       61 vertices
+    Parcel 114:           Cingulo-Opercular_48
+        CortexLeft:       104 vertices
+    Parcel 115:           Somatomotor_37
+        CortexLeft:       83 vertices
+    Parcel 116:           Dorsal_Attention_16
+        CortexLeft:       226 vertices
+    Parcel 117:           Dorsal_Attention_17
+        CortexLeft:       290 vertices
+    Parcel 118:           Default_60
+        CortexLeft:       101 vertices
+    Parcel 119:           Default_61
+        CortexLeft:       152 vertices
+    Parcel 120:           Default_62
+        CortexLeft:       230 vertices
+    Parcel 121:           Visual_4
+        CortexLeft:       128 vertices
+    Parcel 122:           Ventral_Multimodal_2
+        CortexLeft:       200 vertices
+    Parcel 123:           Language_17
+        CortexLeft:       72 vertices
+    Parcel 124:           Auditory_11
+        CortexLeft:       142 vertices
+    Parcel 125:           Language_18
+        CortexLeft:       137 vertices
+    Parcel 126:           Default_63
+        CortexLeft:       112 vertices
+    Parcel 127:           Dorsal_Attention_18
+        CortexLeft:       122 vertices
+    Parcel 128:           Language_19
+        CortexLeft:       127 vertices
+    Parcel 129:           Language_20
+        CortexLeft:       192 vertices
+    Parcel 130:           Default_64
+        CortexLeft:       206 vertices
+    Parcel 131:           Default_65
+        CortexLeft:       374 vertices
+    Parcel 132:           Default_66
+        CortexLeft:       145 vertices
+    Parcel 133:           Frontoparietal_44
+        CortexLeft:       243 vertices
+    Parcel 134:           Default_67
+        CortexLeft:       228 vertices
+    Parcel 135:           Ventral_Multimodal_3
+        CortexLeft:       242 vertices
+    Parcel 136:           Dorsal_Attention_19
+        CortexLeft:       164 vertices
+    Parcel 137:           Dorsal_Attention_20
+        CortexLeft:       189 vertices
+    Parcel 138:           Visual2_44
+        CortexLeft:       204 vertices
+    Parcel 139:           Language_21
+        CortexLeft:       194 vertices
+    Parcel 140:           Posterior_Multimodal_5
+        CortexLeft:       145 vertices
+    Parcel 141:           Posterior_Multimodal_6
+        CortexLeft:       87 vertices
+    Parcel 142:           Visual_5
+        CortexLeft:       144 vertices
+    Parcel 143:           Dorsal_Attention_21
+        CortexLeft:       145 vertices
+    Parcel 144:           Frontoparietal_45
+        CortexLeft:       190 vertices
+    Parcel 145:           Frontoparietal_46
+        CortexLeft:       192 vertices
+    Parcel 146:           Dorsal_Attention_22
+        CortexLeft:       114 vertices
+    Parcel 147:           Cingulo-Opercular_49
+        CortexLeft:       156 vertices
+    Parcel 148:           Cingulo-Opercular_50
+        CortexLeft:       374 vertices
+    Parcel 149:           Frontoparietal_47
+        CortexLeft:       492 vertices
+    Parcel 150:           Default_68
+        CortexLeft:       408 vertices
+    Parcel 151:           Default_69
+        CortexLeft:       319 vertices
+    Parcel 152:           Visual2_45
+        CortexLeft:       53 vertices
+    Parcel 153:           Visual2_46
+        CortexLeft:       75 vertices
+    Parcel 154:           Visual2_47
+        CortexLeft:       62 vertices
+    Parcel 155:           Default_70
+        CortexLeft:       75 vertices
+    Parcel 156:           Visual2_48
+        CortexLeft:       47 vertices
+    Parcel 157:           Visual2_49
+        CortexLeft:       112 vertices
+    Parcel 158:           Visual2_50
+        CortexLeft:       71 vertices
+    Parcel 159:           Visual2_51
+        CortexLeft:       61 vertices
+    Parcel 160:           Visual2_52
+        CortexLeft:       62 vertices
+    Parcel 161:           Default_71
+        CortexLeft:       121 vertices
+    Parcel 162:           Default_72
+        CortexLeft:       70 vertices
+    Parcel 163:           Visual2_53
+        CortexLeft:       119 vertices
+    Parcel 164:           Default_73
+        CortexLeft:       62 vertices
+    Parcel 165:           Default_74
+        CortexLeft:       59 vertices
+    Parcel 166:           Orbito-Affective_5
+        CortexLeft:       111 vertices
+    Parcel 167:           Cingulo-Opercular_51
+        CortexLeft:       147 vertices
+    Parcel 168:           Somatomotor_38
+        CortexLeft:       103 vertices
+    Parcel 169:           Cingulo-Opercular_52
+        CortexLeft:       132 vertices
+    Parcel 170:           Frontoparietal_48
+        CortexLeft:       105 vertices
+    Parcel 171:           Frontoparietal_49
+        CortexLeft:       133 vertices
+    Parcel 172:           Language_22
+        CortexLeft:       117 vertices
+    Parcel 173:           Auditory_12
+        CortexLeft:       112 vertices
+    Parcel 174:           Auditory_13
+        CortexLeft:       107 vertices
+    Parcel 175:           Auditory_14
+        CortexLeft:       171 vertices
+    Parcel 176:           Default_75
+        CortexLeft:       137 vertices
+    Parcel 177:           Default_76
+        CortexLeft:       125 vertices
+    Parcel 178:           Cingulo-Opercular_53
+        CortexLeft:       103 vertices
+    Parcel 179:           Cingulo-Opercular_54
+        CortexLeft:       115 vertices
+    Parcel 180:           Cingulo-Opercular_55
+        CortexLeft:       59 vertices
+    Parcel 181:           Visual
+        CortexRight:      783 vertices
+    Parcel 182:           Visual2
+        CortexRight:      73 vertices
+    Parcel 183:           Visual2_1
+        CortexRight:      123 vertices
+    Parcel 184:           Visual2_2
+        CortexRight:      611 vertices
+    Parcel 185:           Visual2_3
+        CortexRight:      400 vertices
+    Parcel 186:           Visual2_4
+        CortexRight:      263 vertices
+    Parcel 187:           Visual2_5
+        CortexRight:      67 vertices
+    Parcel 188:           Somatomotor
+        CortexRight:      772 vertices
+    Parcel 189:           Somatomotor_1
+        CortexRight:      540 vertices
+    Parcel 190:           Cingulo-Opercular
+        CortexRight:      179 vertices
+    Parcel 191:           Cingulo-Opercular_1
+        CortexRight:      100 vertices
+    Parcel 192:           Language
+        CortexRight:      101 vertices
+    Parcel 193:           Visual2_6
+        CortexRight:      142 vertices
+    Parcel 194:           Frontoparietal
+        CortexRight:      225 vertices
+    Parcel 195:           Frontoparietal_1
+        CortexRight:      239 vertices
+    Parcel 196:           Visual2_7
+        CortexRight:      55 vertices
+    Parcel 197:           Visual2_8
+        CortexRight:      116 vertices
+    Parcel 198:           Visual2_9
+        CortexRight:      171 vertices
+    Parcel 199:           Visual2_10
+        CortexRight:      67 vertices
+    Parcel 200:           Visual2_11
+        CortexRight:      57 vertices
+    Parcel 201:           Visual2_12
+        CortexRight:      44 vertices
+    Parcel 202:           Visual2_13
+        CortexRight:      62 vertices
+    Parcel 203:           Visual2_14
+        CortexRight:      54 vertices
+    Parcel 204:           Auditory
+        CortexRight:      66 vertices
+    Parcel 205:           Cingulo-Opercular_2
+        CortexRight:      168 vertices
+    Parcel 206:           Language_1
+        CortexRight:      118 vertices
+    Parcel 207:           Posterior_Multimodal
+        CortexRight:      153 vertices
+    Parcel 208:           Posterior_Multimodal_1
+        CortexRight:      153 vertices
+    Parcel 209:           Frontoparietal_2
+        CortexRight:      100 vertices
+    Parcel 210:           Default
+        CortexRight:      143 vertices
+    Parcel 211:           Default_1
+        CortexRight:      190 vertices
+    Parcel 212:           Default_2
+        CortexRight:      112 vertices
+    Parcel 213:           Default_3
+        CortexRight:      81 vertices
+    Parcel 214:           Default_4
+        CortexRight:      65 vertices
+    Parcel 215:           Default_5
+        CortexRight:      107 vertices
+    Parcel 216:           Somatomotor_2
+        CortexRight:      158 vertices
+    Parcel 217:           Cingulo-Opercular_3
+        CortexRight:      222 vertices
+    Parcel 218:           Cingulo-Opercular_4
+        CortexRight:      256 vertices
+    Parcel 219:           Somatomotor_3
+        CortexRight:      194 vertices
+    Parcel 220:           Somatomotor_4
+        CortexRight:      228 vertices
+    Parcel 221:           Somatomotor_5
+        CortexRight:      142 vertices
+    Parcel 222:           Somatomotor_6
+        CortexRight:      180 vertices
+    Parcel 223:           Cingulo-Opercular_5
+        CortexRight:      190 vertices
+    Parcel 224:           Cingulo-Opercular_6
+        CortexRight:      230 vertices
+    Parcel 225:           Cingulo-Opercular_7
+        CortexRight:      191 vertices
+    Parcel 226:           Dorsal_Attention
+        CortexRight:      84 vertices
+    Parcel 227:           Somatomotor_7
+        CortexRight:      204 vertices
+    Parcel 228:           Visual2_15
+        CortexRight:      150 vertices
+    Parcel 229:           Visual2_16
+        CortexRight:      110 vertices
+    Parcel 230:           Dorsal_Attention_1
+        CortexRight:      169 vertices
+    Parcel 231:           Somatomotor_8
+        CortexRight:      418 vertices
+    Parcel 232:           Somatomotor_9
+        CortexRight:      584 vertices
+    Parcel 233:           Somatomotor_10
+        CortexRight:      356 vertices
+    Parcel 234:           Somatomotor_11
+        CortexRight:      178 vertices
+    Parcel 235:           Somatomotor_12
+        CortexRight:      276 vertices
+    Parcel 236:           Somatomotor_13
+        CortexRight:      129 vertices
+    Parcel 237:           Cingulo-Opercular_8
+        CortexRight:      102 vertices
+    Parcel 238:           Frontoparietal_3
+        CortexRight:      78 vertices
+    Parcel 239:           Cingulo-Opercular_9
+        CortexRight:      68 vertices
+    Parcel 240:           Cingulo-Opercular_10
+        CortexRight:      142 vertices
+    Parcel 241:           Default_6
+        CortexRight:      85 vertices
+    Parcel 242:           Frontoparietal_4
+        CortexRight:      128 vertices
+    Parcel 243:           Frontoparietal_5
+        CortexRight:      175 vertices
+    Parcel 244:           Default_7
+        CortexRight:      90 vertices
+    Parcel 245:           Default_8
+        CortexRight:      84 vertices
+    Parcel 246:           Default_9
+        CortexRight:      54 vertices
+    Parcel 247:           Default_10
+        CortexRight:      215 vertices
+    Parcel 248:           Default_11
+        CortexRight:      216 vertices
+    Parcel 249:           Default_12
+        CortexRight:      254 vertices
+    Parcel 250:           Default_13
+        CortexRight:      172 vertices
+    Parcel 251:           Default_14
+        CortexRight:      122 vertices
+    Parcel 252:           Default_15
+        CortexRight:      120 vertices
+    Parcel 253:           Frontoparietal_6
+        CortexRight:      212 vertices
+    Parcel 254:           Frontoparietal_7
+        CortexRight:      143 vertices
+    Parcel 255:           Language_2
+        CortexRight:      132 vertices
+    Parcel 256:           Default_16
+        CortexRight:      121 vertices
+    Parcel 257:           Frontoparietal_8
+        CortexRight:      177 vertices
+    Parcel 258:           Cingulo-Opercular_11
+        CortexRight:      252 vertices
+    Parcel 259:           Language_3
+        CortexRight:      94 vertices
+    Parcel 260:           Frontoparietal_9
+        CortexRight:      74 vertices
+    Parcel 261:           Frontoparietal_10
+        CortexRight:      133 vertices
+    Parcel 262:           Cingulo-Opercular_12
+        CortexRight:      150 vertices
+    Parcel 263:           Frontoparietal_11
+        CortexRight:      192 vertices
+    Parcel 264:           Cingulo-Opercular_13
+        CortexRight:      235 vertices
+    Parcel 265:           Frontoparietal_12
+        CortexRight:      100 vertices
+    Parcel 266:           Cingulo-Opercular_14
+        CortexRight:      261 vertices
+    Parcel 267:           Default_17
+        CortexRight:      135 vertices
+    Parcel 268:           Default_18
+        CortexRight:      117 vertices
+    Parcel 269:           Frontoparietal_13
+        CortexRight:      83 vertices
+    Parcel 270:           Default_19
+        CortexRight:      114 vertices
+    Parcel 271:           Frontoparietal_14
+        CortexRight:      167 vertices
+    Parcel 272:           Frontoparietal_15
+        CortexRight:      110 vertices
+    Parcel 273:           Frontoparietal_16
+        CortexRight:      252 vertices
+    Parcel 274:           Default_20
+        CortexRight:      127 vertices
+    Parcel 275:           Dorsal_Attention_2
+        CortexRight:      93 vertices
+    Parcel 276:           Dorsal_Attention_3
+        CortexRight:      324 vertices
+    Parcel 277:           Frontoparietal_17
+        CortexRight:      114 vertices
+    Parcel 278:           Frontoparietal_18
+        CortexRight:      95 vertices
+    Parcel 279:           Cingulo-Opercular_15
+        CortexRight:      133 vertices
+    Parcel 280:           Somatomotor_14
+        CortexRight:      182 vertices
+    Parcel 281:           Somatomotor_15
+        CortexRight:      99 vertices
+    Parcel 282:           Somatomotor_16
+        CortexRight:      111 vertices
+    Parcel 283:           Auditory_1
+        CortexRight:      82 vertices
+    Parcel 284:           Somatomotor_17
+        CortexRight:      203 vertices
+    Parcel 285:           Cingulo-Opercular_16
+        CortexRight:      176 vertices
+    Parcel 286:           Cingulo-Opercular_17
+        CortexRight:      167 vertices
+    Parcel 287:           Auditory_2
+        CortexRight:      95 vertices
+    Parcel 288:           Cingulo-Opercular_18
+        CortexRight:      146 vertices
+    Parcel 289:           Cingulo-Opercular_19
+        CortexRight:      115 vertices
+    Parcel 290:           Orbito-Affective
+        CortexRight:      165 vertices
+    Parcel 291:           Frontoparietal_19
+        CortexRight:      151 vertices
+    Parcel 292:           Orbito-Affective_1
+        CortexRight:      101 vertices
+    Parcel 293:           Cingulo-Opercular_20
+        CortexRight:      67 vertices
+    Parcel 294:           Cingulo-Opercular_21
+        CortexRight:      88 vertices
+    Parcel 295:           Somatomotor_18
+        CortexRight:      83 vertices
+    Parcel 296:           Dorsal_Attention_4
+        CortexRight:      225 vertices
+    Parcel 297:           Dorsal_Attention_5
+        CortexRight:      353 vertices
+    Parcel 298:           Default_21
+        CortexRight:      99 vertices
+    Parcel 299:           Default_22
+        CortexRight:      155 vertices
+    Parcel 300:           Default_23
+        CortexRight:      213 vertices
+    Parcel 301:           Visual_1
+        CortexRight:      123 vertices
+    Parcel 302:           Ventral_Multimodal
+        CortexRight:      238 vertices
+    Parcel 303:           Language_4
+        CortexRight:      68 vertices
+    Parcel 304:           Auditory_3
+        CortexRight:      107 vertices
+    Parcel 305:           Language_5
+        CortexRight:      187 vertices
+    Parcel 306:           Default_24
+        CortexRight:      108 vertices
+    Parcel 307:           Dorsal_Attention_6
+        CortexRight:      97 vertices
+    Parcel 308:           Default_25
+        CortexRight:      169 vertices
+    Parcel 309:           Language_6
+        CortexRight:      223 vertices
+    Parcel 310:           Default_26
+        CortexRight:      135 vertices
+    Parcel 311:           Default_27
+        CortexRight:      410 vertices
+    Parcel 312:           Default_28
+        CortexRight:      125 vertices
+    Parcel 313:           Frontoparietal_20
+        CortexRight:      221 vertices
+    Parcel 314:           Default_29
+        CortexRight:      261 vertices
+    Parcel 315:           Ventral_Multimodal_1
+        CortexRight:      274 vertices
+    Parcel 316:           Dorsal_Attention_7
+        CortexRight:      168 vertices
+    Parcel 317:           Dorsal_Attention_8
+        CortexRight:      139 vertices
+    Parcel 318:           Visual2_17
+        CortexRight:      156 vertices
+    Parcel 319:           Language_7
+        CortexRight:      282 vertices
+    Parcel 320:           Posterior_Multimodal_2
+        CortexRight:      137 vertices
+    Parcel 321:           Posterior_Multimodal_3
+        CortexRight:      95 vertices
+    Parcel 322:           Visual_2
+        CortexRight:      149 vertices
+    Parcel 323:           Dorsal_Attention_9
+        CortexRight:      152 vertices
+    Parcel 324:           Frontoparietal_21
+        CortexRight:      199 vertices
+    Parcel 325:           Frontoparietal_22
+        CortexRight:      186 vertices
+    Parcel 326:           Dorsal_Attention_10
+        CortexRight:      106 vertices
+    Parcel 327:           Cingulo-Opercular_22
+        CortexRight:      152 vertices
+    Parcel 328:           Cingulo-Opercular_23
+        CortexRight:      402 vertices
+    Parcel 329:           Frontoparietal_23
+        CortexRight:      460 vertices
+    Parcel 330:           Default_30
+        CortexRight:      361 vertices
+    Parcel 331:           Default_31
+        CortexRight:      222 vertices
+    Parcel 332:           Visual2_18
+        CortexRight:      47 vertices
+    Parcel 333:           Visual2_19
+        CortexRight:      101 vertices
+    Parcel 334:           Visual2_20
+        CortexRight:      67 vertices
+    Parcel 335:           Default_32
+        CortexRight:      72 vertices
+    Parcel 336:           Visual2_21
+        CortexRight:      42 vertices
+    Parcel 337:           Visual2_22
+        CortexRight:      85 vertices
+    Parcel 338:           Visual2_23
+        CortexRight:      81 vertices
+    Parcel 339:           Visual2_24
+        CortexRight:      64 vertices
+    Parcel 340:           Visual2_25
+        CortexRight:      81 vertices
+    Parcel 341:           Default_33
+        CortexRight:      96 vertices
+    Parcel 342:           Frontoparietal_24
+        CortexRight:      69 vertices
+    Parcel 343:           Visual2_26
+        CortexRight:      119 vertices
+    Parcel 344:           Default_34
+        CortexRight:      63 vertices
+    Parcel 345:           Default_35
+        CortexRight:      58 vertices
+    Parcel 346:           Orbito-Affective_2
+        CortexRight:      149 vertices
+    Parcel 347:           Cingulo-Opercular_24
+        CortexRight:      172 vertices
+    Parcel 348:           Somatomotor_19
+        CortexRight:      111 vertices
+    Parcel 349:           Cingulo-Opercular_25
+        CortexRight:      149 vertices
+    Parcel 350:           Frontoparietal_25
+        CortexRight:      127 vertices
+    Parcel 351:           Frontoparietal_26
+        CortexRight:      106 vertices
+    Parcel 352:           Language_8
+        CortexRight:      153 vertices
+    Parcel 353:           Auditory_4
+        CortexRight:      95 vertices
+    Parcel 354:           Auditory_5
+        CortexRight:      101 vertices
+    Parcel 355:           Auditory_6
+        CortexRight:      159 vertices
+    Parcel 356:           Default_36
+        CortexRight:      127 vertices
+    Parcel 357:           Frontoparietal_27
+        CortexRight:      131 vertices
+    Parcel 358:           Cingulo-Opercular_26
+        CortexRight:      120 vertices
+    Parcel 359:           Cingulo-Opercular_27
+        CortexRight:      112 vertices
+    Parcel 360:           Cingulo-Opercular_28
+        CortexRight:      77 vertices
+    Parcel 361:           Visual-1
+                          2 voxels
+    Parcel 362:           Visual-2
+                          27 voxels
+    Parcel 363:           Visual-3
+                          47 voxels
+    Parcel 364:           Visual-4
+                          1 voxels
+    Parcel 365:           Visual-5
+                          13 voxels
+    Parcel 366:           Visual-6
+                          6 voxels
+    Parcel 367:           Visual-7
+                          13 voxels
+    Parcel 368:           Visual-8
+                          12 voxels
+    Parcel 369:           Visual-9
+                          27 voxels
+    Parcel 370:           Visual-10
+                          757 voxels
+    Parcel 371:           Visual-11
+                          15 voxels
+    Parcel 372:           Visual-12
+                          2 voxels
+    Parcel 373:           Visual-13
+                          22 voxels
+    Parcel 374:           Visual-14
+                          10 voxels
+    Parcel 375:           Visual-15
+                          9 voxels
+    Parcel 376:           Visual-16
+                          4 voxels
+    Parcel 377:           Visual-17
+                          4 voxels
+    Parcel 378:           Visual-18
+                          7 voxels
+    Parcel 379:           Visual-19
+                          2 voxels
+    Parcel 380:           Visual-20
+                          6 voxels
+    Parcel 381:           Visual-21
+                          5 voxels
+    Parcel 382:           Visual-22
+                          32 voxels
+    Parcel 383:           Visual-23
+                          117 voxels
+    Parcel 384:           Visual-24
+                          7 voxels
+    Parcel 385:           Visual-25
+                          75 voxels
+    Parcel 386:           Visual-26
+                          5 voxels
+    Parcel 387:           Visual-27
+                          10 voxels
+    Parcel 388:           Visual-28
+                          2 voxels
+    Parcel 389:           Visual-29
+                          2 voxels
+    Parcel 390:           Visual-30
+                          2 voxels
+    Parcel 391:           Visual-31
+                          65 voxels
+    Parcel 392:           Visual-32
+                          5 voxels
+    Parcel 393:           Visual-33
+                          2 voxels
+    Parcel 394:           Visual-34
+                          324 voxels
+    Parcel 395:           Visual-35
+                          16 voxels
+    Parcel 396:           Visual-36
+                          2 voxels
+    Parcel 397:           Visual-37
+                          16 voxels
+    Parcel 398:           Visual-38
+                          2 voxels
+    Parcel 399:           Visual-39
+                          2 voxels
+    Parcel 400:           Visual-40
+                          3 voxels
+    Parcel 401:           Visual-41
+                          3 voxels
+    Parcel 402:           Visual-42
+                          307 voxels
+    Parcel 403:           Visual-43
+                          287 voxels
+    Parcel 404:           Visual-44
+                          53 voxels
+    Parcel 405:           Visual-45
+                          61 voxels
+    Parcel 406:           Visual-46
+                          18 voxels
+    Parcel 407:           Visual-47
+                          3 voxels
+    Parcel 408:           Visual-48
+                          25 voxels
+    Parcel 409:           Visual-49
+                          9 voxels
+    Parcel 410:           Visual-50
+                          28 voxels
+    Parcel 411:           Visual-51
+                          22 voxels
+    Parcel 412:           Visual-52
+                          12 voxels
+    Parcel 413:           Visual-53
+                          7 voxels
+    Parcel 414:           Visual-54
+                          7 voxels
+    Parcel 415:           Visual-55
+                          17 voxels
+    Parcel 416:           Visual-56
+                          8 voxels
+    Parcel 417:           Visual-57
+                          16 voxels
+    Parcel 418:           Visual-58
+                          21 voxels
+    Parcel 419:           Visual-59
+                          195 voxels
+    Parcel 420:           Visual-60
+                          5 voxels
+    Parcel 421:           Visual-61
+                          8 voxels
+    Parcel 422:           Visual-62
+                          2 voxels
+    Parcel 423:           Visual-63
+                          226 voxels
+    Parcel 424:           Visual2-1
+                          53 voxels
+    Parcel 425:           Visual2-2
+                          42 voxels
+    Parcel 426:           Visual2-3
+                          436 voxels
+    Parcel 427:           Visual2-4
+                          3 voxels
+    Parcel 428:           Visual2-5
+                          18 voxels
+    Parcel 429:           Visual2-6
+                          8 voxels
+    Parcel 430:           Visual2-7
+                          3 voxels
+    Parcel 431:           Visual2-8
+                          91 voxels
+    Parcel 432:           Visual2-9
+                          53 voxels
+    Parcel 433:           Visual2-10
+                          383 voxels
+    Parcel 434:           Visual2-11
+                          4 voxels
+    Parcel 435:           Visual2-12
+                          17 voxels
+    Parcel 436:           Visual2-13
+                          13 voxels
+    Parcel 437:           Visual2-14
+                          18 voxels
+    Parcel 438:           Visual2-15
+                          347 voxels
+    Parcel 439:           Visual2-16
+                          3 voxels
+    Parcel 440:           Visual2-17
+                          7 voxels
+    Parcel 441:           Visual2-18
+                          7 voxels
+    Parcel 442:           Visual2-19
+                          6 voxels
+    Parcel 443:           Visual2-20
+                          6 voxels
+    Parcel 444:           Visual2-21
+                          10 voxels
+    Parcel 445:           Visual2-22
+                          5 voxels
+    Parcel 446:           Visual2-23
+                          3 voxels
+    Parcel 447:           Visual2-24
+                          76 voxels
+    Parcel 448:           Visual2-25
+                          9 voxels
+    Parcel 449:           Visual2-26
+                          10 voxels
+    Parcel 450:           Visual2-27
+                          103 voxels
+    Parcel 451:           Visual2-28
+                          70 voxels
+    Parcel 452:           Visual2-29
+                          80 voxels
+    Parcel 453:           Somatomotor-1
+                          7 voxels
+    Parcel 454:           Somatomotor-2
+                          93 voxels
+    Parcel 455:           Somatomotor-3
+                          116 voxels
+    Parcel 456:           Somatomotor-4
+                          11 voxels
+    Parcel 457:           Somatomotor-5
+                          253 voxels
+    Parcel 458:           Somatomotor-6
+                          496 voxels
+    Parcel 459:           Somatomotor-7
+                          9 voxels
+    Parcel 460:           Somatomotor-8
+                          695 voxels
+    Parcel 461:           Somatomotor-9
+                          14 voxels
+    Parcel 462:           Somatomotor-10
+                          14 voxels
+    Parcel 463:           Somatomotor-11
+                          531 voxels
+    Parcel 464:           Somatomotor-12
+                          21 voxels
+    Parcel 465:           Somatomotor-13
+                          707 voxels
+    Parcel 466:           Somatomotor-14
+                          23 voxels
+    Parcel 467:           Somatomotor-15
+                          7 voxels
+    Parcel 468:           Somatomotor-16
+                          93 voxels
+    Parcel 469:           Somatomotor-17
+                          8 voxels
+    Parcel 470:           Somatomotor-18
+                          26 voxels
+    Parcel 471:           Somatomotor-19
+                          163 voxels
+    Parcel 472:           Somatomotor-20
+                          3 voxels
+    Parcel 473:           Somatomotor-21
+                          9 voxels
+    Parcel 474:           Somatomotor-22
+                          7 voxels
+    Parcel 475:           Somatomotor-23
+                          2 voxels
+    Parcel 476:           Somatomotor-24
+                          3 voxels
+    Parcel 477:           Somatomotor-25
+                          50 voxels
+    Parcel 478:           Somatomotor-26
+                          15 voxels
+    Parcel 479:           Somatomotor-27
+                          177 voxels
+    Parcel 480:           Somatomotor-28
+                          180 voxels
+    Parcel 481:           Cingulo-Opercular-1
+                          6 voxels
+    Parcel 482:           Cingulo-Opercular-2
+                          2 voxels
+    Parcel 483:           Cingulo-Opercular-3
+                          4 voxels
+    Parcel 484:           Cingulo-Opercular-4
+                          310 voxels
+    Parcel 485:           Cingulo-Opercular-5
+                          3 voxels
+    Parcel 486:           Cingulo-Opercular-6
+                          3 voxels
+    Parcel 487:           Cingulo-Opercular-7
+                          5 voxels
+    Parcel 488:           Cingulo-Opercular-8
+                          46 voxels
+    Parcel 489:           Cingulo-Opercular-9
+                          32 voxels
+    Parcel 490:           Cingulo-Opercular-10
+                          48 voxels
+    Parcel 491:           Cingulo-Opercular-11
+                          32 voxels
+    Parcel 492:           Cingulo-Opercular-12
+                          19 voxels
+    Parcel 493:           Cingulo-Opercular-13
+                          380 voxels
+    Parcel 494:           Cingulo-Opercular-14
+                          7 voxels
+    Parcel 495:           Cingulo-Opercular-15
+                          887 voxels
+    Parcel 496:           Cingulo-Opercular-16
+                          20 voxels
+    Parcel 497:           Cingulo-Opercular-17
+                          71 voxels
+    Parcel 498:           Cingulo-Opercular-18
+                          174 voxels
+    Parcel 499:           Cingulo-Opercular-19
+                          9 voxels
+    Parcel 500:           Cingulo-Opercular-20
+                          4 voxels
+    Parcel 501:           Cingulo-Opercular-21
+                          763 voxels
+    Parcel 502:           Cingulo-Opercular-22
+                          10 voxels
+    Parcel 503:           Cingulo-Opercular-23
+                          10 voxels
+    Parcel 504:           Cingulo-Opercular-24
+                          9 voxels
+    Parcel 505:           Cingulo-Opercular-25
+                          2 voxels
+    Parcel 506:           Cingulo-Opercular-26
+                          4 voxels
+    Parcel 507:           Cingulo-Opercular-27
+                          11 voxels
+    Parcel 508:           Cingulo-Opercular-28
+                          21 voxels
+    Parcel 509:           Cingulo-Opercular-29
+                          2 voxels
+    Parcel 510:           Cingulo-Opercular-30
+                          7 voxels
+    Parcel 511:           Cingulo-Opercular-31
+                          7 voxels
+    Parcel 512:           Cingulo-Opercular-32
+                          229 voxels
+    Parcel 513:           Cingulo-Opercular-33
+                          195 voxels
+    Parcel 514:           Cingulo-Opercular-34
+                          837 voxels
+    Parcel 515:           Cingulo-Opercular-35
+                          903 voxels
+    Parcel 516:           Cingulo-Opercular-36
+                          120 voxels
+    Parcel 517:           Cingulo-Opercular-37
+                          6 voxels
+    Parcel 518:           Cingulo-Opercular-38
+                          148 voxels
+    Parcel 519:           Cingulo-Opercular-39
+                          2 voxels
+    Parcel 520:           Dorsal Attention-1
+                          2 voxels
+    Parcel 521:           Dorsal Attention-2
+                          5 voxels
+    Parcel 522:           Dorsal Attention-3
+                          2 voxels
+    Parcel 523:           Dorsal Attention-4
+                          4 voxels
+    Parcel 524:           Dorsal Attention-5
+                          2 voxels
+    Parcel 525:           Dorsal Attention-6
+                          48 voxels
+    Parcel 526:           Dorsal Attention-7
+                          23 voxels
+    Parcel 527:           Dorsal Attention-8
+                          186 voxels
+    Parcel 528:           Dorsal Attention-9
+                          395 voxels
+    Parcel 529:           Dorsal Attention-10
+                          504 voxels
+    Parcel 530:           Dorsal Attention-11
+                          21 voxels
+    Parcel 531:           Dorsal Attention-12
+                          181 voxels
+    Parcel 532:           Dorsal Attention-13
+                          24 voxels
+    Parcel 533:           Dorsal Attention-14
+                          3 voxels
+    Parcel 534:           Dorsal Attention-15
+                          794 voxels
+    Parcel 535:           Dorsal Attention-16
+                          464 voxels
+    Parcel 536:           Dorsal Attention-17
+                          22 voxels
+    Parcel 537:           Dorsal Attention-18
+                          168 voxels
+    Parcel 538:           Dorsal Attention-19
+                          3 voxels
+    Parcel 539:           Dorsal Attention-20
+                          8 voxels
+    Parcel 540:           Dorsal Attention-21
+                          35 voxels
+    Parcel 541:           Dorsal Attention-22
+                          23 voxels
+    Parcel 542:           Dorsal Attention-23
+                          67 voxels
+    Parcel 543:           Dorsal Attention-24
+                          53 voxels
+    Parcel 544:           Language-1
+                          108 voxels
+    Parcel 545:           Language-2
+                          60 voxels
+    Parcel 546:           Language-3
+                          28 voxels
+    Parcel 547:           Language-4
+                          2 voxels
+    Parcel 548:           Language-5
+                          25 voxels
+    Parcel 549:           Language-6
+                          137 voxels
+    Parcel 550:           Language-7
+                          36 voxels
+    Parcel 551:           Language-8
+                          81 voxels
+    Parcel 552:           Language-9
+                          2 voxels
+    Parcel 553:           Language-10
+                          4 voxels
+    Parcel 554:           Language-11
+                          13 voxels
+    Parcel 555:           Language-12
+                          19 voxels
+    Parcel 556:           Language-13
+                          14 voxels
+    Parcel 557:           Language-14
+                          7 voxels
+    Parcel 558:           Frontoparietal-1
+                          938 voxels
+    Parcel 559:           Frontoparietal-2
+                          7 voxels
+    Parcel 560:           Frontoparietal-3
+                          12 voxels
+    Parcel 561:           Frontoparietal-4
+                          2 voxels
+    Parcel 562:           Frontoparietal-5
+                          56 voxels
+    Parcel 563:           Frontoparietal-6
+                          29 voxels
+    Parcel 564:           Frontoparietal-7
+                          14 voxels
+    Parcel 565:           Frontoparietal-8
+                          5 voxels
+    Parcel 566:           Frontoparietal-9
+                          4 voxels
+    Parcel 567:           Frontoparietal-10
+                          549 voxels
+    Parcel 568:           Frontoparietal-11
+                          625 voxels
+    Parcel 569:           Frontoparietal-12
+                          121 voxels
+    Parcel 570:           Frontoparietal-13
+                          2221 voxels
+    Parcel 571:           Frontoparietal-14
+                          93 voxels
+    Parcel 572:           Frontoparietal-15
+                          2 voxels
+    Parcel 573:           Frontoparietal-16
+                          36 voxels
+    Parcel 574:           Frontoparietal-17
+                          11 voxels
+    Parcel 575:           Frontoparietal-18
+                          21 voxels
+    Parcel 576:           Frontoparietal-19
+                          7 voxels
+    Parcel 577:           Frontoparietal-20
+                          13 voxels
+    Parcel 578:           Frontoparietal-21
+                          3 voxels
+    Parcel 579:           Frontoparietal-22
+                          2 voxels
+    Parcel 580:           Frontoparietal-23
+                          6 voxels
+    Parcel 581:           Frontoparietal-24
+                          4 voxels
+    Parcel 582:           Frontoparietal-25
+                          59 voxels
+    Parcel 583:           Frontoparietal-26
+                          88 voxels
+    Parcel 584:           Frontoparietal-27
+                          1988 voxels
+    Parcel 585:           Frontoparietal-28
+                          99 voxels
+    Parcel 586:           Frontoparietal-29
+                          1 voxels
+    Parcel 587:           Frontoparietal-30
+                          58 voxels
+    Parcel 588:           Frontoparietal-31
+                          9 voxels
+    Parcel 589:           Frontoparietal-32
+                          8 voxels
+    Parcel 590:           Frontoparietal-33
+                          6 voxels
+    Parcel 591:           Frontoparietal-34
+                          21 voxels
+    Parcel 592:           Frontoparietal-35
+                          77 voxels
+    Parcel 593:           Frontoparietal-36
+                          23 voxels
+    Parcel 594:           Frontoparietal-37
+                          3 voxels
+    Parcel 595:           Frontoparietal-38
+                          3 voxels
+    Parcel 596:           Frontoparietal-39
+                          162 voxels
+    Parcel 597:           Frontoparietal-40
+                          179 voxels
+    Parcel 598:           Frontoparietal-41
+                          10 voxels
+    Parcel 599:           Frontoparietal-42
+                          4 voxels
+    Parcel 600:           Frontoparietal-43
+                          5 voxels
+    Parcel 601:           Frontoparietal-44
+                          7 voxels
+    Parcel 602:           Frontoparietal-45
+                          33 voxels
+    Parcel 603:           Frontoparietal-46
+                          27 voxels
+    Parcel 604:           Frontoparietal-47
+                          470 voxels
+    Parcel 605:           Frontoparietal-48
+                          449 voxels
+    Parcel 606:           Auditory-1
+                          6 voxels
+    Parcel 607:           Auditory-2
+                          3 voxels
+    Parcel 608:           Auditory-3
+                          2 voxels
+    Parcel 609:           Auditory-4
+                          22 voxels
+    Parcel 610:           Auditory-5
+                          2 voxels
+    Parcel 611:           Auditory-6
+                          3 voxels
+    Parcel 612:           Auditory-7
+                          2 voxels
+    Parcel 613:           Auditory-8
+                          19 voxels
+    Parcel 614:           Auditory-9
+                          21 voxels
+    Parcel 615:           Auditory-10
+                          2 voxels
+    Parcel 616:           Auditory-11
+                          9 voxels
+    Parcel 617:           Auditory-12
+                          19 voxels
+    Parcel 618:           Auditory-13
+                          2 voxels
+    Parcel 619:           Auditory-14
+                          2 voxels
+    Parcel 620:           Auditory-15
+                          3 voxels
+    Parcel 621:           Auditory-16
+                          17 voxels
+    Parcel 622:           Auditory-17
+                          2 voxels
+    Parcel 623:           Auditory-18
+                          8 voxels
+    Parcel 624:           Auditory-19
+                          7 voxels
+    Parcel 625:           Auditory-20
+                          17 voxels
+    Parcel 626:           Auditory-21
+                          2 voxels
+    Parcel 627:           Auditory-22
+                          7 voxels
+    Parcel 628:           Auditory-23
+                          4 voxels
+    Parcel 629:           Auditory-24
+                          13 voxels
+    Parcel 630:           Auditory-25
+                          27 voxels
+    Parcel 631:           Auditory-26
+                          2 voxels
+    Parcel 632:           Auditory-27
+                          9 voxels
+    Parcel 633:           Auditory-28
+                          4 voxels
+    Parcel 634:           Auditory-29
+                          2 voxels
+    Parcel 635:           Auditory-30
+                          25 voxels
+    Parcel 636:           Auditory-31
+                          2 voxels
+    Parcel 637:           Default-1
+                          49 voxels
+    Parcel 638:           Default-2
+                          38 voxels
+    Parcel 639:           Default-3
+                          3 voxels
+    Parcel 640:           Default-4
+                          163 voxels
+    Parcel 641:           Default-5
+                          28 voxels
+    Parcel 642:           Default-6
+                          2 voxels
+    Parcel 643:           Default-7
+                          6 voxels
+    Parcel 644:           Default-8
+                          19 voxels
+    Parcel 645:           Default-9
+                          15 voxels
+    Parcel 646:           Default-10
+                          244 voxels
+    Parcel 647:           Default-11
+                          798 voxels
+    Parcel 648:           Default-12
+                          6 voxels
+    Parcel 649:           Default-13
+                          2 voxels
+    Parcel 650:           Default-14
+                          326 voxels
+    Parcel 651:           Default-15
+                          1228 voxels
+    Parcel 652:           Default-16
+                          15 voxels
+    Parcel 653:           Default-17
+                          9 voxels
+    Parcel 654:           Default-18
+                          110 voxels
+    Parcel 655:           Default-19
+                          2 voxels
+    Parcel 656:           Default-20
+                          108 voxels
+    Parcel 657:           Default-21
+                          5 voxels
+    Parcel 658:           Default-22
+                          3 voxels
+    Parcel 659:           Default-23
+                          446 voxels
+    Parcel 660:           Default-24
+                          2 voxels
+    Parcel 661:           Default-25
+                          418 voxels
+    Parcel 662:           Default-26
+                          2 voxels
+    Parcel 663:           Default-27
+                          3 voxels
+    Parcel 664:           Default-28
+                          25 voxels
+    Parcel 665:           Default-29
+                          17 voxels
+    Parcel 666:           Default-30
+                          8 voxels
+    Parcel 667:           Default-31
+                          18 voxels
+    Parcel 668:           Default-32
+                          15 voxels
+    Parcel 669:           Posterior Multimodal-1
+                          55 voxels
+    Parcel 670:           Posterior Multimodal-2
+                          106 voxels
+    Parcel 671:           Posterior Multimodal-3
+                          3 voxels
+    Parcel 672:           Posterior Multimodal-4
+                          3 voxels
+    Parcel 673:           Posterior Multimodal-5
+                          5 voxels
+    Parcel 674:           Posterior Multimodal-6
+                          10 voxels
+    Parcel 675:           Posterior Multimodal-7
+                          67 voxels
+    Parcel 676:           Posterior Multimodal-8
+                          44 voxels
+    Parcel 677:           Posterior Multimodal-9
+                          96 voxels
+    Parcel 678:           Posterior Multimodal-10
+                          41 voxels
+    Parcel 679:           Posterior Multimodal-11
+                          77 voxels
+    Parcel 680:           Posterior Multimodal-12
+                          2 voxels
+    Parcel 681:           Posterior Multimodal-13
+                          57 voxels
+    Parcel 682:           Posterior Multimodal-14
+                          200 voxels
+    Parcel 683:           Posterior Multimodal-15
+                          12 voxels
+    Parcel 684:           Posterior Multimodal-16
+                          5 voxels
+    Parcel 685:           Posterior Multimodal-17
+                          11 voxels
+    Parcel 686:           Posterior Multimodal-18
+                          17 voxels
+    Parcel 687:           Posterior Multimodal-19
+                          24 voxels
+    Parcel 688:           Posterior Multimodal-20
+                          178 voxels
+    Parcel 689:           Posterior Multimodal-21
+                          6 voxels
+    Parcel 690:           Posterior Multimodal-22
+                          15 voxels
+    Parcel 691:           Posterior Multimodal-23
+                          3 voxels
+    Parcel 692:           Posterior Multimodal-24
+                          9 voxels
+    Parcel 693:           Posterior Multimodal-25
+                          2 voxels
+    Parcel 694:           Posterior Multimodal-26
+                          6 voxels
+    Parcel 695:           Posterior Multimodal-27
+                          5 voxels
+    Parcel 696:           Posterior Multimodal-28
+                          16 voxels
+    Parcel 697:           Posterior Multimodal-29
+                          26 voxels
+    Parcel 698:           Ventral Multimodal-1
+                          4 voxels
+    Parcel 699:           Ventral Multimodal-2
+                          8 voxels
+    Parcel 700:           Ventral Multimodal-3
+                          2 voxels
+    Parcel 701:           Ventral Multimodal-4
+                          2 voxels
+    Parcel 702:           Orbito-Affective-1
+                          45 voxels
+    Parcel 703:           Orbito-Affective-2
+                          41 voxels
+    Parcel 704:           Orbito-Affective-3
+                          15 voxels
+    Parcel 705:           Orbito-Affective-4
+                          4 voxels
+    Parcel 706:           Orbito-Affective-5
+                          16 voxels
+    Parcel 707:           Orbito-Affective-6
+                          8 voxels
+    Parcel 708:           Orbito-Affective-7
+                          6 voxels
+    Parcel 709:           Orbito-Affective-8
+                          4 voxels
+    Parcel 710:           Orbito-Affective-9
+                          9 voxels
+    Parcel 711:           Orbito-Affective-10
+                          4 voxels
+    Parcel 712:           Orbito-Affective-11
+                          4 voxels
+    Parcel 713:           Orbito-Affective-12
+                          2 voxels
+    Parcel 714:           Orbito-Affective-13
+                          5 voxels
+    Parcel 715:           Orbito-Affective-14
+                          31 voxels
+    Parcel 716:           Orbito-Affective-15
+                          5 voxels
+    Parcel 717:           Orbito-Affective-16
+                          25 voxels
+    Parcel 718:           Orbito-Affective-17
+                          3 voxels
+
+Map    Minimum     Maximum        Mean   Sample Dev   % Positive   % Negative   Inf/NaN   Map Name      
+  1   2336.006   16427.613   10676.155     2243.744      100.000        0.000         0   0 seconds     
+  2   2437.424   16688.021   10694.849     2247.154      100.000        0.000         0   1 seconds     
+  3   2249.424   16785.715   10689.973     2265.924      100.000        0.000         0   2 seconds     
+  4   2317.262   16551.576   10707.208     2253.245      100.000        0.000         0   3 seconds     
+  5   2373.251   16804.385   10714.860     2256.419      100.000        0.000         0   4 seconds     
+  6   2267.114   16980.340   10720.414     2266.770      100.000        0.000         0   5 seconds     
+  7   2070.286   16794.154   10716.912     2264.148      100.000        0.000         0   6 seconds     
+  8   2102.178   16724.568   10716.987     2261.515      100.000        0.000         0   7 seconds     
+  9   2422.384   16947.885   10723.140     2260.214      100.000        0.000         0   8 seconds     
+ 10   2034.574   16594.414   10714.846     2260.019      100.000        0.000         0   9 seconds     
+ 11   2097.025   17003.484   10695.922     2263.103      100.000        0.000         0   10 seconds    
+ 12   2237.795   16676.266   10698.584     2264.281      100.000        0.000         0   11 seconds    
+ 13   2367.152   16741.668   10713.434     2256.869      100.000        0.000         0   12 seconds    
+ 14   1734.858   17007.629   10707.233     2262.277      100.000        0.000         0   13 seconds    
+ 15   2008.001   16773.078   10719.794     2250.562      100.000        0.000         0   14 seconds    
+ 16   1879.746   16711.660   10721.619     2271.182      100.000        0.000         0   15 seconds    
+ 17   2119.014   16748.010   10707.168     2259.615      100.000        0.000         0   16 seconds    
+ 18   2315.521   16734.357   10719.965     2250.266      100.000        0.000         0   17 seconds    
+ 19   2366.621   16784.902   10729.250     2262.169      100.000        0.000         0   18 seconds    
+ 20   1805.187   16700.367   10710.540     2267.988      100.000        0.000         0   19 seconds    
+ 21   2053.199   16824.176   10697.471     2259.869      100.000        0.000         0   20 seconds    
+ 22   2364.751   16683.223   10701.663     2262.089      100.000        0.000         0   21 seconds    
+ 23   2260.279   16753.789   10709.976     2249.083      100.000        0.000         0   22 seconds    
+ 24   2287.698   16699.752   10695.789     2260.276      100.000        0.000         0   23 seconds    
+ 25   2378.518   16617.689   10696.244     2264.149      100.000        0.000         0   24 seconds    
+ 26   2065.691   16414.029   10699.498     2258.044      100.000        0.000         0   25 seconds    
+ 27   2268.498   16412.336   10700.250     2252.664      100.000        0.000         0   26 seconds    
+ 28   2443.870   16733.703   10696.455     2253.473      100.000        0.000         0   27 seconds    
+ 29   2290.865   16580.119   10679.781     2255.278      100.000        0.000         0   28 seconds    
+ 30   2116.652   16456.973   10680.060     2247.706      100.000        0.000         0   29 seconds    
+ 31   2049.108   16964.582   10685.828     2257.056      100.000        0.000         0   30 seconds    
+ 32   2095.121   16451.551   10680.740     2257.056      100.000        0.000         0   31 seconds    
+ 33   2109.489   16885.795   10703.741     2252.750      100.000        0.000         0   32 seconds    
+ 34   2193.111   16989.127   10709.700     2263.684      100.000        0.000         0   33 seconds    
+ 35   2047.802   16868.553   10715.206     2266.697      100.000        0.000         0   34 seconds    
+ 36   2425.118   16643.547   10723.099     2263.377      100.000        0.000         0   35 seconds    
+ 37   2208.380   16756.371   10719.658     2261.940      100.000        0.000         0   36 seconds    
+ 38   2180.777   16785.729   10706.108     2262.974      100.000        0.000         0   37 seconds    
+ 39   2161.760   16660.521   10694.209     2256.835      100.000        0.000         0   38 seconds    
+ 40   2118.688   16977.684   10705.061     2269.576      100.000        0.000         0   39 seconds    
+ 41   1823.278   16714.063   10706.208     2254.364      100.000        0.000         0   40 seconds    
+ 42   2243.662   16685.148   10696.779     2248.148      100.000        0.000         0   41 seconds    
+ 43   2057.757   16717.051   10705.636     2264.918      100.000        0.000         0   42 seconds    
+ 44   2258.199   16829.516   10701.606     2248.147      100.000        0.000         0   43 seconds    
+ 45   2517.931   16715.146   10695.224     2260.295      100.000        0.000         0   44 seconds    
+ 46   2541.873   16656.408   10694.182     2258.255      100.000        0.000         0   45 seconds    
+ 47   2144.623   16473.889   10697.748     2244.862      100.000        0.000         0   46 seconds    
+ 48   2035.105   16672.541   10703.074     2253.821      100.000        0.000         0   47 seconds    
+ 49   2020.460   16813.336   10699.262     2251.594      100.000        0.000         0   48 seconds    
+ 50   2123.909   16987.734   10692.931     2260.089      100.000        0.000         0   49 seconds    
+ 51   2057.115   16864.150   10684.144     2257.338      100.000        0.000         0   50 seconds    
+ 52   2297.503   16687.777   10689.632     2249.073      100.000        0.000         0   51 seconds    
+ 53   2208.727   16746.549   10698.435     2260.687      100.000        0.000         0   52 seconds    
+ 54   2323.566   16897.564   10693.685     2259.039      100.000        0.000         0   53 seconds    
+ 55   2335.135   16764.127   10688.495     2259.006      100.000        0.000         0   54 seconds    
+ 56   2197.253   16835.021   10718.591     2255.948      100.000        0.000         0   55 seconds    
+ 57   2284.553   16757.211   10714.268     2258.577      100.000        0.000         0   56 seconds    
+ 58   2367.067   16434.037   10721.444     2255.474      100.000        0.000         0   57 seconds    
+ 59   1776.426   16656.170   10721.713     2267.474      100.000        0.000         0   58 seconds    
+ 60   2351.278   16727.904   10708.689     2262.805      100.000        0.000         0   59 seconds    
+ 61   2310.134   16811.693   10703.782     2252.614      100.000        0.000         0   60 seconds    
+ 62   1953.954   16820.115   10682.217     2248.849      100.000        0.000         0   61 seconds    
+ 63   2132.816   16489.131   10673.179     2250.035      100.000        0.000         0   62 seconds    
+ 64   2435.509   16709.852   10674.907     2241.803      100.000        0.000         0   63 seconds    
+ 65   2094.618   16676.676   10682.851     2253.000      100.000        0.000         0   64 seconds    
+ 66   2053.149   16996.227   10695.281     2260.011      100.000        0.000         0   65 seconds    
+ 67   2176.539   16766.480   10712.697     2259.758      100.000        0.000         0   66 seconds    
+ 68   2367.993   16733.783   10717.522     2263.813      100.000        0.000         0   67 seconds    
+ 69   2438.303   16825.447   10722.688     2260.706      100.000        0.000         0   68 seconds    
+ 70   2047.099   16710.137   10723.833     2271.711      100.000        0.000         0   69 seconds    
+ 71   2032.465   16786.389   10719.658     2255.843      100.000        0.000         0   70 seconds    
+ 72   2277.593   16672.178   10729.026     2260.473      100.000        0.000         0   71 seconds    
+ 73   2134.538   16749.678   10731.464     2267.927      100.000        0.000         0   72 seconds    
+ 74   2248.689   16882.086   10729.074     2273.709      100.000        0.000         0   73 seconds    
+ 75   1894.448   16638.859   10723.941     2266.429      100.000        0.000         0   74 seconds    
+ 76   2432.496   16746.031   10723.334     2272.252      100.000        0.000         0   75 seconds    
+ 77   2059.405   16833.604   10732.408     2267.235      100.000        0.000         0   76 seconds    
+ 78   2029.255   16823.252   10722.207     2259.224      100.000        0.000         0   77 seconds    
+ 79   2081.068   16919.107   10705.913     2264.885      100.000        0.000         0   78 seconds    
+ 80   1950.081   16704.326   10693.087     2255.227      100.000        0.000         0   79 seconds    
+ 81   2101.538   16879.910   10703.175     2258.052      100.000        0.000         0   80 seconds    
+ 82   2114.981   16717.252   10705.078     2253.638      100.000        0.000         0   81 seconds    
+ 83   2263.640   16554.141   10698.540     2258.872      100.000        0.000         0   82 seconds    
+ 84   2548.978   16561.760   10703.682     2245.857      100.000        0.000         0   83 seconds    
+ 85   2299.893   16913.695   10702.334     2263.912      100.000        0.000         0   84 seconds    
+ 86   2295.729   16499.643   10698.271     2252.531      100.000        0.000         0   85 seconds    
+ 87   1940.518   16832.732   10691.309     2259.716      100.000        0.000         0   86 seconds    
+ 88   2221.310   16731.795   10682.594     2253.094      100.000        0.000         0   87 seconds    
+ 89   2186.882   16849.807   10682.363     2248.065      100.000        0.000         0   88 seconds    
+ 90   2039.594   16830.900   10675.695     2252.938      100.000        0.000         0   89 seconds    
+ 91   2098.168   16797.205   10692.788     2247.503      100.000        0.000         0   90 seconds    
+ 92   2332.706   16732.830   10724.951     2251.015      100.000        0.000         0   91 seconds    
+ 93   2054.790   16714.297   10719.225     2253.589      100.000        0.000         0   92 seconds    
+ 94   2414.874   16660.465   10727.455     2250.922      100.000        0.000         0   93 seconds    
+ 95   2419.206   16883.584   10724.333     2269.812      100.000        0.000         0   94 seconds    
+ 96   2097.936   16782.961   10717.667     2271.352      100.000        0.000         0   95 seconds    
+ 97   2178.108   16925.934   10734.970     2259.592      100.000        0.000         0   96 seconds    
+ 98   1704.643   16612.293   10710.244     2265.185      100.000        0.000         0   97 seconds    
+ 99   2048.135   16756.215   10720.366     2251.668      100.000        0.000         0   98 seconds    
+100   2383.071   16731.910   10711.068     2250.831      100.000        0.000         0   99 seconds    
+101   2258.628   16730.955   10711.041     2259.890      100.000        0.000         0   100 seconds   
+102   2136.771   16920.006   10712.496     2261.844      100.000        0.000         0   101 seconds   
+103   2543.947   16722.254   10706.472     2265.756      100.000        0.000         0   102 seconds   
+104   1928.218   16784.805   10722.008     2258.227      100.000        0.000         0   103 seconds   
+105   2443.339   16962.480   10706.146     2252.678      100.000        0.000         0   104 seconds   
+106   2126.657   16806.801   10701.806     2267.645      100.000        0.000         0   105 seconds   
+107   2470.224   16692.734   10708.930     2258.116      100.000        0.000         0   106 seconds   
+108   2282.410   16863.148   10713.059     2263.952      100.000        0.000         0   107 seconds   
+109   2388.302   16616.117   10719.595     2251.069      100.000        0.000         0   108 seconds   
+110   2023.704   16957.545   10723.375     2248.221      100.000        0.000         0   109 seconds   
+111   2046.485   16794.926   10720.487     2264.685      100.000        0.000         0   110 seconds   
+112   1894.329   16722.760   10730.246     2264.628      100.000        0.000         0   111 seconds   
+113   2335.244   16770.582   10723.387     2262.780      100.000        0.000         0   112 seconds   
+114   2203.015   16686.986   10727.068     2274.466      100.000        0.000         0   113 seconds   
+115   2163.494   16832.564   10734.532     2269.789      100.000        0.000         0   114 seconds   
+116   2431.232   16675.039   10727.096     2268.392      100.000        0.000         0   115 seconds   
+117   2298.736   16923.844   10731.679     2255.124      100.000        0.000         0   116 seconds   
+118   2416.276   16672.783   10715.427     2268.816      100.000        0.000         0   117 seconds   
+119   2141.839   16520.842   10721.122     2261.074      100.000        0.000         0   118 seconds   
+120   2526.008   16837.373   10717.503     2246.372      100.000        0.000         0   119 seconds   
+121   2366.832   16741.164   10723.075     2262.041      100.000        0.000         0   120 seconds   
+122   1970.729   16757.467   10715.989     2267.013      100.000        0.000         0   121 seconds   
+123   2013.719   16824.279   10700.423     2269.528      100.000        0.000         0   122 seconds   
+124   2128.732   16686.107   10696.813     2257.758      100.000        0.000         0   123 seconds   
+125   2126.372   16691.557   10697.159     2262.239      100.000        0.000         0   124 seconds   
+126   2172.402   16901.648   10700.442     2247.516      100.000        0.000         0   125 seconds   
+127   1934.590   16630.229   10697.180     2262.600      100.000        0.000         0   126 seconds   
+128   2495.582   16854.145   10699.207     2255.513      100.000        0.000         0   127 seconds   
+129   2059.360   16830.113   10686.938     2265.367      100.000        0.000         0   128 seconds   
+130   2490.949   16754.211   10687.773     2256.432      100.000        0.000         0   129 seconds   
+131   1882.994   16683.898   10698.144     2255.987      100.000        0.000         0   130 seconds   
+132   2498.327   16719.727   10696.806     2242.962      100.000        0.000         0   131 seconds   
+133   2233.518   16850.059   10702.295     2260.740      100.000        0.000         0   132 seconds   
+134   2305.630   16334.894   10697.021     2258.544      100.000        0.000         0   133 seconds   
+135   2162.279   16859.838   10707.775     2265.919      100.000        0.000         0   134 seconds   
+136   1992.489   16810.416   10699.884     2256.648      100.000        0.000         0   135 seconds   
+137   2377.032   16729.041   10699.979     2262.607      100.000        0.000         0   136 seconds   
+138   2059.254   16746.438   10702.796     2256.324      100.000        0.000         0   137 seconds   
+139   2215.168   16926.438   10724.232     2261.921      100.000        0.000         0   138 seconds   
+140   1701.591   16593.994   10710.416     2269.077      100.000        0.000         0   139 seconds   
+141   1722.138   16771.305   10719.037     2268.516      100.000        0.000         0   140 seconds   
+142   1911.814   16900.271   10733.364     2253.875      100.000        0.000         0   141 seconds   
+143   2465.056   16745.926   10721.710     2263.318      100.000        0.000         0   142 seconds   
+144   2022.223   16723.971   10709.269     2259.613      100.000        0.000         0   143 seconds   
+145   2421.011   16756.424   10708.944     2253.746      100.000        0.000         0   144 seconds   
+146   2129.945   16873.963   10702.996     2253.330      100.000        0.000         0   145 seconds   
+147   2308.182   16707.730   10696.885     2264.219      100.000        0.000         0   146 seconds   
+148   2615.033   16637.420   10699.854     2250.459      100.000        0.000         0   147 seconds   
+149   2414.024   16886.777   10696.461     2253.515      100.000        0.000         0   148 seconds   
+150   1882.142   16808.146   10686.614     2255.085      100.000        0.000         0   149 seconds   
+151   2221.297   16541.154   10686.688     2259.121      100.000        0.000         0   150 seconds   
+152   1847.497   16603.121   10694.461     2253.141      100.000        0.000         0   151 seconds   
+153   1914.870   16905.338   10693.620     2256.175      100.000        0.000         0   152 seconds   
+154   2226.928   16805.125   10708.331     2260.825      100.000        0.000         0   153 seconds   
+155   2324.021   17043.713   10706.938     2270.106      100.000        0.000         0   154 seconds   
+156   2141.413   16753.340   10726.698     2259.904      100.000        0.000         0   155 seconds   
+157   2119.070   16881.811   10719.391     2266.531      100.000        0.000         0   156 seconds   
+158   2392.750   16524.764   10708.728     2265.076      100.000        0.000         0   157 seconds   
+159   2013.890   16862.467   10719.046     2255.220      100.000        0.000         0   158 seconds   
+160   2275.658   16782.246   10718.795     2265.682      100.000        0.000         0   159 seconds   
+161   2061.172   16465.188   10703.605     2257.085      100.000        0.000         0   160 seconds   
+162   2034.303   16735.469   10721.607     2254.078      100.000        0.000         0   161 seconds   
+163   1940.394   16784.402   10710.148     2260.029      100.000        0.000         0   162 seconds   
+164   2295.477   16712.518   10721.690     2262.578      100.000        0.000         0   163 seconds   
+165   2172.870   16761.898   10715.609     2275.202      100.000        0.000         0   164 seconds   
+166   2151.453   16759.619   10710.229     2268.807      100.000        0.000         0   165 seconds   
+167   1714.283   16750.971   10706.387     2269.081      100.000        0.000         0   166 seconds   
+168   1662.804   16822.906   10713.297     2264.674      100.000        0.000         0   167 seconds   
+169   2362.056   16673.422   10700.379     2254.519      100.000        0.000         0   168 seconds   
+170   2147.776   16744.303   10698.688     2267.345      100.000        0.000         0   169 seconds   
+171   1893.941   16912.301   10693.533     2256.081      100.000        0.000         0   170 seconds   
+172   2098.689   16712.557   10681.235     2265.613      100.000        0.000         0   171 seconds   
+173   2063.049   16537.127   10674.360     2257.772      100.000        0.000         0   172 seconds   
+174   2064.029   16708.748   10684.138     2252.889      100.000        0.000         0   173 seconds   
+175   2131.295   16535.604   10682.393     2262.731      100.000        0.000         0   174 seconds   
+176   2042.383   16761.789   10691.814     2263.510      100.000        0.000         0   175 seconds   
+177   1759.057   16393.303   10683.970     2253.727      100.000        0.000         0   176 seconds   
+178   2028.071   16801.072   10673.068     2257.391      100.000        0.000         0   177 seconds   
+179   2025.228   16542.170   10673.104     2258.119      100.000        0.000         0   178 seconds   
+180   2282.868   16484.475   10675.643     2256.146      100.000        0.000         0   179 seconds   
+181   2282.235   16926.471   10677.104     2259.201      100.000        0.000         0   180 seconds   
+182   2005.878   16514.781   10688.462     2256.577      100.000        0.000         0   181 seconds   
+183   2381.712   16692.666   10687.689     2252.355      100.000        0.000         0   182 seconds   
+184   2342.560   16681.389   10716.882     2248.213      100.000        0.000         0   183 seconds   
+185   2511.123   16895.166   10710.619     2265.510      100.000        0.000         0   184 seconds   
+186   2326.196   16610.963   10711.135     2253.790      100.000        0.000         0   185 seconds   
+187   1956.632   16750.631   10704.322     2256.222      100.000        0.000         0   186 seconds   
+188   2192.922   16752.508   10679.530     2256.852      100.000        0.000         0   187 seconds   
+189   2312.020   16647.361   10684.982     2240.858      100.000        0.000         0   188 seconds   
+190   2242.841   16364.666   10671.644     2250.719      100.000        0.000         0   189 seconds   
+191   2265.063   16676.191   10665.375     2246.224      100.000        0.000         0   190 seconds   
+192   2282.791   16416.430   10680.441     2256.292      100.000        0.000         0   191 seconds   
+193   2475.982   16672.055   10691.503     2256.113      100.000        0.000         0   192 seconds   
+194   2317.630   16999.961   10728.993     2261.486      100.000        0.000         0   193 seconds   
+195   2198.747   16910.906   10743.988     2262.135      100.000        0.000         0   194 seconds   
+196   1922.455   16577.584   10739.442     2262.159      100.000        0.000         0   195 seconds   
+197   2073.006   16690.600   10735.017     2268.948      100.000        0.000         0   196 seconds   
+198   2444.662   16590.918   10739.227     2259.384      100.000        0.000         0   197 seconds   
+199   2323.727   16607.436   10722.094     2256.944      100.000        0.000         0   198 seconds   
+200   1921.752   16623.955   10695.813     2258.023      100.000        0.000         0   199 seconds   
+201   2454.903   16505.174   10679.075     2262.885      100.000        0.000         0   200 seconds   
+202   2416.843   16513.480   10678.462     2252.242      100.000        0.000         0   201 seconds   
+203   2570.450   16835.387   10677.808     2232.463      100.000        0.000         0   202 seconds   
+204   2348.169   16464.393   10678.322     2253.303      100.000        0.000         0   203 seconds   
+205   2270.390   16796.129   10674.464     2247.388      100.000        0.000         0   204 seconds   
+206   2298.387   17101.947   10687.125     2249.616      100.000        0.000         0   205 seconds   
+207   2362.451   16768.652   10687.202     2246.567      100.000        0.000         0   206 seconds   
+208   2145.118   16689.557   10653.727     2236.461      100.000        0.000         0   207 seconds   
+209   1867.535   16699.436   10657.545     2249.645      100.000        0.000         0   208 seconds   
+210   2237.306   16726.477   10646.547     2255.887      100.000        0.000         0   209 seconds   
+211   2334.815   16474.195   10685.402     2250.359      100.000        0.000         0   210 seconds   
+212   1971.685   16922.645   10688.569     2282.373      100.000        0.000         0   211 seconds   
+213   2277.264   16735.291   10696.644     2246.513      100.000        0.000         0   212 seconds   
+214   2431.929   16614.754   10679.104     2252.744      100.000        0.000         0   213 seconds   
+215   2195.653   16545.486   10672.194     2241.720      100.000        0.000         0   214 seconds   
+216   2070.918   16657.434   10676.719     2244.840      100.000        0.000         0   215 seconds   
+217   2363.238   16489.531   10661.327     2249.816      100.000        0.000         0   216 seconds   
+218   2151.872   16745.766   10665.003     2243.833      100.000        0.000         0   217 seconds   
+219   2073.076   16555.734   10659.011     2244.971      100.000        0.000         0   218 seconds   
+220   2206.804   16717.094   10662.896     2254.295      100.000        0.000         0   219 seconds   
+221   2432.564   16509.203   10666.682     2262.534      100.000        0.000         0   220 seconds   
+222   2085.359   16602.758   10672.087     2244.921      100.000        0.000         0   221 seconds   
+223   2153.599   16455.090   10673.458     2266.878      100.000        0.000         0   222 seconds   
+224   2277.158   16610.965   10688.838     2257.738      100.000        0.000         0   223 seconds   
+225   2281.777   16830.299   10701.151     2256.108      100.000        0.000         0   224 seconds   
+226   2305.803   16762.301   10692.186     2267.574      100.000        0.000         0   225 seconds   
+227   2097.152   16847.166   10719.888     2268.815      100.000        0.000         0   226 seconds   
+228   2437.034   16807.891   10720.041     2252.781      100.000        0.000         0   227 seconds   
+229   2422.400   16781.094   10720.389     2257.934      100.000        0.000         0   228 seconds   
+230   2257.809   16768.502   10726.024     2266.524      100.000        0.000         0   229 seconds   
+231   2073.705   16828.090   10711.422     2264.691      100.000        0.000         0   230 seconds   
+232   2389.569   16526.520   10719.861     2256.737      100.000        0.000         0   231 seconds   
+233   2159.894   16852.059   10732.794     2262.370      100.000        0.000         0   232 seconds   
+234   2323.557   16553.588   10720.222     2265.816      100.000        0.000         0   233 seconds   
+235   2176.471   16667.023   10718.991     2255.700      100.000        0.000         0   234 seconds   
+236   2039.306   16684.371   10694.645     2257.093      100.000        0.000         0   235 seconds   
+237   2057.408   16521.551   10688.688     2272.010      100.000        0.000         0   236 seconds   
+238   2223.935   16847.828   10679.667     2255.789      100.000        0.000         0   237 seconds   
+239   2205.732   16957.496   10707.855     2261.836      100.000        0.000         0   238 seconds   
+240   1908.196   16621.510   10702.191     2258.251      100.000        0.000         0   239 seconds   
+241   2384.355   16449.297   10706.992     2252.761      100.000        0.000         0   240 seconds   
+242   2086.166   16541.053   10696.322     2263.677      100.000        0.000         0   241 seconds   
+243   2226.872   16656.730   10687.980     2249.405      100.000        0.000         0   242 seconds   
+244   2304.458   16615.000   10717.662     2272.106      100.000        0.000         0   243 seconds   
+245   2184.018   16677.146   10720.803     2260.005      100.000        0.000         0   244 seconds   
+246   2105.178   16772.160   10707.576     2269.983      100.000        0.000         0   245 seconds   
+247   2151.917   16720.047   10701.643     2254.972      100.000        0.000         0   246 seconds   
+248   2292.518   16580.693   10705.477     2258.728      100.000        0.000         0   247 seconds   
+249   2290.602   16644.391   10702.886     2245.854      100.000        0.000         0   248 seconds   
+250   2100.766   16676.037   10702.260     2254.496      100.000        0.000         0   249 seconds   
+251   2204.738   16642.957   10696.636     2249.640      100.000        0.000         0   250 seconds   
+252   1893.268   16619.795   10711.736     2257.542      100.000        0.000         0   251 seconds   
+253   1974.905   16787.580   10717.726     2256.417      100.000        0.000         0   252 seconds   
+254   2095.162   16636.578   10705.695     2255.071      100.000        0.000         0   253 seconds   
+255   2378.131   16738.221   10696.563     2261.627      100.000        0.000         0   254 seconds   
+256   2034.822   16699.754   10689.207     2252.724      100.000        0.000         0   255 seconds   
+257   2391.031   16552.316   10674.373     2257.757      100.000        0.000         0   256 seconds   
+258   2230.313   16618.684   10666.259     2253.614      100.000        0.000         0   257 seconds   
+259   2352.430   16542.807   10657.841     2248.514      100.000        0.000         0   258 seconds   
+260   2181.012   16662.846   10663.220     2236.306      100.000        0.000         0   259 seconds   
+261   2198.059   16739.490   10664.559     2247.044      100.000        0.000         0   260 seconds   
+262   2422.222   16708.197   10661.169     2239.815      100.000        0.000         0   261 seconds   
+263   2017.622   16872.025   10664.233     2252.427      100.000        0.000         0   262 seconds   
+264   2039.455   16652.193   10673.830     2248.361      100.000        0.000         0   263 seconds   
+265   2238.068   16603.938   10669.579     2250.662      100.000        0.000         0   264 seconds   
+266   2198.150   16634.287   10688.566     2257.474      100.000        0.000         0   265 seconds   
+267   2244.674   16592.408   10688.384     2249.830      100.000        0.000         0   266 seconds   
+268   2401.715   16828.592   10693.567     2266.918      100.000        0.000         0   267 seconds   
+269   2196.120   16678.100   10693.585     2251.345      100.000        0.000         0   268 seconds   
+270   2420.413   16912.346   10724.796     2277.905      100.000        0.000         0   269 seconds   
+271   2132.810   16791.832   10730.128     2272.293      100.000        0.000         0   270 seconds   
+272   1976.764   16969.563   10695.360     2260.408      100.000        0.000         0   271 seconds   
+273   2112.591   16622.113   10713.566     2264.024      100.000        0.000         0   272 seconds   
+274   1934.514   16831.186   10723.688     2266.214      100.000        0.000         0   273 seconds   
+275   1944.088   16791.699   10724.083     2258.610      100.000        0.000         0   274 seconds   
+276   1996.569   16645.516   10736.139     2265.741      100.000        0.000         0   275 seconds   
+277   1602.250   16900.416   10705.499     2258.818      100.000        0.000         0   276 seconds   
+278   2213.844   16559.967   10692.418     2259.219      100.000        0.000         0   277 seconds   
+279   2283.932   16692.117   10692.904     2252.355      100.000        0.000         0   278 seconds   
+280   2307.703   16613.230   10653.970     2236.554      100.000        0.000         0   279 seconds   
+281   2397.614   16388.129   10649.350     2238.521      100.000        0.000         0   280 seconds   
+282   2183.801   16800.904   10669.254     2237.200      100.000        0.000         0   281 seconds   
+283   2186.628   16737.783   10663.786     2251.591      100.000        0.000         0   282 seconds   
+284   2122.823   16998.867   10701.113     2259.926      100.000        0.000         0   283 seconds   
+285   2409.960   16791.766   10702.451     2250.981      100.000        0.000         0   284 seconds   
+286   2545.819   16807.385   10707.799     2248.665      100.000        0.000         0   285 seconds   
+287   2532.604   16851.344   10715.214     2253.885      100.000        0.000         0   286 seconds   
+288   2234.196   17050.162   10719.523     2269.048      100.000        0.000         0   287 seconds   
+289   2337.423   16902.547   10736.306     2255.697      100.000        0.000         0   288 seconds   
+290   2493.694   16860.820   10752.729     2257.017      100.000        0.000         0   289 seconds   
+291   2126.643   17099.332   10754.741     2273.677      100.000        0.000         0   290 seconds   
+292   2212.797   16822.322   10761.321     2271.524      100.000        0.000         0   291 seconds   
+293   2319.246   16741.217   10759.225     2275.122      100.000        0.000         0   292 seconds   
+294   2332.071   16984.035   10740.379     2256.364      100.000        0.000         0   293 seconds   
+295   2527.385   16878.152   10718.653     2258.681      100.000        0.000         0   294 seconds   
+296   2148.003   16505.523   10715.553     2264.711      100.000        0.000         0   295 seconds   
+297   2288.470   16868.301   10706.071     2252.427      100.000        0.000         0   296 seconds   
+298   1968.825   16725.188   10702.080     2262.369      100.000        0.000         0   297 seconds   
+299   2135.980   16703.393   10715.043     2261.112      100.000        0.000         0   298 seconds   
+300   2378.548   16959.641   10726.318     2255.278      100.000        0.000         0   299 seconds   
+301   2429.409   16846.699   10744.119     2255.497      100.000        0.000         0   300 seconds   
+302   2432.657   16731.514   10745.521     2249.032      100.000        0.000         0   301 seconds   
+303   2206.935   16683.326   10746.562     2262.255      100.000        0.000         0   302 seconds   
+304   2065.997   16831.018   10765.197     2267.285      100.000        0.000         0   303 seconds   
+305   2105.241   16510.717   10737.637     2274.579      100.000        0.000         0   304 seconds   
+306   2166.887   16915.994   10738.122     2267.600      100.000        0.000         0   305 seconds   
+307   2468.395   17009.232   10735.558     2264.499      100.000        0.000         0   306 seconds   
+308   2084.592   16746.463   10720.621     2272.803      100.000        0.000         0   307 seconds   
+309   2356.908   16910.555   10732.646     2266.095      100.000        0.000         0   308 seconds   
+310   1882.150   16812.457   10737.514     2283.249      100.000        0.000         0   309 seconds   
+311   2085.245   16795.322   10728.454     2257.686      100.000        0.000         0   310 seconds   
+312   2234.201   16797.910   10719.353     2257.574      100.000        0.000         0   311 seconds   
+313   2264.854   16838.986   10702.984     2268.863      100.000        0.000         0   312 seconds   
+314   2392.229   16510.725   10692.163     2254.747      100.000        0.000         0   313 seconds   
+315   1731.998   16740.496   10677.009     2260.147      100.000        0.000         0   314 seconds   
+316   2151.334   16547.201   10681.266     2263.407      100.000        0.000         0   315 seconds   
+317   2248.290   16490.500   10676.313     2251.369      100.000        0.000         0   316 seconds   
+318   2232.297   16667.000   10672.315     2249.671      100.000        0.000         0   317 seconds   
+319   2224.331   16925.727   10674.244     2260.905      100.000        0.000         0   318 seconds   
+320   1629.812   16699.648   10679.107     2258.908      100.000        0.000         0   319 seconds   
+321   2126.088   16951.643   10706.566     2267.380      100.000        0.000         0   320 seconds   
+322   2287.690   16611.119   10701.904     2256.274      100.000        0.000         0   321 seconds   
+323   2023.425   16629.559   10702.467     2264.111      100.000        0.000         0   322 seconds   
+324   2182.103   16900.924   10714.008     2272.053      100.000        0.000         0   323 seconds   
+325   1917.318   16799.584   10721.586     2255.487      100.000        0.000         0   324 seconds   
+326   2002.007   17020.018   10728.518     2263.702      100.000        0.000         0   325 seconds   
+327   2566.944   16507.580   10741.202     2260.098      100.000        0.000         0   326 seconds   
+328   2175.542   16990.023   10740.767     2270.069      100.000        0.000         0   327 seconds   
+329   1984.577   16731.477   10737.473     2256.686      100.000        0.000         0   328 seconds   
+330   2383.978   16850.529   10727.560     2271.254      100.000        0.000         0   329 seconds   
+331   1961.466   16747.855   10721.321     2270.566      100.000        0.000         0   330 seconds   
+332   2302.668   17026.670   10721.916     2279.174      100.000        0.000         0   331 seconds   
+333   2536.806   16789.605   10730.197     2261.380      100.000        0.000         0   332 seconds   
+334   2100.857   16599.902   10708.750     2262.275      100.000        0.000         0   333 seconds   
+335   1959.850   16634.607   10708.594     2270.410      100.000        0.000         0   334 seconds   
+336   2404.989   16787.357   10705.416     2250.590      100.000        0.000         0   335 seconds   
+337   1729.397   16458.590   10693.572     2263.943      100.000        0.000         0   336 seconds   
+338   2442.400   16703.988   10711.750     2259.153      100.000        0.000         0   337 seconds   
+339   1990.163   16599.123   10698.633     2250.626      100.000        0.000         0   338 seconds   
+340   2219.721   16546.316   10706.757     2258.370      100.000        0.000         0   339 seconds   
+341   2411.139   16658.020   10704.206     2256.441      100.000        0.000         0   340 seconds   
+342   2296.272   16894.174   10712.563     2241.582      100.000        0.000         0   341 seconds   
+343   2225.369   16837.043   10699.060     2257.879      100.000        0.000         0   342 seconds   
+344   2082.201   16609.486   10690.923     2250.864      100.000        0.000         0   343 seconds   
+345   1959.270   16560.217   10686.660     2246.845      100.000        0.000         0   344 seconds   
+346   2114.502   16579.246   10676.512     2252.340      100.000        0.000         0   345 seconds   
+347   2306.132   16870.494   10717.823     2265.859      100.000        0.000         0   346 seconds   
+348   2065.470   16887.449   10724.853     2247.732      100.000        0.000         0   347 seconds   
+349   2383.663   16925.477   10723.968     2265.597      100.000        0.000         0   348 seconds   
+350   2230.206   16656.768   10739.345     2261.356      100.000        0.000         0   349 seconds   
+351   1847.429   16724.596   10727.489     2271.692      100.000        0.000         0   350 seconds   
+352   1902.886   16727.215   10735.309     2276.900      100.000        0.000         0   351 seconds   
+353   2242.144   17090.225   10722.719     2264.507      100.000        0.000         0   352 seconds   
+354   1957.455   16793.783   10718.964     2262.155      100.000        0.000         0   353 seconds   
+355   1963.058   16769.420   10718.305     2263.337      100.000        0.000         0   354 seconds   
+356   2167.319   16766.693   10710.366     2257.755      100.000        0.000         0   355 seconds   
+357   2166.947   17135.035   10705.171     2267.427      100.000        0.000         0   356 seconds   
+358   2033.581   16951.770   10709.409     2258.094      100.000        0.000         0   357 seconds   
+359   2070.256   17009.742   10718.803     2264.016      100.000        0.000         0   358 seconds   
+360   2332.154   16550.574   10712.601     2251.371      100.000        0.000         0   359 seconds   
+361   2204.990   16970.949   10735.513     2272.262      100.000        0.000         0   360 seconds   
+362   2442.414   16769.072   10721.738     2246.585      100.000        0.000         0   361 seconds   
+363   2402.803   16802.508   10719.411     2255.722      100.000        0.000         0   362 seconds   
+364   2241.762   16446.811   10708.207     2257.876      100.000        0.000         0   363 seconds   
+365   2207.540   16875.844   10708.427     2263.974      100.000        0.000         0   364 seconds   
+366   1881.857   16708.830   10703.736     2268.901      100.000        0.000         0   365 seconds   
+367   2041.115   16629.461   10704.274     2259.978      100.000        0.000         0   366 seconds   
+368   2253.852   16705.256   10698.590     2256.508      100.000        0.000         0   367 seconds   
+369   2359.475   16604.646   10689.037     2255.760      100.000        0.000         0   368 seconds   
+370   2226.335   16736.658   10700.454     2261.977      100.000        0.000         0   369 seconds   
+371   2262.516   16935.967   10696.752     2263.305      100.000        0.000         0   370 seconds   
+372   2036.051   16725.248   10701.133     2255.431      100.000        0.000         0   371 seconds   
+373   2319.279   16650.002   10690.668     2257.745      100.000        0.000         0   372 seconds   
+374   2103.161   16616.232   10690.364     2260.720      100.000        0.000         0   373 seconds   
+375   2036.586   16880.400   10703.868     2265.020      100.000        0.000         0   374 seconds   
+376   1982.492   16715.035   10704.694     2256.165      100.000        0.000         0   375 seconds   
+377   2208.890   16846.340   10709.233     2259.378      100.000        0.000         0   376 seconds   
+378   1683.968   16862.135   10716.061     2271.542      100.000        0.000         0   377 seconds   
+379   2055.129   17009.809   10725.818     2263.916      100.000        0.000         0   378 seconds   
+380   1772.762   16883.758   10723.000     2269.943      100.000        0.000         0   379 seconds   
+381   2410.360   16786.428   10718.268     2256.862      100.000        0.000         0   380 seconds   
+382   2497.490   16628.531   10701.455     2259.504      100.000        0.000         0   381 seconds   
+383   2275.356   16657.412   10700.063     2257.575      100.000        0.000         0   382 seconds   
+384   2169.921   16836.420   10690.667     2251.949      100.000        0.000         0   383 seconds   
+385   1810.360   16634.309   10711.560     2278.884      100.000        0.000         0   384 seconds   
+386   1812.314   16564.361   10702.145     2266.275      100.000        0.000         0   385 seconds   
+387   2067.319   16732.314   10727.852     2263.374      100.000        0.000         0   386 seconds   
+388   1730.013   16905.635   10715.529     2259.659      100.000        0.000         0   387 seconds   
+389   2293.325   16688.402   10712.654     2262.441      100.000        0.000         0   388 seconds   
+390   2076.123   16807.496   10706.443     2259.590      100.000        0.000         0   389 seconds   
+391   1876.366   16860.977   10704.188     2257.030      100.000        0.000         0   390 seconds   
+392   2247.785   16593.529   10704.407     2271.686      100.000        0.000         0   391 seconds   
+393   2425.335   16749.293   10726.763     2258.129      100.000        0.000         0   392 seconds   
+394   2353.358   16647.209   10721.417     2259.469      100.000        0.000         0   393 seconds   
+395   2032.160   16630.484   10698.454     2261.058      100.000        0.000         0   394 seconds   
+396   2172.863   16789.230   10691.063     2263.850      100.000        0.000         0   395 seconds   
+397   2207.093   16581.984   10673.729     2252.262      100.000        0.000         0   396 seconds   
+398   2232.630   16668.445   10660.402     2239.877      100.000        0.000         0   397 seconds   
+399   2263.811   16784.789   10684.671     2243.445      100.000        0.000         0   398 seconds   
+400   2333.114   16433.236   10660.473     2253.341      100.000        0.000         0   399 seconds   
+401   2222.183   16745.139   10650.054     2256.785      100.000        0.000         0   400 seconds   
+402   2381.907   16614.113   10696.453     2250.692      100.000        0.000         0   401 seconds   
+403   2462.579   16791.877   10684.852     2249.158      100.000        0.000         0   402 seconds   
+404   2237.593   16756.578   10676.912     2239.458      100.000        0.000         0   403 seconds   
+405   2452.383   16568.816   10685.776     2241.896      100.000        0.000         0   404 seconds   
+406   2517.107   16707.807   10692.578     2248.953      100.000        0.000         0   405 seconds   
+407   2462.843   16880.963   10689.877     2254.035      100.000        0.000         0   406 seconds   
+408   2308.109   16837.623   10710.451     2252.494      100.000        0.000         0   407 seconds   
+409   2373.547   16866.996   10722.308     2242.698      100.000        0.000         0   408 seconds   
+410   2206.649   16967.023   10713.335     2262.233      100.000        0.000         0   409 seconds   
+411   1916.219   17009.943   10699.574     2257.161      100.000        0.000         0   410 seconds   
+412   2449.610   16855.797   10704.003     2254.675      100.000        0.000         0   411 seconds   
+413   2080.426   16808.486   10709.268     2252.640      100.000        0.000         0   412 seconds   
+414   2143.502   16722.539   10706.479     2265.038      100.000        0.000         0   413 seconds   
+415   2257.785   16669.912   10717.235     2255.951      100.000        0.000         0   414 seconds   
+416   2367.673   16826.363   10716.847     2262.783      100.000        0.000         0   415 seconds   
+417   2199.851   16610.461   10728.356     2253.432      100.000        0.000         0   416 seconds   
+418   1955.707   16663.027   10745.293     2252.215      100.000        0.000         0   417 seconds   
+419   1971.156   16753.363   10721.584     2254.612      100.000        0.000         0   418 seconds   
+420   2507.139   16712.613   10726.976     2260.465      100.000        0.000         0   419 seconds   
+421   2273.458   16710.908   10704.216     2254.283      100.000        0.000         0   420 seconds   
+422   1856.996   16972.594   10714.979     2265.294      100.000        0.000         0   421 seconds   
+423   2170.396   16814.752   10716.062     2263.517      100.000        0.000         0   422 seconds   
+424   2426.010   16893.566   10730.574     2256.847      100.000        0.000         0   423 seconds   
+425   1855.106   16631.193   10721.965     2264.181      100.000        0.000         0   424 seconds   
+426   2162.826   16546.297   10703.680     2273.504      100.000        0.000         0   425 seconds   
+427   2086.693   16906.139   10712.369     2266.875      100.000        0.000         0   426 seconds   
+428   2299.745   16970.242   10707.683     2260.991      100.000        0.000         0   427 seconds   
+429   1987.619   16599.416   10693.919     2266.313      100.000        0.000         0   428 seconds   
+430   2280.797   16637.930   10703.023     2243.448      100.000        0.000         0   429 seconds   
+431   2250.337   16728.984   10668.612     2255.221      100.000        0.000         0   430 seconds   
+432   2106.795   16806.213   10667.111     2250.575      100.000        0.000         0   431 seconds   
+433   2106.336   16753.207   10664.803     2253.868      100.000        0.000         0   432 seconds   
+434   1808.867   16754.936   10674.229     2240.368      100.000        0.000         0   433 seconds   
+435   2278.175   16485.502   10659.615     2247.221      100.000        0.000         0   434 seconds   
+436   2035.723   16534.854   10689.534     2256.318      100.000        0.000         0   435 seconds   
+437   2418.214   16715.318   10678.361     2253.097      100.000        0.000         0   436 seconds   
+438   1906.548   16669.490   10702.702     2257.963      100.000        0.000         0   437 seconds   
+439   2123.375   16571.672   10706.516     2256.322      100.000        0.000         0   438 seconds   
+440   2018.543   16727.240   10729.723     2267.543      100.000        0.000         0   439 seconds   
+441   2311.921   16572.881   10736.922     2251.341      100.000        0.000         0   440 seconds   
+442   1806.256   16697.447   10736.515     2263.290      100.000        0.000         0   441 seconds   
+443   1982.664   16574.744   10711.260     2255.237      100.000        0.000         0   442 seconds   
+444   1673.000   16748.264   10715.204     2264.933      100.000        0.000         0   443 seconds   
+445   2165.568   16784.342   10701.280     2260.765      100.000        0.000         0   444 seconds   
+446   2221.031   16884.746   10686.929     2267.060      100.000        0.000         0   445 seconds   
+447   2288.031   16576.979   10688.769     2263.515      100.000        0.000         0   446 seconds   
+448   2118.576   16749.287   10677.974     2260.191      100.000        0.000         0   447 seconds   
+449   2553.723   16691.119   10690.152     2245.052      100.000        0.000         0   448 seconds   
+450   2274.403   16504.564   10681.223     2265.758      100.000        0.000         0   449 seconds   
+451   2262.505   16968.379   10692.749     2261.827      100.000        0.000         0   450 seconds   
+452   2518.501   16603.826   10713.146     2258.413      100.000        0.000         0   451 seconds   
+453   2038.522   16576.088   10704.448     2242.438      100.000        0.000         0   452 seconds   
+454   2249.943   16783.510   10706.272     2265.594      100.000        0.000         0   453 seconds   
+455   2372.257   16468.387   10709.785     2261.619      100.000        0.000         0   454 seconds   
+456   1811.685   16598.352   10711.304     2254.870      100.000        0.000         0   455 seconds   
+457   2143.363   16826.523   10700.512     2257.865      100.000        0.000         0   456 seconds   
+458   2070.537   16613.158   10693.669     2263.911      100.000        0.000         0   457 seconds   
+459   2548.305   16850.221   10694.493     2261.089      100.000        0.000         0   458 seconds   
+460   2445.483   16491.049   10714.592     2267.667      100.000        0.000         0   459 seconds   
+461   1900.889   16824.455   10730.891     2261.889      100.000        0.000         0   460 seconds   
+462   1953.642   16915.553   10716.648     2270.750      100.000        0.000         0   461 seconds   
+463   1748.925   16919.385   10724.040     2272.226      100.000        0.000         0   462 seconds   
+464   1829.459   16811.049   10723.723     2264.558      100.000        0.000         0   463 seconds   
+465   1890.381   16991.561   10701.244     2267.810      100.000        0.000         0   464 seconds   
+466   2126.962   16887.051   10699.869     2262.973      100.000        0.000         0   465 seconds   
+467   2159.860   16877.859   10699.610     2257.128      100.000        0.000         0   466 seconds   
+468   1886.538   16637.709   10697.635     2257.504      100.000        0.000         0   467 seconds   
+469   2511.598   16866.324   10698.967     2252.897      100.000        0.000         0   468 seconds   
+470   2077.400   16759.006   10701.202     2254.783      100.000        0.000         0   469 seconds   
+471   2369.646   16832.209   10690.302     2265.352      100.000        0.000         0   470 seconds   
+472   2061.943   17071.525   10680.830     2270.682      100.000        0.000         0   471 seconds   
+473   1890.392   16583.539   10690.091     2257.278      100.000        0.000         0   472 seconds   
+474   2193.422   16825.736   10693.830     2254.308      100.000        0.000         0   473 seconds   
+475   2589.233   16719.268   10688.230     2250.333      100.000        0.000         0   474 seconds   
+476   1971.315   16633.479   10710.018     2256.536      100.000        0.000         0   475 seconds   
+477   2222.254   16701.773   10715.102     2254.299      100.000        0.000         0   476 seconds   
+478   2347.398   16856.789   10715.360     2258.212      100.000        0.000         0   477 seconds   
+479   1990.228   16843.805   10713.772     2269.349      100.000        0.000         0   478 seconds   
+480   2097.938   16865.248   10706.092     2262.904      100.000        0.000         0   479 seconds   
+481   2120.549   16958.377   10729.648     2266.141      100.000        0.000         0   480 seconds   
+482   2416.974   16817.271   10728.179     2258.235      100.000        0.000         0   481 seconds   
+483   2050.718   16935.273   10732.784     2261.385      100.000        0.000         0   482 seconds   
+484   2039.891   16796.322   10738.493     2255.053      100.000        0.000         0   483 seconds   
+485   2285.215   16920.838   10725.644     2241.854      100.000        0.000         0   484 seconds   
+486   2301.989   16911.512   10711.361     2260.315      100.000        0.000         0   485 seconds   
+487   2459.474   16961.844   10719.479     2252.966      100.000        0.000         0   486 seconds   
+488   2441.917   16794.000   10723.197     2249.305      100.000        0.000         0   487 seconds   
+489   2504.529   16844.203   10736.013     2255.651      100.000        0.000         0   488 seconds   
+490   2255.058   16645.904   10708.034     2270.010      100.000        0.000         0   489 seconds   
+491   1888.751   16978.109   10729.095     2264.683      100.000        0.000         0   490 seconds   
+492   2503.195   16870.102   10734.711     2266.756      100.000        0.000         0   491 seconds   
+493   2102.210   16865.824   10733.463     2250.972      100.000        0.000         0   492 seconds   
+494   1727.361   16966.484   10724.730     2260.936      100.000        0.000         0   493 seconds   
+495   1849.155   16752.391   10724.351     2260.571      100.000        0.000         0   494 seconds   
+496   2284.698   16844.258   10723.114     2251.907      100.000        0.000         0   495 seconds   
+497   2444.503   16824.547   10712.486     2257.510      100.000        0.000         0   496 seconds   
+498   2361.323   16581.986   10704.567     2255.190      100.000        0.000         0   497 seconds   
+499   2610.071   16890.602   10710.535     2251.984      100.000        0.000         0   498 seconds   
+500   2311.215   16622.766   10739.005     2274.502      100.000        0.000         0   499 seconds   
+501   2362.614   16840.125   10728.584     2266.131      100.000        0.000         0   500 seconds   
+502   2227.009   16733.023   10739.746     2266.682      100.000        0.000         0   501 seconds   
+503   2193.048   16752.773   10711.151     2262.135      100.000        0.000         0   502 seconds   
+504   1982.632   16886.850   10685.353     2262.236      100.000        0.000         0   503 seconds   
+505   1888.633   16542.822   10666.164     2249.417      100.000        0.000         0   504 seconds   
+506   2118.223   16761.848   10635.025     2247.975      100.000        0.000         0   505 seconds   
+507   2116.889   16528.268   10636.163     2240.772      100.000        0.000         0   506 seconds   
+508   2131.204   16454.197   10660.766     2239.971      100.000        0.000         0   507 seconds   
+509   2386.271   16907.080   10650.855     2241.289      100.000        0.000         0   508 seconds   
+510   2143.574   16731.211   10670.039     2260.477      100.000        0.000         0   509 seconds   
+511   2280.039   16614.244   10667.220     2255.364      100.000        0.000         0   510 seconds   
+512   2294.368   16783.334   10687.192     2255.927      100.000        0.000         0   511 seconds   
+513   2371.061   16729.242   10698.292     2256.169      100.000        0.000         0   512 seconds   
+514   1985.271   16578.900   10704.146     2258.631      100.000        0.000         0   513 seconds   
+515   2368.021   16622.479   10693.955     2254.314      100.000        0.000         0   514 seconds   
+516   2025.671   16581.338   10679.815     2253.028      100.000        0.000         0   515 seconds   
+517   2360.803   16772.854   10686.536     2255.256      100.000        0.000         0   516 seconds   
+518   2260.606   16309.876   10688.872     2251.925      100.000        0.000         0   517 seconds   
+519   2416.696   16686.227   10685.974     2256.920      100.000        0.000         0   518 seconds   
+520   1840.434   16728.889   10685.372     2256.073      100.000        0.000         0   519 seconds   
+521   1861.206   16819.039   10681.095     2258.747      100.000        0.000         0   520 seconds   
+522   2380.293   16550.592   10671.227     2253.170      100.000        0.000         0   521 seconds   
+523   2414.026   16178.153   10691.186     2253.646      100.000        0.000         0   522 seconds   
+524   2356.099   16724.248   10695.397     2261.037      100.000        0.000         0   523 seconds   
+525   2552.535   16534.191   10687.863     2257.707      100.000        0.000         0   524 seconds   
+526   2334.006   16723.813   10693.846     2247.531      100.000        0.000         0   525 seconds   
+527   2048.890   16449.377   10678.476     2243.701      100.000        0.000         0   526 seconds   
+528   2187.616   16534.111   10664.128     2251.673      100.000        0.000         0   527 seconds   
+529   2215.366   16894.086   10684.155     2252.008      100.000        0.000         0   528 seconds   
+530   2470.936   16662.221   10683.187     2248.817      100.000        0.000         0   529 seconds   
+531   2601.012   16651.457   10694.496     2257.074      100.000        0.000         0   530 seconds   
+532   2243.735   16807.795   10696.830     2251.227      100.000        0.000         0   531 seconds   
+533   1907.816   16270.995   10698.611     2263.041      100.000        0.000         0   532 seconds   
+534   2284.297   16917.486   10721.143     2274.841      100.000        0.000         0   533 seconds   
+535   2104.147   16509.168   10704.963     2260.664      100.000        0.000         0   534 seconds   
+536   2326.976   16680.986   10706.594     2258.232      100.000        0.000         0   535 seconds   
+537   2138.660   16834.693   10723.344     2258.086      100.000        0.000         0   536 seconds   
+538   2163.894   16577.402   10732.439     2277.437      100.000        0.000         0   537 seconds   
+539   2223.959   16656.271   10748.415     2261.714      100.000        0.000         0   538 seconds   
+540   2117.741   16744.438   10722.482     2275.397      100.000        0.000         0   539 seconds   
+541   2328.659   16628.699   10741.996     2270.141      100.000        0.000         0   540 seconds   
+542   2385.524   16666.961   10730.547     2264.668      100.000        0.000         0   541 seconds   
+543   2140.815   16701.428   10710.849     2267.416      100.000        0.000         0   542 seconds   
+544   2218.120   16702.738   10737.168     2263.132      100.000        0.000         0   543 seconds   
+545   2031.102   16420.225   10719.352     2261.414      100.000        0.000         0   544 seconds   
+546   2332.317   16679.658   10720.908     2263.082      100.000        0.000         0   545 seconds   
+547   1984.752   16813.350   10717.002     2263.825      100.000        0.000         0   546 seconds   
+548   2036.361   16679.236   10703.242     2257.125      100.000        0.000         0   547 seconds   
+549   2425.584   16571.213   10693.583     2256.540      100.000        0.000         0   548 seconds   
+550   2378.324   16643.068   10687.523     2266.354      100.000        0.000         0   549 seconds   
+551   2213.866   16653.307   10686.877     2255.432      100.000        0.000         0   550 seconds   
+552   2059.859   16795.146   10678.465     2257.712      100.000        0.000         0   551 seconds   
+553   2298.665   16636.342   10686.338     2252.789      100.000        0.000         0   552 seconds   
+554   2444.865   16668.133   10674.322     2257.270      100.000        0.000         0   553 seconds   
+555   2349.051   16490.385   10685.221     2267.633      100.000        0.000         0   554 seconds   
+556   2333.110   16796.619   10691.014     2251.933      100.000        0.000         0   555 seconds   
+557   2072.246   16739.078   10724.547     2244.009      100.000        0.000         0   556 seconds   
+558   2195.736   16565.838   10706.040     2257.904      100.000        0.000         0   557 seconds   
+559   2046.322   16840.281   10695.422     2271.660      100.000        0.000         0   558 seconds   
+560   1593.925   16632.174   10697.185     2265.764      100.000        0.000         0   559 seconds   
+561   2184.213   16594.682   10703.480     2264.129      100.000        0.000         0   560 seconds   
+562   1947.951   16700.971   10693.114     2255.023      100.000        0.000         0   561 seconds   
+563   2551.166   16711.611   10694.407     2255.655      100.000        0.000         0   562 seconds   
+564   1646.566   16373.052   10694.586     2261.809      100.000        0.000         0   563 seconds   
+565   2475.439   16898.053   10693.217     2237.934      100.000        0.000         0   564 seconds   
+566   1989.810   16861.744   10697.479     2260.107      100.000        0.000         0   565 seconds   
+567   1978.140   16684.389   10687.276     2258.044      100.000        0.000         0   566 seconds   
+568   2332.727   16893.996   10702.454     2254.291      100.000        0.000         0   567 seconds   
+569   2326.751   16591.924   10702.609     2247.223      100.000        0.000         0   568 seconds   
+570   2008.437   16767.709   10719.073     2253.013      100.000        0.000         0   569 seconds   
+571   2136.008   16995.893   10720.724     2265.843      100.000        0.000         0   570 seconds   
+572   2102.931   16836.293   10698.470     2256.182      100.000        0.000         0   571 seconds   
+573   2230.462   16902.008   10700.099     2255.012      100.000        0.000         0   572 seconds   
+574   2172.649   16803.217   10688.870     2247.862      100.000        0.000         0   573 seconds   
+575   2396.274   16617.814   10673.394     2245.665      100.000        0.000         0   574 seconds   
+576   2513.856   16805.676   10677.526     2239.026      100.000        0.000         0   575 seconds   
+577   2087.609   16786.230   10665.307     2244.193      100.000        0.000         0   576 seconds   
+578   2372.568   16794.625   10641.977     2233.819      100.000        0.000         0   577 seconds   
+579   2095.289   17086.725   10675.529     2257.982      100.000        0.000         0   578 seconds   
+580   2219.160   16542.639   10683.705     2253.981      100.000        0.000         0   579 seconds   
+581   2206.714   17154.021   10730.269     2264.350      100.000        0.000         0   580 seconds   
+582   1699.032   16774.451   10728.016     2256.178      100.000        0.000         0   581 seconds   
+583   2573.529   17004.654   10737.189     2262.981      100.000        0.000         0   582 seconds   
+584   2025.921   16891.092   10734.882     2265.730      100.000        0.000         0   583 seconds   
+585   2341.924   17162.410   10718.813     2268.115      100.000        0.000         0   584 seconds   
+586   2151.560   16708.488   10706.144     2258.887      100.000        0.000         0   585 seconds   
+587   2123.958   16631.219   10701.981     2260.758      100.000        0.000         0   586 seconds   
+588   2190.812   16704.549   10679.487     2245.477      100.000        0.000         0   587 seconds   
+589   2100.822   16802.621   10652.554     2234.430      100.000        0.000         0   588 seconds   
+590   2198.875   16542.658   10660.313     2249.735      100.000        0.000         0   589 seconds   
+591   2401.854   16623.275   10652.136     2238.192      100.000        0.000         0   590 seconds   
+592   2453.415   16389.574   10671.614     2246.553      100.000        0.000         0   591 seconds   
+593   2217.589   16512.613   10671.654     2255.809      100.000        0.000         0   592 seconds   
+594   2232.401   16735.553   10667.436     2263.762      100.000        0.000         0   593 seconds   
+595   2361.962   16597.559   10680.823     2254.675      100.000        0.000         0   594 seconds   
+596   2261.710   16584.686   10669.114     2254.079      100.000        0.000         0   595 seconds   
+597   2467.736   16405.365   10678.397     2253.337      100.000        0.000         0   596 seconds   
+598   2213.593   16549.301   10697.249     2258.038      100.000        0.000         0   597 seconds   
+599   2290.811   16754.475   10706.381     2251.891      100.000        0.000         0   598 seconds   
+600   2254.917   16244.864   10689.370     2258.716      100.000        0.000         0   599 seconds   
+601   2212.020   16615.313   10697.831     2258.329      100.000        0.000         0   600 seconds   
+602   2167.577   16495.846   10711.468     2266.114      100.000        0.000         0   601 seconds   
+603   2232.402   16700.594   10715.417     2257.451      100.000        0.000         0   602 seconds   
+604   1908.930   16791.322   10715.185     2262.671      100.000        0.000         0   603 seconds   
+605   2382.624   16526.303   10704.293     2265.709      100.000        0.000         0   604 seconds   
+606   2046.135   16760.551   10714.608     2257.240      100.000        0.000         0   605 seconds   
+607   2157.480   16557.549   10694.551     2265.141      100.000        0.000         0   606 seconds   
+608   2439.675   16972.982   10710.566     2265.856      100.000        0.000         0   607 seconds   
+609   1870.811   16613.908   10716.113     2261.036      100.000        0.000         0   608 seconds   
+610   2339.202   16473.639   10705.254     2256.665      100.000        0.000         0   609 seconds   
+611   1930.326   16572.055   10708.414     2259.703      100.000        0.000         0   610 seconds   
+612   2285.734   16996.514   10706.476     2260.022      100.000        0.000         0   611 seconds   
+613   2066.719   16710.063   10688.451     2272.416      100.000        0.000         0   612 seconds   
+614   2322.109   16793.484   10697.951     2265.124      100.000        0.000         0   613 seconds   
+615   2444.917   16596.318   10709.561     2243.828      100.000        0.000         0   614 seconds   
+616   1781.710   16694.615   10706.009     2263.144      100.000        0.000         0   615 seconds   
+617   2042.414   16770.172   10693.260     2259.380      100.000        0.000         0   616 seconds   
+618   2312.619   16753.598   10704.454     2259.018      100.000        0.000         0   617 seconds   
+619   2070.108   16679.111   10702.735     2259.368      100.000        0.000         0   618 seconds   
+620   2165.075   16772.256   10709.463     2259.031      100.000        0.000         0   619 seconds   
+621   2292.068   16781.217   10715.247     2257.469      100.000        0.000         0   620 seconds   
+622   2200.983   16865.545   10715.272     2252.425      100.000        0.000         0   621 seconds   
+623   1948.873   16620.563   10709.841     2245.703      100.000        0.000         0   622 seconds   
+624   2164.125   16644.713   10701.044     2268.401      100.000        0.000         0   623 seconds   
+625   2161.914   16611.982   10713.034     2260.003      100.000        0.000         0   624 seconds   
+626   2118.490   16882.520   10743.262     2267.057      100.000        0.000         0   625 seconds   
+627   2077.207   16745.498   10719.700     2270.186      100.000        0.000         0   626 seconds   
+628   2465.788   16770.166   10738.916     2271.569      100.000        0.000         0   627 seconds   
+629   2079.021   16864.857   10754.974     2280.552      100.000        0.000         0   628 seconds   
+630   2141.154   16845.277   10742.979     2266.192      100.000        0.000         0   629 seconds   
+631   2090.975   16523.471   10742.023     2278.500      100.000        0.000         0   630 seconds   
+632   2357.772   16959.623   10741.294     2263.367      100.000        0.000         0   631 seconds   
+633   2143.102   16845.107   10732.881     2263.514      100.000        0.000         0   632 seconds   
+634   2077.273   16654.789   10720.240     2259.609      100.000        0.000         0   633 seconds   
+635   2529.084   16776.100   10729.478     2260.829      100.000        0.000         0   634 seconds   
+636   2227.145   16682.891   10713.804     2265.631      100.000        0.000         0   635 seconds   
+637   2108.605   16585.674   10703.335     2250.621      100.000        0.000         0   636 seconds   
+638   2318.631   16808.816   10699.656     2265.152      100.000        0.000         0   637 seconds   
+639   1915.562   16647.641   10686.445     2252.241      100.000        0.000         0   638 seconds   
+640   1917.168   16914.672   10691.466     2262.371      100.000        0.000         0   639 seconds   
+641   1944.807   16612.943   10698.827     2264.400      100.000        0.000         0   640 seconds   
+642   2358.013   16551.512   10685.479     2252.844      100.000        0.000         0   641 seconds   
+643   1900.948   16715.594   10704.168     2269.344      100.000        0.000         0   642 seconds   
+644   2335.609   16683.564   10704.513     2250.211      100.000        0.000         0   643 seconds   
+645   2416.664   16750.607   10704.819     2244.765      100.000        0.000         0   644 seconds   
+646   2267.659   16666.008   10694.891     2244.313      100.000        0.000         0   645 seconds   
+647   2381.638   16683.672   10686.635     2255.196      100.000        0.000         0   646 seconds   
+648   2123.810   16626.635   10695.871     2248.455      100.000        0.000         0   647 seconds   
+649   2278.613   16703.496   10706.830     2248.312      100.000        0.000         0   648 seconds   
+650   2299.467   16907.719   10685.627     2264.314      100.000        0.000         0   649 seconds   
+651   2255.704   16689.996   10689.430     2256.248      100.000        0.000         0   650 seconds   
+652   2649.998   16624.396   10713.479     2255.605      100.000        0.000         0   651 seconds   
+653   2442.826   16861.436   10709.365     2255.707      100.000        0.000         0   652 seconds   
+654   2164.123   16733.734   10721.191     2246.000      100.000        0.000         0   653 seconds   
+655   2116.280   16894.611   10737.424     2265.924      100.000        0.000         0   654 seconds   
+656   2275.859   16718.760   10734.276     2264.004      100.000        0.000         0   655 seconds   
+657   2136.663   17029.520   10727.507     2268.219      100.000        0.000         0   656 seconds   
+658   2339.968   16768.270   10723.180     2253.238      100.000        0.000         0   657 seconds   
+659   2095.592   16685.816   10716.456     2259.491      100.000        0.000         0   658 seconds   
+660   2388.625   16831.889   10724.958     2258.675      100.000        0.000         0   659 seconds   
+661   2149.362   16795.986   10713.500     2265.663      100.000        0.000         0   660 seconds   
+662   2166.422   16652.084   10731.338     2259.100      100.000        0.000         0   661 seconds   
+663   2289.406   16806.699   10726.295     2261.655      100.000        0.000         0   662 seconds   
+664   1957.559   16924.793   10761.233     2267.089      100.000        0.000         0   663 seconds   
+665   2257.594   16774.242   10769.896     2268.170      100.000        0.000         0   664 seconds   
+666   2091.653   16838.896   10743.188     2274.545      100.000        0.000         0   665 seconds   
+667   2341.373   16978.916   10726.263     2265.411      100.000        0.000         0   666 seconds   
+668   2181.296   16923.465   10706.263     2258.398      100.000        0.000         0   667 seconds   
+669   2236.346   16897.641   10698.143     2240.796      100.000        0.000         0   668 seconds   
+670   2473.875   16479.240   10682.399     2244.844      100.000        0.000         0   669 seconds   
+671   2090.013   16379.799   10676.831     2252.167      100.000        0.000         0   670 seconds   
+672   2373.446   16548.135   10666.252     2249.941      100.000        0.000         0   671 seconds   
+673   2145.196   16492.516   10655.562     2240.740      100.000        0.000         0   672 seconds   
+674   2281.693   16592.146   10656.438     2235.614      100.000        0.000         0   673 seconds   
+675   2174.097   16821.988   10670.479     2260.565      100.000        0.000         0   674 seconds   
+676   2253.674   16791.813   10671.438     2250.722      100.000        0.000         0   675 seconds   
+677   2030.358   16534.621   10679.035     2250.807      100.000        0.000         0   676 seconds   
+678   2341.159   16893.578   10698.496     2268.932      100.000        0.000         0   677 seconds   
+679   2318.951   16629.596   10704.254     2253.686      100.000        0.000         0   678 seconds   
+680   2337.630   16754.555   10703.235     2251.712      100.000        0.000         0   679 seconds   
+681   2284.000   16595.395   10693.475     2251.819      100.000        0.000         0   680 seconds   
+682   2510.221   16568.451   10720.566     2257.907      100.000        0.000         0   681 seconds   
+683   2344.736   17123.180   10716.056     2265.800      100.000        0.000         0   682 seconds   
+684   2158.570   16811.027   10703.610     2255.274      100.000        0.000         0   683 seconds   
+685   2464.585   16699.348   10719.148     2261.211      100.000        0.000         0   684 seconds   
+686   2378.555   16616.162   10716.924     2259.669      100.000        0.000         0   685 seconds   
+687   2027.565   16598.857   10721.921     2275.645      100.000        0.000         0   686 seconds   
+688   2183.242   16534.406   10718.575     2255.900      100.000        0.000         0   687 seconds   
+689   2458.455   16982.342   10721.349     2258.151      100.000        0.000         0   688 seconds   
+690   2421.287   16716.809   10721.639     2265.548      100.000        0.000         0   689 seconds   
+691   2178.343   16532.189   10726.047     2269.723      100.000        0.000         0   690 seconds   
+692   2222.475   16562.791   10725.021     2263.679      100.000        0.000         0   691 seconds   
+693   2223.313   16413.465   10714.628     2258.793      100.000        0.000         0   692 seconds   
+694   2336.903   16725.496   10717.929     2268.037      100.000        0.000         0   693 seconds   
+695   1874.412   16761.508   10744.815     2275.522      100.000        0.000         0   694 seconds   
+696   2525.877   16539.002   10733.506     2252.637      100.000        0.000         0   695 seconds   
+697   2468.946   16982.074   10733.972     2253.457      100.000        0.000         0   696 seconds   
+698   2194.265   16474.484   10729.839     2266.792      100.000        0.000         0   697 seconds   
+699   2476.139   16657.543   10752.521     2270.689      100.000        0.000         0   698 seconds   
+700   2336.430   16592.174   10734.193     2278.839      100.000        0.000         0   699 seconds   
+701   2392.161   16756.748   10739.130     2265.106      100.000        0.000         0   700 seconds   
+702   2357.039   16523.418   10720.055     2275.807      100.000        0.000         0   701 seconds   
+703   1991.008   16620.260   10714.973     2248.372      100.000        0.000         0   702 seconds   
+704   2322.337   16835.244   10703.903     2270.802      100.000        0.000         0   703 seconds   
+705   2001.492   16772.055   10692.313     2256.131      100.000        0.000         0   704 seconds   
+706   2012.925   16764.393   10695.077     2259.088      100.000        0.000         0   705 seconds   
+707   2107.737   17016.592   10701.735     2245.990      100.000        0.000         0   706 seconds   
+708   2196.926   16654.725   10687.070     2245.931      100.000        0.000         0   707 seconds   
+709   2140.847   16721.049   10698.453     2252.346      100.000        0.000         0   708 seconds   
+710   2493.453   16814.699   10709.622     2260.695      100.000        0.000         0   709 seconds   
+711   1898.643   16483.143   10704.116     2267.962      100.000        0.000         0   710 seconds   
+712   2350.999   16786.352   10699.316     2247.371      100.000        0.000         0   711 seconds   
+713   2079.949   16876.578   10700.200     2248.633      100.000        0.000         0   712 seconds   
+714   2351.888   16506.217   10696.584     2259.043      100.000        0.000         0   713 seconds   
+715   1902.590   16757.977   10683.334     2260.880      100.000        0.000         0   714 seconds   
+716   2083.451   16732.393   10698.511     2259.008      100.000        0.000         0   715 seconds   
+717   2257.179   17106.395   10701.442     2263.326      100.000        0.000         0   716 seconds   
+718   1807.420   16471.369   10699.041     2259.303      100.000        0.000         0   717 seconds   
+719   1969.839   16855.084   10709.214     2269.326      100.000        0.000         0   718 seconds   
+720   2377.038   16791.648   10696.408     2260.895      100.000        0.000         0   719 seconds   
+721   1959.389   16812.342   10687.505     2263.422      100.000        0.000         0   720 seconds   
+722   2344.193   16801.459   10675.439     2254.235      100.000        0.000         0   721 seconds   
+723   2264.835   16755.201   10680.607     2248.473      100.000        0.000         0   722 seconds   
+724   1867.338   17053.395   10677.295     2252.710      100.000        0.000         0   723 seconds   
+725   2203.136   16930.301   10684.361     2259.626      100.000        0.000         0   724 seconds   
+726   2417.093   16466.645   10714.415     2259.971      100.000        0.000         0   725 seconds   
+727   1922.435   16727.723   10707.299     2259.301      100.000        0.000         0   726 seconds   
+728   2052.832   16573.814   10722.496     2248.035      100.000        0.000         0   727 seconds   
+729   2236.871   16561.307   10723.686     2266.162      100.000        0.000         0   728 seconds   
+730   1733.266   16459.920   10710.035     2248.415      100.000        0.000         0   729 seconds   
+731   2501.341   16751.107   10722.912     2252.409      100.000        0.000         0   730 seconds   
+732   2009.925   16971.189   10745.208     2271.515      100.000        0.000         0   731 seconds   
+733   2541.475   16892.104   10755.897     2265.537      100.000        0.000         0   732 seconds   
+734   2057.573   17032.219   10750.625     2262.505      100.000        0.000         0   733 seconds   
+735   2417.007   17118.586   10757.290     2263.217      100.000        0.000         0   734 seconds   
+736   1984.083   16921.799   10734.159     2263.362      100.000        0.000         0   735 seconds   
+737   2077.343   16860.439   10717.050     2259.887      100.000        0.000         0   736 seconds   
+738   2179.242   16634.867   10702.330     2254.657      100.000        0.000         0   737 seconds   
+739   2298.440   16530.527   10681.301     2250.661      100.000        0.000         0   738 seconds   
+740   2468.701   16896.453   10664.081     2243.326      100.000        0.000         0   739 seconds   
+741   2172.252   16671.965   10649.790     2252.120      100.000        0.000         0   740 seconds   
+742   2399.866   16980.443   10648.231     2256.418      100.000        0.000         0   741 seconds   
+743   1988.919   16795.025   10676.165     2247.634      100.000        0.000         0   742 seconds   
+744   1785.159   16995.770   10675.199     2259.997      100.000        0.000         0   743 seconds   
+745   2473.596   17063.316   10695.415     2260.179      100.000        0.000         0   744 seconds   
+746   2082.214   16855.443   10701.757     2268.721      100.000        0.000         0   745 seconds   
+747   2121.132   16862.902   10693.489     2256.762      100.000        0.000         0   746 seconds   
+748   2080.541   16703.688   10707.658     2254.091      100.000        0.000         0   747 seconds   
+749   2234.891   16944.031   10722.566     2278.118      100.000        0.000         0   748 seconds   
+750   2043.458   16588.381   10695.473     2256.268      100.000        0.000         0   749 seconds   
+751   2225.327   16691.100   10694.864     2260.371      100.000        0.000         0   750 seconds   
+752   2469.458   16697.939   10705.769     2256.820      100.000        0.000         0   751 seconds   
+753   2040.669   16572.883   10693.871     2265.201      100.000        0.000         0   752 seconds   
+754   2051.378   16500.742   10705.980     2272.171      100.000        0.000         0   753 seconds   
+755   2508.881   16494.604   10717.100     2265.200      100.000        0.000         0   754 seconds   
+756   2186.398   16505.109   10713.423     2249.243      100.000        0.000         0   755 seconds   
+757   2323.568   16908.377   10696.645     2246.684      100.000        0.000         0   756 seconds   
+758   1732.091   16657.578   10695.859     2250.845      100.000        0.000         0   757 seconds   
+759   2212.208   17009.436   10681.983     2263.001      100.000        0.000         0   758 seconds   
+760   2331.655   16658.604   10698.393     2244.239      100.000        0.000         0   759 seconds   
+761   2054.883   16796.145   10695.533     2257.073      100.000        0.000         0   760 seconds   
+762   2216.448   16641.709   10699.653     2254.005      100.000        0.000         0   761 seconds   
+763   2145.193   16689.664   10689.085     2249.697      100.000        0.000         0   762 seconds   
+764   2051.222   16898.914   10675.729     2248.932      100.000        0.000         0   763 seconds   
+765   1862.708   16584.537   10689.855     2247.199      100.000        0.000         0   764 seconds   
+766   2032.388   16738.721   10685.493     2253.501      100.000        0.000         0   765 seconds   
+767   2164.346   16718.658   10686.875     2250.623      100.000        0.000         0   766 seconds   
+768   1813.594   17161.494   10686.227     2252.238      100.000        0.000         0   767 seconds   
+769   2189.426   16596.689   10679.843     2259.145      100.000        0.000         0   768 seconds   
+770   2359.758   16895.924   10695.276     2250.199      100.000        0.000         0   769 seconds   
+771   2249.057   16538.910   10700.087     2258.225      100.000        0.000         0   770 seconds   
+772   1931.918   16908.385   10716.008     2260.263      100.000        0.000         0   771 seconds   
+773   1968.231   16802.188   10700.923     2266.457      100.000        0.000         0   772 seconds   
+774   2394.115   16799.779   10714.822     2257.304      100.000        0.000         0   773 seconds   
+775   2330.600   16863.279   10722.617     2262.597      100.000        0.000         0   774 seconds   
+776   2322.029   16804.508   10729.851     2268.536      100.000        0.000         0   775 seconds   
+777   2349.234   17146.453   10724.688     2260.834      100.000        0.000         0   776 seconds   
+778   1975.543   16683.773   10724.180     2270.441      100.000        0.000         0   777 seconds   
+779   2402.720   16817.643   10714.815     2268.472      100.000        0.000         0   778 seconds   
+780   2012.529   16739.184   10710.480     2257.840      100.000        0.000         0   779 seconds   
+781   2126.869   16741.996   10721.067     2260.790      100.000        0.000         0   780 seconds   
+782   1826.292   16486.275   10710.444     2267.594      100.000        0.000         0   781 seconds   
+783   2092.898   17031.859   10707.771     2260.902      100.000        0.000         0   782 seconds   
+784   1946.447   16661.203   10712.649     2273.591      100.000        0.000         0   783 seconds   
+785   2287.519   16666.600   10706.965     2255.566      100.000        0.000         0   784 seconds   
+786   2392.649   16647.652   10714.007     2257.788      100.000        0.000         0   785 seconds   
+787   2114.478   16672.250   10710.086     2259.971      100.000        0.000         0   786 seconds   
+788   2196.900   16576.684   10731.135     2266.847      100.000        0.000         0   787 seconds   
+789   2016.914   16944.713   10739.518     2265.285      100.000        0.000         0   788 seconds   
+790   1731.164   16790.715   10728.664     2269.265      100.000        0.000         0   789 seconds   
+791   1925.506   17031.316   10726.825     2259.343      100.000        0.000         0   790 seconds   
+792   2469.669   16793.824   10705.355     2246.631      100.000        0.000         0   791 seconds   
+793   2152.510   16756.123   10682.220     2260.544      100.000        0.000         0   792 seconds   
+794   2284.830   16725.055   10676.028     2247.763      100.000        0.000         0   793 seconds   
+795   2181.980   16382.756   10674.620     2258.444      100.000        0.000         0   794 seconds   
+796   2033.871   16805.994   10687.460     2256.817      100.000        0.000         0   795 seconds   
+797   1848.387   16596.273   10686.634     2261.571      100.000        0.000         0   796 seconds   
+798   2101.414   16740.268   10682.523     2265.386      100.000        0.000         0   797 seconds   
+799   1802.820   16911.732   10689.658     2255.025      100.000        0.000         0   798 seconds   
+800   2299.303   16737.141   10697.954     2254.131      100.000        0.000         0   799 seconds   
+801   2274.182   16766.504   10703.334     2252.036      100.000        0.000         0   800 seconds   
+802   2439.081   16501.750   10704.291     2253.920      100.000        0.000         0   801 seconds   
+803   2154.107   17038.076   10700.182     2266.240      100.000        0.000         0   802 seconds   
+804   2277.107   16676.234   10708.961     2267.883      100.000        0.000         0   803 seconds   
+805   2403.824   16875.463   10722.084     2248.319      100.000        0.000         0   804 seconds   
+806   1724.227   17092.381   10726.577     2276.933      100.000        0.000         0   805 seconds   
+807   1941.529   16897.277   10717.498     2267.002      100.000        0.000         0   806 seconds   
+808   2268.681   16721.057   10710.356     2258.417      100.000        0.000         0   807 seconds   
+809   2182.409   16671.059   10668.565     2249.418      100.000        0.000         0   808 seconds   
+810   1907.576   16742.234   10727.145     2262.133      100.000        0.000         0   809 seconds   
+811   2325.666   17047.393   10711.131     2254.938      100.000        0.000         0   810 seconds   
+812   1641.539   16924.684   10717.587     2254.732      100.000        0.000         0   811 seconds   
+813   2642.111   16906.100   10718.524     2258.893      100.000        0.000         0   812 seconds   
+814   2145.110   16951.736   10702.836     2259.103      100.000        0.000         0   813 seconds   
+815   1801.536   16772.021   10676.465     2265.903      100.000        0.000         0   814 seconds   
+816   2190.583   16774.293   10676.967     2254.421      100.000        0.000         0   815 seconds   
+817   2154.977   17016.434   10666.451     2246.437      100.000        0.000         0   816 seconds   
+818   1868.659   16483.389   10645.433     2256.530      100.000        0.000         0   817 seconds   
+819   2240.474   16707.480   10649.968     2238.337      100.000        0.000         0   818 seconds   
+820   1799.000   16663.691   10651.612     2234.405      100.000        0.000         0   819 seconds   
+821   2037.652   16577.771   10641.756     2248.824      100.000        0.000         0   820 seconds   
+822   2097.088   16711.137   10662.051     2237.250      100.000        0.000         0   821 seconds   
+823   2118.431   16794.023   10682.624     2256.760      100.000        0.000         0   822 seconds   
+824   1637.598   16489.799   10667.581     2256.503      100.000        0.000         0   823 seconds   
+825   2234.342   16742.113   10684.003     2256.333      100.000        0.000         0   824 seconds   
+826   1913.255   16534.363   10691.275     2252.331      100.000        0.000         0   825 seconds   
+827   2278.465   16549.924   10709.323     2263.148      100.000        0.000         0   826 seconds   
+828   2188.450   16615.275   10695.373     2268.832      100.000        0.000         0   827 seconds   
+829   2084.640   16492.912   10700.898     2261.438      100.000        0.000         0   828 seconds   
+830   2381.093   16878.881   10724.756     2263.337      100.000        0.000         0   829 seconds   
+831   2406.592   16931.072   10728.992     2260.412      100.000        0.000         0   830 seconds   
+832   2432.804   16661.789   10724.464     2272.696      100.000        0.000         0   831 seconds   
+833   2020.104   16689.383   10737.227     2261.004      100.000        0.000         0   832 seconds   
+834   2374.306   16569.023   10722.029     2252.341      100.000        0.000         0   833 seconds   
+835   2454.600   16757.381   10716.631     2255.758      100.000        0.000         0   834 seconds   
+836   2083.468   16617.053   10705.778     2263.984      100.000        0.000         0   835 seconds   
+837   1946.594   16846.246   10703.687     2266.718      100.000        0.000         0   836 seconds   
+838   2393.900   16543.102   10720.695     2253.772      100.000        0.000         0   837 seconds   
+839   1979.684   16722.023   10727.436     2264.828      100.000        0.000         0   838 seconds   
+840   2531.669   16551.770   10717.470     2251.593      100.000        0.000         0   839 seconds   
+841   2521.961   16735.906   10712.880     2260.946      100.000        0.000         0   840 seconds   
+842   2474.053   16711.801   10728.144     2259.743      100.000        0.000         0   841 seconds   
+843   2404.646   16660.807   10720.321     2247.837      100.000        0.000         0   842 seconds   
+844   2102.111   16512.512   10694.857     2252.242      100.000        0.000         0   843 seconds   
+845   2384.872   16953.672   10729.316     2254.340      100.000        0.000         0   844 seconds   
+846   2477.018   16368.120   10696.781     2252.347      100.000        0.000         0   845 seconds   
+847   1658.820   16852.576   10682.191     2250.943      100.000        0.000         0   846 seconds   
+848   1524.389   16803.570   10683.179     2250.731      100.000        0.000         0   847 seconds   
+849   2354.956   16729.521   10692.860     2254.948      100.000        0.000         0   848 seconds   
+850   2379.721   16620.350   10672.399     2253.352      100.000        0.000         0   849 seconds   
+851   2182.014   16820.666   10679.471     2258.668      100.000        0.000         0   850 seconds   
+852   1967.668   16727.605   10684.442     2251.770      100.000        0.000         0   851 seconds   
+853   2001.568   16512.486   10675.913     2251.222      100.000        0.000         0   852 seconds   
+854   1607.735   16859.051   10678.082     2264.046      100.000        0.000         0   853 seconds   
+855   2511.679   16862.963   10680.402     2259.745      100.000        0.000         0   854 seconds   
+856   2059.494   16664.021   10707.004     2256.390      100.000        0.000         0   855 seconds   
+857   1856.694   16587.775   10704.024     2264.578      100.000        0.000         0   856 seconds   
+858   2008.941   16850.369   10716.923     2264.201      100.000        0.000         0   857 seconds   
+859   2299.124   16843.314   10734.322     2263.296      100.000        0.000         0   858 seconds   
+860   2834.787   16281.473   10701.420     2259.760      100.000        0.000         0   859 seconds   
+861   2815.734   16243.004   10710.309     2250.534      100.000        0.000         0   860 seconds   
+862   2623.492   16532.439   10715.820     2249.137      100.000        0.000         0   861 seconds   
+863   1671.667   16402.184   10706.696     2253.969      100.000        0.000         0   862 seconds   
+864   1980.456   16345.622   10669.884     2261.088      100.000        0.000         0   863 seconds   
+865   1667.798   16588.738   10674.262     2266.908      100.000        0.000         0   864 seconds   
+866   1832.918   16705.438   10679.854     2253.401      100.000        0.000         0   865 seconds   
+867   2246.480   16621.629   10672.677     2250.166      100.000        0.000         0   866 seconds   
+868   2053.985   17112.686   10687.094     2255.072      100.000        0.000         0   867 seconds   
+869   2070.248   16930.871   10758.777     2276.351      100.000        0.000         0   868 seconds   
+870   2205.673   17005.422   10771.220     2273.422      100.000        0.000         0   869 seconds   
+871   2036.943   16934.939   10763.521     2267.358      100.000        0.000         0   870 seconds   
+872   1878.743   16937.988   10772.785     2260.789      100.000        0.000         0   871 seconds   
+873   2300.052   16895.023   10745.146     2259.328      100.000        0.000         0   872 seconds   
+874   2266.557   16686.037   10735.128     2264.522      100.000        0.000         0   873 seconds   
+875   1745.826   16708.064   10726.438     2278.812      100.000        0.000         0   874 seconds   
+876   2750.093   16867.422   10692.852     2243.240      100.000        0.000         0   875 seconds   
+877   1842.371   16404.988   10674.080     2262.554      100.000        0.000         0   876 seconds   
+878   2169.026   16828.287   10687.002     2250.157      100.000        0.000         0   877 seconds   
+879   1540.315   16728.148   10671.537     2265.344      100.000        0.000         0   878 seconds   
+880   2218.258   16761.646   10683.880     2252.522      100.000        0.000         0   879 seconds   
+881   1978.223   16768.129   10684.636     2260.252      100.000        0.000         0   880 seconds   
+882   1710.352   16680.135   10687.803     2263.920      100.000        0.000         0   881 seconds   
+883   1843.622   17015.293   10691.928     2252.622      100.000        0.000         0   882 seconds   
+884   2418.396   16892.271   10705.998     2261.839      100.000        0.000         0   883 seconds   
+885   2229.770   16849.305   10701.772     2268.204      100.000        0.000         0   884 seconds   
+886   2711.806   17202.135   10700.539     2250.324      100.000        0.000         0   885 seconds   
+887   1630.220   16840.705   10713.797     2261.484      100.000        0.000         0   886 seconds   
+888   2100.701   16870.953   10731.503     2257.887      100.000        0.000         0   887 seconds   
+889   1760.504   16508.322   10679.384     2249.681      100.000        0.000         0   888 seconds   
+890   2307.215   16770.188   10707.300     2263.396      100.000        0.000         0   889 seconds   
+891   1999.356   16633.723   10711.428     2267.945      100.000        0.000         0   890 seconds   
+892   1615.564   16923.615   10704.192     2254.832      100.000        0.000         0   891 seconds   
+893   2299.532   16687.904   10718.014     2263.941      100.000        0.000         0   892 seconds   
+894   2361.618   16809.926   10744.048     2262.939      100.000        0.000         0   893 seconds   
+895   2439.773   16710.447   10729.991     2260.511      100.000        0.000         0   894 seconds   
+896   2020.926   16639.451   10730.078     2261.518      100.000        0.000         0   895 seconds   
+897   2143.077   16660.164   10732.112     2266.703      100.000        0.000         0   896 seconds   
+898   2545.736   16604.379   10698.913     2246.437      100.000        0.000         0   897 seconds   
+899   2402.158   16644.623   10710.518     2254.907      100.000        0.000         0   898 seconds   
+900   1702.458   16838.844   10690.013     2257.101      100.000        0.000         0   899 seconds   
+
+
