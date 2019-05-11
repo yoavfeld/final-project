@@ -1,4 +1,4 @@
-% resting state data script
+% resting state data fc script
 
 path_wb_command = '/Applications/workbench/bin_macosx64/wb_command';
 data_path = [pwd '/../parcellate/rest_parcellated'];
@@ -15,11 +15,9 @@ sub_vec = {sub_names(3:(end),1).name};
 n = length(sub_vec);
 %n =2; %debug
 
-index_to_sub_id_map = zeros(n,1);
-
 stratTime = tic;
 
-% Load subjecta files
+% Load subjects files
 sub_files = {'gifti'};
 for i=1:n
     % Load subject file
@@ -27,6 +25,7 @@ for i=1:n
     sub_files{i} = ciftiopen(string(sub_file_path),path_wb_command);
 end
 
+% create cov matrix for each network
 for net_idx=1:numOfNetworks
     if exist('specific_net_idx','var') == 1
         net_idx = specific_net_idx;
