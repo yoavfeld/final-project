@@ -4,6 +4,7 @@ path_wb_command = '/Applications/workbench/bin_macosx64/wb_command';
 data_path = [pwd '/../parcellate/movie_parcellated/sub'];
 path_avg_mat = [pwd '/../parcellate/movie_parcellated/avg'];
 path_inner = '';
+numOfNetworks = 12;
 
 specific_net_idx = -1 ; % 9 is dmn. put -1 for all brain. if
 %specific_net_idx is not defined, the script create 12 cov files for all
