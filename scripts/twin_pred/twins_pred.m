@@ -6,13 +6,16 @@
 %load(corr_file);
 %load(labels_file);
 
-corr_mtx_path = [pwd, '/isfc_rest_cov/'];
+corr_mtx_path = [pwd, '/../fc_network_cov/7T_rest2_splited/'];
+%corr_mtx_path = [pwd, '/../172_trues/rest_splited/'];
 labels_file = '7t_labels.mat'; 
 th = 0; % threshold of corr values
 count = 1; % how many highest correlations to take from each subject
 from = 1; % from which highest correlation to start
 
-twins_indexes_pred = get_twins_indexes(corr_mtx_path, 182, th, count, from);
+
+load(labels_file)
+twins_indexes_pred = get_twins_indexes(corr_mtx_path, 181, th, count, from);
 n = size(twins_indexes_pred,1);
 
 trues = 0;
