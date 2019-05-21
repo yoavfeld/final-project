@@ -1,19 +1,20 @@
 % resting state data fc script
 
+clear
 path_wb_command = '/Applications/workbench/bin_macosx64/wb_command';
-data_path = [pwd '/../parcellate/7T/rest2'];
-output_dir = '7T_rest2_splited';
-out_files_prefix = 'fc_7T_rest2_cov_net_';
+data_path = [pwd '/../parcellate/data/3T_rest1_LR'];
+output_dir = 'output/3T_rest1_LR_splited_4';
+out_files_prefix = 'fc_3T_rest1_LR_cov_net_';
 path_inner = '';
-numOfNetworks = 12;
-split = 16;
+numOfNetworks = 13;
+split = 4;
 
 %specific_net_idx = 9 ; % 9 is dmn. put -1 for all brain. if
 %specific_net_idx is not defined, the script create 12 cov files for all
 %networks
 
-sub_names=dir(data_path);
-sub_vec = {sub_names(3:(end),1).name};
+sub_names=dir(strcat(data_path, "/*.nii"));
+sub_vec = {sub_names.name};
 n = length(sub_vec);
 %n =2; %debug
 
@@ -40,15 +41,22 @@ for net_idx=1:numOfNetworks
     end
      
     % calc the maximum split size for the current network that each chunk
-    % length will be >= 2
+    % length will be >= 4
     networkSplit = split;
-    while length(net_parcel_indexes) < 2*networkSplit
+    while length(net_parcel_indexes) < 4*networkSplit
         networkSplit = networkSplit-1;
     end
-    
     sub_nets = splitArray(net_parcel_indexes, networkSplit);
     
     for sn_idx=1:length(sub_nets)
+        
+        %=== DEBUG
+%         yoav = strcat(out_files_prefix ,string(net_idx), '_', string(sn_idx) ,'.mat');
+%         if yoav == "fc_7T_rest1_cov_net_11_2.mat"
+%             bla = 1;
+%         end
+        %===
+        
         sub_net = cell2mat(sub_nets(sn_idx));
         global_matrix = zeros(length(sub_net)^2, n);
 
@@ -70,11 +78,13 @@ for net_idx=1:numOfNetworks
             global_matrix(:,i) = network_corr_flat;
         end
 
-        %dlmwrite('indexToSubId.txt', index_to_sub_id_map, 'precision', 10)
         cov = corrcoef(global_matrix);
-        cov_file_name = strcat(output_dir, '/' ,out_files_prefix ,string(net_idx), '_', string(sn_idx) ,'.mat');
-        save(cov_file_name, 'cov');
-
+        if length(find(cov==1)) ~= length(cov)
+            fprintf("skip bad cov matrix. num of ones: %d", length(find(cov==1)));
+        else
+            cov_file_name = strcat(output_dir, '/' ,out_files_prefix ,string(net_idx), '_', string(sn_idx) ,'.mat');
+            save(cov_file_name, 'cov');
+        end
         if exist('specific_net_idx','var') == 1
             break
         end

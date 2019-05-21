@@ -27,7 +27,7 @@ function [twins] = get_twins_indexes_count(cov, th, count, from)
             %end                       
             
             % check th
-            if m > th
+            if m > th && s ~= i
                 twins = [twins;[s i]];
                 ignore = [ignore; [s i]];
             end

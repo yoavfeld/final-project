@@ -1,10 +1,12 @@
 % resting state data fc script
 
+clear
 path_wb_command = '/Applications/workbench/bin_macosx64/wb_command';
-data_path = [pwd '/../parcellate/rest_parcellated'];
-output_dir = 'output';
+data_path = [pwd '/../parcellate/data/7T_rest1'];
+output_dir = 'output/7T_rest1';
+cov_file_prefix = 'fc_rest_net_';
 path_inner = '';
-numOfNetworks = 12;
+numOfNetworks = 13;
 
 %specific_net_idx = -1 ; % 9 is dmn. put -1 for all brain. if
 %specific_net_idx is not defined, the script create 12 cov files for all
@@ -31,7 +33,13 @@ for net_idx=1:numOfNetworks
         net_idx = specific_net_idx;
     end
     
-    net_parcel_indexes = get_net_parcells(net_idx);
+    if net_idx < 13 
+        net_parcel_indexes = get_net_parcells(net_idx);
+    else
+        net_parcel_indexes = get_net_parcells(-1); % network 13 = all brain
+    end
+    
+    %net_parcel_indexes = get_net_parcells(net_idx);
     global_matrix = zeros(length(net_parcel_indexes)^2, n);
     
     for i=1:n
@@ -54,7 +62,7 @@ for net_idx=1:numOfNetworks
     
     %dlmwrite('indexToSubId.txt', index_to_sub_id_map, 'precision', 10)
     cov = corrcoef(global_matrix);
-    cov_file_name = strcat(output_dir, '/' ,'fc_rest_net_' ,string(net_idx) ,'_cov.mat');
+    cov_file_name = strcat(output_dir, '/' ,cov_file_prefix ,string(net_idx) ,'_cov.mat');
     save(cov_file_name, 'cov');
     
     if exist('specific_net_idx','var') == 1

@@ -1,14 +1,14 @@
 
 % covMtxFiles=dir('/home/michael/localrepo/final-project/final-project/scripts/twin_pred/cov_mtx/*.mat');
-covMtxFiles=dir('/Users/yoav.feldman/fmri/final-project/scripts/twin_pred/fc_rest_cov/*.mat');
-trues_total = zeros(1,length(covMtxFiles));
+trues_total = zeros(1,13);
+cov_files_path = '/Users/yoav.feldman/fmri/final-project/scripts/fc_network_cov/output/7T_rest1/'
+cov_file_prefix = 'fc_rest_net_';
 
 cnt_vec = [1 5 10];
 for cnt_num=1:length(cnt_vec) 
-    for k=1:length(covMtxFiles)
-        covMtxFileNames=covMtxFiles(k).name
-        corr_file = strcat('fc_rest_cov/', covMtxFileNames);
-        
+    for k=13:13
+        corr_file = strcat(cov_files_path, cov_file_prefix, string(k), '_cov.mat');
+
         labels_file = '7t_labels.mat';
         th      = 0 ; % threshold of corr values
         count   = cnt_vec(cnt_num) ;% how many highest correlations to take from each subject
