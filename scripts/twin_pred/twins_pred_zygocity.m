@@ -1,4 +1,4 @@
-function [trues,falses,err_rate] = twins_pred(varargin)
+function [trues,falses,err_rate] = twins_pred_zygocity(varargin)
     
     if length(varargin) > 1
         cov_files = varargin{1};
@@ -10,31 +10,38 @@ function [trues,falses,err_rate] = twins_pred(varargin)
         cov_files = dir([corr_mtx_path, '*.mat']);
     end
     
+    zygocity = 'MZ'; % MZ or NotMZ
+    th = 0; % threshold of corr values
+    count = 1; % how many highest correlations to take from each subject
+    from = 1; % from which highest correlation to start
+
     labels_file = '/Users/yoav.feldman/fmri/final-project/behavior_tests/RESTRICTED_yoavf_4_18_2019_10_37_3.csv';
     sub_names_file = strcat(corr_mtx_path, 'fileNames.txt');
     labels = Labels(labels_file, sub_names_file);
-    
-    th = 0; % threshold of corr values
-    count = 1; % how many highest correlations to take from each subject
-    from = 1; % from which highest correlation to star
     
     %DEBUG: random lables
     %famils = labels(:,3);
     %labels(:,3) = famils(randperm(length(famils)));
     
     %fprintf("num of cov files: %d", length(cov_files));
-    twins_indexes_pred = get_twins_indexes(corr_mtx_path, cov_files, th, count, from);
+    twins_indexes_pred = get_twins_indexes(corr_mtx_path, cov_files, 182, th, count, from);
     n = size(twins_indexes_pred,1);
 
     trues = 0;
     falses = 0;
+
     for t=1:n
         twins_p = twins_indexes_pred(t, :);
         bro1_p = twins_p(1);
         bro2_p = twins_p(2);
         
-        % check if one of them is not twin
-        if labels.zygosity(bro1_p) == 'NotTwin' || labels.zygosity(bro2_p) == 'NotTwin'
+        % check if current subj is the right zygocity
+        if labels.zygosity(bro1_p) ~= zygocity
+            continue
+        end
+
+        % check if predicted subj is the right zygocity
+        if labels.zygosity(bro2_p) ~= zygocity
             falses = falses+1;
             continue
         end

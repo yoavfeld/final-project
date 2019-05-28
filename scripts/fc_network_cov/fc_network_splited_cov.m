@@ -2,9 +2,9 @@
 
 clear
 path_wb_command = '/Applications/workbench/bin_macosx64/wb_command';
-data_path = [pwd '/../parcellate/data/3T_rest1_LR'];
-output_dir = 'output/3T_rest1_LR_splited_4';
-out_files_prefix = 'fc_3T_rest1_LR_cov_net_';
+data_path = [pwd '/../parcellate/data/7T_rest2_181'];
+output_dir = 'output_corr/7T_rest2_181_splited_4';
+out_files_prefix = 'fc_7T_rest2_cov_net_';
 path_inner = '';
 numOfNetworks = 13;
 split = 4;
@@ -21,12 +21,16 @@ n = length(sub_vec);
 stratTime = tic;
 
 % Load subjects files
+sub_names_file = fopen([output_dir '/fileNames.txt'],'w');
 sub_files = {'gifti'};
 for i=1:n
     % Load subject file
     sub_file_path = fullfile(data_path,sub_vec(i), path_inner);
     sub_files{i} = ciftiopen(string(sub_file_path),path_wb_command);
+    sub_name = cell2mat(extractBefore(sub_vec(i),7));
+    fprintf(sub_names_file,'%s\n', sub_name);
 end
+fclose(sub_names_file);
 
 % create cov matrix for each network
 for net_idx=1:numOfNetworks
@@ -50,13 +54,6 @@ for net_idx=1:numOfNetworks
     
     for sn_idx=1:length(sub_nets)
         
-        %=== DEBUG
-%         yoav = strcat(out_files_prefix ,string(net_idx), '_', string(sn_idx) ,'.mat');
-%         if yoav == "fc_7T_rest1_cov_net_11_2.mat"
-%             bla = 1;
-%         end
-        %===
-        
         sub_net = cell2mat(sub_nets(sn_idx));
         global_matrix = zeros(length(sub_net)^2, n);
 
@@ -79,10 +76,11 @@ for net_idx=1:numOfNetworks
         end
 
         cov = corrcoef(global_matrix);
+        %cov = ipdm(global_matrix');
         if length(find(cov==1)) ~= length(cov)
-            fprintf("skip bad cov matrix. num of ones: %d", length(find(cov==1)));
+            fprintf("skip bad cov matrix. num of ones: %d \n", length(find(cov==1)));
         else
-            cov_file_name = strcat(output_dir, '/' ,out_files_prefix ,string(net_idx), '_', string(sn_idx) ,'.mat');
+            cov_file_name = strcat(output_dir, '/' ,out_files_prefix ,string(net_idx), '_rest_', string(sn_idx) ,'.mat');
             save(cov_file_name, 'cov');
         end
         if exist('specific_net_idx','var') == 1

@@ -3,7 +3,7 @@
 clear
 path_wb_command = '/Applications/workbench/bin_macosx64/wb_command';
 data_path = [pwd '/../parcellate/data/7T_rest1'];
-output_dir = 'output/7T_rest1';
+output_dir = 'output_dist/7T_rest1';
 cov_file_prefix = 'fc_rest_net_';
 path_inner = '';
 numOfNetworks = 13;
@@ -12,20 +12,24 @@ numOfNetworks = 13;
 %specific_net_idx is not defined, the script create 12 cov files for all
 %networks
 
-sub_names=dir(data_path);
-sub_vec = {sub_names(3:(end),1).name};
+sub_names=dir(strcat(data_path, "/*.nii"));
+sub_vec = {sub_names.name};
 n = length(sub_vec);
 %n =2; %debug
 
 stratTime = tic;
 
 % Load subjects files
+sub_names_file = fopen([output_dir '/fileNames.txt'],'w');
 sub_files = {'gifti'};
 for i=1:n
     % Load subject file
     sub_file_path = fullfile(data_path,sub_vec(i), path_inner);
     sub_files{i} = ciftiopen(string(sub_file_path),path_wb_command);
+    sub_name = cell2mat(extractBefore(sub_vec(i),7));
+    fprintf(sub_names_file,'%s\n', sub_name);
 end
+fclose(sub_names_file);
 
 % create cov matrix for each network
 for net_idx=1:numOfNetworks
@@ -62,6 +66,7 @@ for net_idx=1:numOfNetworks
     
     %dlmwrite('indexToSubId.txt', index_to_sub_id_map, 'precision', 10)
     cov = corrcoef(global_matrix);
+    %cov = ipdm(global_matrix');
     cov_file_name = strcat(output_dir, '/' ,cov_file_prefix ,string(net_idx) ,'_cov.mat');
     save(cov_file_name, 'cov');
     

@@ -1,4 +1,4 @@
-function [twins] = get_twins_indexes(cov_files_path, cov_files, numOfSubjects ,th, count, from)
+function [twins] = get_twins_indexes(cov_files_path, cov_files ,th, count, from)
     twins = [];
     cov_matrices = {'gifti'};
     for i=1:length(cov_files)
@@ -8,14 +8,14 @@ function [twins] = get_twins_indexes(cov_files_path, cov_files, numOfSubjects ,t
         cov_matrices{i} = cov;
     end
     cov = [];
-    same_person_failure = 0;
-    
+    same_person_failures = 0;
+    numOfSubjects = length(cov_matrices{1})
     for s=1:numOfSubjects
         pred_vector = zeros(numOfSubjects, 1);
         for f=1:length(cov_matrices)
             cov = cov_matrices{f};
             
-            [sorted,originalpos] = sort((cov(s,:)), 'descend' ); % ask e about abs
+            [sorted,originalpos] = sort((cov(s,:)), 'descend' );
             maxes_v = sorted(from+1:from+count); %get the max corrs after 1
             maxes_i =originalpos(from+1:from+count); %get their original indexes
         
@@ -24,7 +24,7 @@ function [twins] = get_twins_indexes(cov_files_path, cov_files, numOfSubjects ,t
                 i = maxes_i(j);
                 
                 if i == s
-                    same_person_failure = same_person_failure + 1;   
+                    same_person_failures = same_person_failure + 1;   
                 end
                 
                 if m > th && i ~= s
@@ -41,5 +41,5 @@ function [twins] = get_twins_indexes(cov_files_path, cov_files, numOfSubjects ,t
             twins = [twins;[s best_i]];
         end
     end
-    same_person_failure
+    same_person_failures
 end
