@@ -1,0 +1,6 @@
+*.mat
+*.nii
+*.csv
+*.pdf
+docs/*
+plot/arc/*
