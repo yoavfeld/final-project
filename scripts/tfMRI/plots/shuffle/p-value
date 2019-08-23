@@ -1,0 +1,10 @@
+DMN part2 (socialnet):
+
+isfc with true labels result: 0.47
+prctile(isfc_corr_hist, 95); ans = 0.2135;
+prctile(isfc_corr_hist, 99); ans = 0.3064;
+
+fc with true labels result: 0.37
+prctile(fc_corr_hist, 95); ans = 0.3002;
+prctile(fc_corr_hist, 99); ans = 0.4487;
+

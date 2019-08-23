@@ -2,14 +2,14 @@
 
 clear
 path_wb_command = '/Applications/workbench/bin_macosx64/wb_command';
-data_path = [pwd '/../parcellate/data/7T_movie2'];
-output_dir = 'fc_data/fc_7T_movie2';
+data_path = [pwd '/../parcellate/data/7T_movie3'];
+output_dir = 'fc_data/fc_7T_movie3';
 path_inner = '';
 numOfNetworks = 13;
+net_whitelist = [5,9,13]; %if empty, run on all networks
 
-%specific_net_idx = 9 ; % 9 is dmn. put -1 for all brain. if
-%specific_net_idx is not defined, the script create 12 cov files for all
-%networks
+parts_start_tr = [20,220,425,649,811];
+parts_end_tr = [200,405,629,792,895];
 
 sub_names=dir(strcat(data_path, "/*.nii"));
 sub_vec = {sub_names.name};
@@ -33,13 +33,10 @@ for i=1:n
 end
 fclose(sub_names_file);
 
-parts_start_tr = [20,267,545,815];
-parts_end_tr = [246,525,795,898];
-
 % create cov matrix for each network
 for net_idx=1:numOfNetworks
-    if exist('specific_net_idx','var') == 1
-        net_idx = specific_net_idx;
+    if ~isempty(net_whitelist) && ~ismember(net_idx, net_whitelist)
+        continue
     end
     
     if net_idx < 13 
@@ -67,9 +64,6 @@ for net_idx=1:numOfNetworks
             mkdir(file_path);
             save(strcat(file_path, file_name) ,'network_corr');
         end
-    end
-    if exist('specific_net_idx','var') == 1 
-        break
     end
 end
 toc(stratTime)

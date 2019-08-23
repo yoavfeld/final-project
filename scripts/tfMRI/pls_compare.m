@@ -8,17 +8,13 @@ movie_number = 2;
 nets = 13;
 parts = 4;
 components = 10;
+
 net_names = {'Primary Visual', 'Secondary Visual', 'Somatomotor', 'Cingulo-Opercular', 'Dorsal-attention', 'Language', 'Frontoparietal', 'Auditory', 'Default', 'Posterior Multimodal', 'Ventral Multimodal', 'Orbito-Affective', 'All Brain'};
+rng(0);
 for net=1:nets
     fc_plot_corr = [];
     isfc_plot_corr = [];
-    if net ~= 9 
-        %continue
-    end
     for p=1:parts
-        if p ~= 2
-            %continue
-        end
         
         % Do pls on fc
         fc_part_path = strcat(fc_data_path, 'net_', string(net), '/part_' , string(p));

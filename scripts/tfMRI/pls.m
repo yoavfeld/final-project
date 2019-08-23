@@ -27,7 +27,7 @@ function [corr, y_test, yfitval] = pls(varargin) %(X, y, comp)
         y_test = y(151:end);
     end
 
-    rng(1);
+    %rng(1);
     [XL,yl,XS,YS,beta,PCTVAR,MSE,stats] = plsregress(X_train,y_train,comp, 'CV', 10);
     
     yfitval = [ones(size(X_test,1),1) X_test]*beta;
