@@ -1,0 +1,625 @@
+Name:                           CortexSubcortex_ColeAnticevic_NetPartition_wSubcorGSR_parcels_L.dlabel.nii
+Type:                           CIFTI - Dense Label
+Structure:                      CortexLeft CortexRight 
+Data Size:                      365.13 Kilobytes
+Maps to Surface:                true
+Maps to Volume:                 true
+Maps with LabelTable:           true
+Maps with Palette:              false
+Number of Maps:                 1
+Number of Rows:                 91282
+Number of Columns:              1
+Volume Dim[0]:                  91
+Volume Dim[1]:                  109
+Volume Dim[2]:                  91
+Palette Type:                   None
+CIFTI Dim[0]:                   1
+CIFTI Dim[1]:                   91282
+ALONG_ROW map type:             LABELS
+ALONG_COLUMN map type:          BRAIN_MODELS
+    Has Volume Data:            true
+    Volume Dims:                91,109,91
+    Volume Space:               -2,0,0,90;0,2,0,-126;0,0,2,-72
+    CortexLeft:                 29696 out of 32492 vertices
+    CortexRight:                29716 out of 32492 vertices
+    AccumbensLeft:              135 voxels
+    AccumbensRight:             140 voxels
+    AmygdalaLeft:               315 voxels
+    AmygdalaRight:              332 voxels
+    BrainStem:                  3472 voxels
+    CaudateLeft:                728 voxels
+    CaudateRight:               755 voxels
+    CerebellumLeft:             8709 voxels
+    CerebellumRight:            9144 voxels
+    DiencephalonVentralLeft:    706 voxels
+    DiencephalonVentralRight:   712 voxels
+    HippocampusLeft:            764 voxels
+    HippocampusRight:           795 voxels
+    PallidumLeft:               297 voxels
+    PallidumRight:              260 voxels
+    PutamenLeft:                1060 voxels
+    PutamenRight:               1010 voxels
+    ThalamusLeft:               1288 voxels
+    ThalamusRight:              1248 voxels
+
+Map   Map Name   
+  1   INDEXMAX   
+
+Label table for ALL maps
+         KEY   NAME                                       RED   GREEN    BLUE   ALPHA   
+           0   ???                                      1.000   1.000   1.000   0.000   
+           1   Visual                                   0.000   0.000   1.000   1.000   
+           2   Visual2                                  0.392   0.000   1.000   1.000   
+           3   Visual2_1                                0.392   0.000   1.000   1.000   
+           4   Visual2_2                                0.392   0.000   1.000   1.000   
+           5   Visual2_3                                0.392   0.000   1.000   1.000   
+           6   Visual2_4                                0.392   0.000   1.000   1.000   
+           7   Visual2_5                                0.392   0.000   1.000   1.000   
+           8   Somatomotor                              0.000   1.000   1.000   1.000   
+           9   Somatomotor_1                            0.000   1.000   1.000   1.000   
+          10   Cingulo-Opercular                        0.600   0.000   0.600   1.000   
+          11   Cingulo-Opercular_1                      0.600   0.000   0.600   1.000   
+          12   Language                                 0.000   0.608   0.608   1.000   
+          13   Visual2_6                                0.392   0.000   1.000   1.000   
+          14   Frontoparietal                           1.000   1.000   0.000   1.000   
+          15   Frontoparietal_1                         1.000   1.000   0.000   1.000   
+          16   Visual2_7                                0.392   0.000   1.000   1.000   
+          17   Visual2_8                                0.392   0.000   1.000   1.000   
+          18   Visual2_9                                0.392   0.000   1.000   1.000   
+          19   Visual2_10                               0.392   0.000   1.000   1.000   
+          20   Visual2_11                               0.392   0.000   1.000   1.000   
+          21   Visual2_12                               0.392   0.000   1.000   1.000   
+          22   Visual2_13                               0.392   0.000   1.000   1.000   
+          23   Visual2_14                               0.392   0.000   1.000   1.000   
+          24   Auditory                                 0.980   0.243   0.984   1.000   
+          25   Cingulo-Opercular_2                      0.600   0.000   0.600   1.000   
+          26   Language_1                               0.000   0.608   0.608   1.000   
+          27   Posterior Multimodal                     0.694   0.349   0.157   1.000   
+          28   Posterior Multimodal_1                   0.694   0.349   0.157   1.000   
+          29   Frontoparietal_2                         1.000   1.000   0.000   1.000   
+          30   Default                                  1.000   0.000   0.000   1.000   
+          31   Default_1                                1.000   0.000   0.000   1.000   
+          32   Default_2                                1.000   0.000   0.000   1.000   
+          33   Default_3                                1.000   0.000   0.000   1.000   
+          34   Default_4                                1.000   0.000   0.000   1.000   
+          35   Default_5                                1.000   0.000   0.000   1.000   
+          36   Somatomotor_2                            0.000   1.000   1.000   1.000   
+          37   Cingulo-Opercular_3                      0.600   0.000   0.600   1.000   
+          38   Cingulo-Opercular_4                      0.600   0.000   0.600   1.000   
+          39   Somatomotor_3                            0.000   1.000   1.000   1.000   
+          40   Somatomotor_4                            0.000   1.000   1.000   1.000   
+          41   Somatomotor_5                            0.000   1.000   1.000   1.000   
+          42   Somatomotor_6                            0.000   1.000   1.000   1.000   
+          43   Cingulo-Opercular_5                      0.600   0.000   0.600   1.000   
+          44   Cingulo-Opercular_6                      0.600   0.000   0.600   1.000   
+          45   Cingulo-Opercular_7                      0.600   0.000   0.600   1.000   
+          46   Dorsal Attention                         0.000   1.000   0.000   1.000   
+          47   Somatomotor_7                            0.000   1.000   1.000   1.000   
+          48   Visual2_15                               0.392   0.000   1.000   1.000   
+          49   Visual2_16                               0.392   0.000   1.000   1.000   
+          50   Dorsal Attention_1                       0.000   1.000   0.000   1.000   
+          51   Somatomotor_8                            0.000   1.000   1.000   1.000   
+          52   Somatomotor_9                            0.000   1.000   1.000   1.000   
+          53   Somatomotor_10                           0.000   1.000   1.000   1.000   
+          54   Somatomotor_11                           0.000   1.000   1.000   1.000   
+          55   Somatomotor_12                           0.000   1.000   1.000   1.000   
+          56   Somatomotor_13                           0.000   1.000   1.000   1.000   
+          57   Cingulo-Opercular_8                      0.600   0.000   0.600   1.000   
+          58   Frontoparietal_3                         1.000   1.000   0.000   1.000   
+          59   Cingulo-Opercular_9                      0.600   0.000   0.600   1.000   
+          60   Cingulo-Opercular_10                     0.600   0.000   0.600   1.000   
+          61   Default_6                                1.000   0.000   0.000   1.000   
+          62   Frontoparietal_4                         1.000   1.000   0.000   1.000   
+          63   Frontoparietal_5                         1.000   1.000   0.000   1.000   
+          64   Default_7                                1.000   0.000   0.000   1.000   
+          65   Default_8                                1.000   0.000   0.000   1.000   
+          66   Default_9                                1.000   0.000   0.000   1.000   
+          67   Default_10                               1.000   0.000   0.000   1.000   
+          68   Default_11                               1.000   0.000   0.000   1.000   
+          69   Default_12                               1.000   0.000   0.000   1.000   
+          70   Default_13                               1.000   0.000   0.000   1.000   
+          71   Default_14                               1.000   0.000   0.000   1.000   
+          72   Default_15                               1.000   0.000   0.000   1.000   
+          73   Frontoparietal_6                         1.000   1.000   0.000   1.000   
+          74   Frontoparietal_7                         1.000   1.000   0.000   1.000   
+          75   Language_2                               0.000   0.608   0.608   1.000   
+          76   Default_16                               1.000   0.000   0.000   1.000   
+          77   Frontoparietal_8                         1.000   1.000   0.000   1.000   
+          78   Cingulo-Opercular_11                     0.600   0.000   0.600   1.000   
+          79   Language_3                               0.000   0.608   0.608   1.000   
+          80   Frontoparietal_9                         1.000   1.000   0.000   1.000   
+          81   Frontoparietal_10                        1.000   1.000   0.000   1.000   
+          82   Cingulo-Opercular_12                     0.600   0.000   0.600   1.000   
+          83   Frontoparietal_11                        1.000   1.000   0.000   1.000   
+          84   Cingulo-Opercular_13                     0.600   0.000   0.600   1.000   
+          85   Frontoparietal_12                        1.000   1.000   0.000   1.000   
+          86   Cingulo-Opercular_14                     0.600   0.000   0.600   1.000   
+          87   Default_17                               1.000   0.000   0.000   1.000   
+          88   Default_18                               1.000   0.000   0.000   1.000   
+          89   Frontoparietal_13                        1.000   1.000   0.000   1.000   
+          90   Default_19                               1.000   0.000   0.000   1.000   
+          91   Frontoparietal_14                        1.000   1.000   0.000   1.000   
+          92   Frontoparietal_15                        1.000   1.000   0.000   1.000   
+          93   Frontoparietal_16                        1.000   1.000   0.000   1.000   
+          94   Default_20                               1.000   0.000   0.000   1.000   
+          95   Dorsal Attention_2                       0.000   1.000   0.000   1.000   
+          96   Dorsal Attention_3                       0.000   1.000   0.000   1.000   
+          97   Frontoparietal_17                        1.000   1.000   0.000   1.000   
+          98   Frontoparietal_18                        1.000   1.000   0.000   1.000   
+          99   Cingulo-Opercular_15                     0.600   0.000   0.600   1.000   
+         100   Somatomotor_14                           0.000   1.000   1.000   1.000   
+         101   Somatomotor_15                           0.000   1.000   1.000   1.000   
+         102   Somatomotor_16                           0.000   1.000   1.000   1.000   
+         103   Auditory_1                               0.980   0.243   0.984   1.000   
+         104   Somatomotor_17                           0.000   1.000   1.000   1.000   
+         105   Cingulo-Opercular_16                     0.600   0.000   0.600   1.000   
+         106   Cingulo-Opercular_17                     0.600   0.000   0.600   1.000   
+         107   Auditory_2                               0.980   0.243   0.984   1.000   
+         108   Cingulo-Opercular_18                     0.600   0.000   0.600   1.000   
+         109   Cingulo-Opercular_19                     0.600   0.000   0.600   1.000   
+         110   Orbito-Affective                         0.255   0.490   0.000   0.659   
+         111   Frontoparietal_19                        1.000   1.000   0.000   1.000   
+         112   Orbito-Affective_1                       0.255   0.490   0.000   0.659   
+         113   Cingulo-Opercular_20                     0.600   0.000   0.600   1.000   
+         114   Cingulo-Opercular_21                     0.600   0.000   0.600   1.000   
+         115   Somatomotor_18                           0.000   1.000   1.000   1.000   
+         116   Dorsal Attention_4                       0.000   1.000   0.000   1.000   
+         117   Dorsal Attention_5                       0.000   1.000   0.000   1.000   
+         118   Default_21                               1.000   0.000   0.000   1.000   
+         119   Default_22                               1.000   0.000   0.000   1.000   
+         120   Default_23                               1.000   0.000   0.000   1.000   
+         121   Visual_1                                 0.000   0.000   1.000   1.000   
+         122   Ventral Multimodal                       1.000   0.616   0.000   1.000   
+         123   Language_4                               0.000   0.608   0.608   1.000   
+         124   Auditory_3                               0.980   0.243   0.984   1.000   
+         125   Language_5                               0.000   0.608   0.608   1.000   
+         126   Default_24                               1.000   0.000   0.000   1.000   
+         127   Dorsal Attention_6                       0.000   1.000   0.000   1.000   
+         128   Default_25                               1.000   0.000   0.000   1.000   
+         129   Language_6                               0.000   0.608   0.608   1.000   
+         130   Default_26                               1.000   0.000   0.000   1.000   
+         131   Default_27                               1.000   0.000   0.000   1.000   
+         132   Default_28                               1.000   0.000   0.000   1.000   
+         133   Frontoparietal_20                        1.000   1.000   0.000   1.000   
+         134   Default_29                               1.000   0.000   0.000   1.000   
+         135   Ventral Multimodal_1                     1.000   0.616   0.000   1.000   
+         136   Dorsal Attention_7                       0.000   1.000   0.000   1.000   
+         137   Dorsal Attention_8                       0.000   1.000   0.000   1.000   
+         138   Visual2_17                               0.392   0.000   1.000   1.000   
+         139   Language_7                               0.000   0.608   0.608   1.000   
+         140   Posterior Multimodal_2                   0.694   0.349   0.157   1.000   
+         141   Posterior Multimodal_3                   0.694   0.349   0.157   1.000   
+         142   Visual_2                                 0.000   0.000   1.000   1.000   
+         143   Dorsal Attention_9                       0.000   1.000   0.000   1.000   
+         144   Frontoparietal_21                        1.000   1.000   0.000   1.000   
+         145   Frontoparietal_22                        1.000   1.000   0.000   1.000   
+         146   Dorsal Attention_10                      0.000   1.000   0.000   1.000   
+         147   Cingulo-Opercular_22                     0.600   0.000   0.600   1.000   
+         148   Cingulo-Opercular_23                     0.600   0.000   0.600   1.000   
+         149   Frontoparietal_23                        1.000   1.000   0.000   1.000   
+         150   Default_30                               1.000   0.000   0.000   1.000   
+         151   Default_31                               1.000   0.000   0.000   1.000   
+         152   Visual2_18                               0.392   0.000   1.000   1.000   
+         153   Visual2_19                               0.392   0.000   1.000   1.000   
+         154   Visual2_20                               0.392   0.000   1.000   1.000   
+         155   Default_32                               1.000   0.000   0.000   1.000   
+         156   Visual2_21                               0.392   0.000   1.000   1.000   
+         157   Visual2_22                               0.392   0.000   1.000   1.000   
+         158   Visual2_23                               0.392   0.000   1.000   1.000   
+         159   Visual2_24                               0.392   0.000   1.000   1.000   
+         160   Visual2_25                               0.392   0.000   1.000   1.000   
+         161   Default_33                               1.000   0.000   0.000   1.000   
+         162   Frontoparietal_24                        1.000   1.000   0.000   1.000   
+         163   Visual2_26                               0.392   0.000   1.000   1.000   
+         164   Default_34                               1.000   0.000   0.000   1.000   
+         165   Default_35                               1.000   0.000   0.000   1.000   
+         166   Orbito-Affective_2                       0.255   0.490   0.000   0.659   
+         167   Cingulo-Opercular_24                     0.600   0.000   0.600   1.000   
+         168   Somatomotor_19                           0.000   1.000   1.000   1.000   
+         169   Cingulo-Opercular_25                     0.600   0.000   0.600   1.000   
+         170   Frontoparietal_25                        1.000   1.000   0.000   1.000   
+         171   Frontoparietal_26                        1.000   1.000   0.000   1.000   
+         172   Language_8                               0.000   0.608   0.608   1.000   
+         173   Auditory_4                               0.980   0.243   0.984   1.000   
+         174   Auditory_5                               0.980   0.243   0.984   1.000   
+         175   Auditory_6                               0.980   0.243   0.984   1.000   
+         176   Default_36                               1.000   0.000   0.000   1.000   
+         177   Frontoparietal_27                        1.000   1.000   0.000   1.000   
+         178   Cingulo-Opercular_26                     0.600   0.000   0.600   1.000   
+         179   Cingulo-Opercular_27                     0.600   0.000   0.600   1.000   
+         180   Cingulo-Opercular_28                     0.600   0.000   0.600   1.000   
+         181   Visual_3                                 0.000   0.000   1.000   1.000   
+         182   Visual2_27                               0.392   0.000   1.000   1.000   
+         183   Visual2_28                               0.392   0.000   1.000   1.000   
+         184   Visual2_29                               0.392   0.000   1.000   1.000   
+         185   Visual2_30                               0.392   0.000   1.000   1.000   
+         186   Visual2_31                               0.392   0.000   1.000   1.000   
+         187   Visual2_32                               0.392   0.000   1.000   1.000   
+         188   Somatomotor_20                           0.000   1.000   1.000   1.000   
+         189   Somatomotor_21                           0.000   1.000   1.000   1.000   
+         190   Cingulo-Opercular_29                     0.600   0.000   0.600   1.000   
+         191   Dorsal Attention_11                      0.000   1.000   0.000   1.000   
+         192   Language_9                               0.000   0.608   0.608   1.000   
+         193   Visual2_33                               0.392   0.000   1.000   1.000   
+         194   Frontoparietal_28                        1.000   1.000   0.000   1.000   
+         195   Frontoparietal_29                        1.000   1.000   0.000   1.000   
+         196   Visual2_34                               0.392   0.000   1.000   1.000   
+         197   Visual2_35                               0.392   0.000   1.000   1.000   
+         198   Visual2_36                               0.392   0.000   1.000   1.000   
+         199   Visual2_37                               0.392   0.000   1.000   1.000   
+         200   Visual2_38                               0.392   0.000   1.000   1.000   
+         201   Visual2_39                               0.392   0.000   1.000   1.000   
+         202   Visual2_40                               0.392   0.000   1.000   1.000   
+         203   Visual2_41                               0.392   0.000   1.000   1.000   
+         204   Auditory_7                               0.980   0.243   0.984   1.000   
+         205   Language_10                              0.000   0.608   0.608   1.000   
+         206   Language_11                              0.000   0.608   0.608   1.000   
+         207   Posterior Multimodal_4                   0.694   0.349   0.157   1.000   
+         208   Language_12                              0.000   0.608   0.608   1.000   
+         209   Frontoparietal_30                        1.000   1.000   0.000   1.000   
+         210   Default_37                               1.000   0.000   0.000   1.000   
+         211   Default_38                               1.000   0.000   0.000   1.000   
+         212   Default_39                               1.000   0.000   0.000   1.000   
+         213   Default_40                               1.000   0.000   0.000   1.000   
+         214   Default_41                               1.000   0.000   0.000   1.000   
+         215   Default_42                               1.000   0.000   0.000   1.000   
+         216   Somatomotor_22                           0.000   1.000   1.000   1.000   
+         217   Cingulo-Opercular_30                     0.600   0.000   0.600   1.000   
+         218   Cingulo-Opercular_31                     0.600   0.000   0.600   1.000   
+         219   Somatomotor_23                           0.000   1.000   1.000   1.000   
+         220   Somatomotor_24                           0.000   1.000   1.000   1.000   
+         221   Somatomotor_25                           0.000   1.000   1.000   1.000   
+         222   Somatomotor_26                           0.000   1.000   1.000   1.000   
+         223   Cingulo-Opercular_32                     0.600   0.000   0.600   1.000   
+         224   Cingulo-Opercular_33                     0.600   0.000   0.600   1.000   
+         225   Cingulo-Opercular_34                     0.600   0.000   0.600   1.000   
+         226   Dorsal Attention_12                      0.000   1.000   0.000   1.000   
+         227   Somatomotor_27                           0.000   1.000   1.000   1.000   
+         228   Visual2_42                               0.392   0.000   1.000   1.000   
+         229   Visual2_43                               0.392   0.000   1.000   1.000   
+         230   Dorsal Attention_13                      0.000   1.000   0.000   1.000   
+         231   Somatomotor_28                           0.000   1.000   1.000   1.000   
+         232   Somatomotor_29                           0.000   1.000   1.000   1.000   
+         233   Somatomotor_30                           0.000   1.000   1.000   1.000   
+         234   Somatomotor_31                           0.000   1.000   1.000   1.000   
+         235   Somatomotor_32                           0.000   1.000   1.000   1.000   
+         236   Somatomotor_33                           0.000   1.000   1.000   1.000   
+         237   Cingulo-Opercular_35                     0.600   0.000   0.600   1.000   
+         238   Cingulo-Opercular_36                     0.600   0.000   0.600   1.000   
+         239   Cingulo-Opercular_37                     0.600   0.000   0.600   1.000   
+         240   Cingulo-Opercular_38                     0.600   0.000   0.600   1.000   
+         241   Default_43                               1.000   0.000   0.000   1.000   
+         242   Default_44                               1.000   0.000   0.000   1.000   
+         243   Frontoparietal_31                        1.000   1.000   0.000   1.000   
+         244   Default_45                               1.000   0.000   0.000   1.000   
+         245   Default_46                               1.000   0.000   0.000   1.000   
+         246   Default_47                               1.000   0.000   0.000   1.000   
+         247   Default_48                               1.000   0.000   0.000   1.000   
+         248   Default_49                               1.000   0.000   0.000   1.000   
+         249   Default_50                               1.000   0.000   0.000   1.000   
+         250   Default_51                               1.000   0.000   0.000   1.000   
+         251   Default_52                               1.000   0.000   0.000   1.000   
+         252   Default_53                               1.000   0.000   0.000   1.000   
+         253   Frontoparietal_32                        1.000   1.000   0.000   1.000   
+         254   Language_13                              0.000   0.608   0.608   1.000   
+         255   Language_14                              0.000   0.608   0.608   1.000   
+         256   Default_54                               1.000   0.000   0.000   1.000   
+         257   Frontoparietal_33                        1.000   1.000   0.000   1.000   
+         258   Cingulo-Opercular_39                     0.600   0.000   0.600   1.000   
+         259   Language_15                              0.000   0.608   0.608   1.000   
+         260   Frontoparietal_34                        1.000   1.000   0.000   1.000   
+         261   Language_16                              0.000   0.608   0.608   1.000   
+         262   Frontoparietal_35                        1.000   1.000   0.000   1.000   
+         263   Frontoparietal_36                        1.000   1.000   0.000   1.000   
+         264   Cingulo-Opercular_40                     0.600   0.000   0.600   1.000   
+         265   Frontoparietal_37                        1.000   1.000   0.000   1.000   
+         266   Cingulo-Opercular_41                     0.600   0.000   0.600   1.000   
+         267   Default_55                               1.000   0.000   0.000   1.000   
+         268   Default_56                               1.000   0.000   0.000   1.000   
+         269   Frontoparietal_38                        1.000   1.000   0.000   1.000   
+         270   Default_57                               1.000   0.000   0.000   1.000   
+         271   Frontoparietal_39                        1.000   1.000   0.000   1.000   
+         272   Frontoparietal_40                        1.000   1.000   0.000   1.000   
+         273   Default_58                               1.000   0.000   0.000   1.000   
+         274   Default_59                               1.000   0.000   0.000   1.000   
+         275   Dorsal Attention_14                      0.000   1.000   0.000   1.000   
+         276   Dorsal Attention_15                      0.000   1.000   0.000   1.000   
+         277   Frontoparietal_41                        1.000   1.000   0.000   1.000   
+         278   Frontoparietal_42                        1.000   1.000   0.000   1.000   
+         279   Cingulo-Opercular_42                     0.600   0.000   0.600   1.000   
+         280   Somatomotor_34                           0.000   1.000   1.000   1.000   
+         281   Somatomotor_35                           0.000   1.000   1.000   1.000   
+         282   Somatomotor_36                           0.000   1.000   1.000   1.000   
+         283   Auditory_8                               0.980   0.243   0.984   1.000   
+         284   Auditory_9                               0.980   0.243   0.984   1.000   
+         285   Cingulo-Opercular_43                     0.600   0.000   0.600   1.000   
+         286   Cingulo-Opercular_44                     0.600   0.000   0.600   1.000   
+         287   Auditory_10                              0.980   0.243   0.984   1.000   
+         288   Cingulo-Opercular_45                     0.600   0.000   0.600   1.000   
+         289   Cingulo-Opercular_46                     0.600   0.000   0.600   1.000   
+         290   Orbito-Affective_3                       0.255   0.490   0.000   0.659   
+         291   Frontoparietal_43                        1.000   1.000   0.000   1.000   
+         292   Orbito-Affective_4                       0.255   0.490   0.000   0.659   
+         293   Cingulo-Opercular_47                     0.600   0.000   0.600   1.000   
+         294   Cingulo-Opercular_48                     0.600   0.000   0.600   1.000   
+         295   Somatomotor_37                           0.000   1.000   1.000   1.000   
+         296   Dorsal Attention_16                      0.000   1.000   0.000   1.000   
+         297   Dorsal Attention_17                      0.000   1.000   0.000   1.000   
+         298   Default_60                               1.000   0.000   0.000   1.000   
+         299   Default_61                               1.000   0.000   0.000   1.000   
+         300   Default_62                               1.000   0.000   0.000   1.000   
+         301   Visual_4                                 0.000   0.000   1.000   1.000   
+         302   Ventral Multimodal_2                     1.000   0.616   0.000   1.000   
+         303   Language_17                              0.000   0.608   0.608   1.000   
+         304   Auditory_11                              0.980   0.243   0.984   1.000   
+         305   Language_18                              0.000   0.608   0.608   1.000   
+         306   Default_63                               1.000   0.000   0.000   1.000   
+         307   Dorsal Attention_18                      0.000   1.000   0.000   1.000   
+         308   Language_19                              0.000   0.608   0.608   1.000   
+         309   Language_20                              0.000   0.608   0.608   1.000   
+         310   Default_64                               1.000   0.000   0.000   1.000   
+         311   Default_65                               1.000   0.000   0.000   1.000   
+         312   Default_66                               1.000   0.000   0.000   1.000   
+         313   Frontoparietal_44                        1.000   1.000   0.000   1.000   
+         314   Default_67                               1.000   0.000   0.000   1.000   
+         315   Ventral Multimodal_3                     1.000   0.616   0.000   1.000   
+         316   Dorsal Attention_19                      0.000   1.000   0.000   1.000   
+         317   Dorsal Attention_20                      0.000   1.000   0.000   1.000   
+         318   Visual2_44                               0.392   0.000   1.000   1.000   
+         319   Language_21                              0.000   0.608   0.608   1.000   
+         320   Posterior Multimodal_5                   0.694   0.349   0.157   1.000   
+         321   Posterior Multimodal_6                   0.694   0.349   0.157   1.000   
+         322   Visual_5                                 0.000   0.000   1.000   1.000   
+         323   Dorsal Attention_21                      0.000   1.000   0.000   1.000   
+         324   Frontoparietal_45                        1.000   1.000   0.000   1.000   
+         325   Frontoparietal_46                        1.000   1.000   0.000   1.000   
+         326   Dorsal Attention_22                      0.000   1.000   0.000   1.000   
+         327   Cingulo-Opercular_49                     0.600   0.000   0.600   1.000   
+         328   Cingulo-Opercular_50                     0.600   0.000   0.600   1.000   
+         329   Frontoparietal_47                        1.000   1.000   0.000   1.000   
+         330   Default_68                               1.000   0.000   0.000   1.000   
+         331   Default_69                               1.000   0.000   0.000   1.000   
+         332   Visual2_45                               0.392   0.000   1.000   1.000   
+         333   Visual2_46                               0.392   0.000   1.000   1.000   
+         334   Visual2_47                               0.392   0.000   1.000   1.000   
+         335   Default_70                               1.000   0.000   0.000   1.000   
+         336   Visual2_48                               0.392   0.000   1.000   1.000   
+         337   Visual2_49                               0.392   0.000   1.000   1.000   
+         338   Visual2_50                               0.392   0.000   1.000   1.000   
+         339   Visual2_51                               0.392   0.000   1.000   1.000   
+         340   Visual2_52                               0.392   0.000   1.000   1.000   
+         341   Default_71                               1.000   0.000   0.000   1.000   
+         342   Default_72                               1.000   0.000   0.000   1.000   
+         343   Visual2_53                               0.392   0.000   1.000   1.000   
+         344   Default_73                               1.000   0.000   0.000   1.000   
+         345   Default_74                               1.000   0.000   0.000   1.000   
+         346   Orbito-Affective_5                       0.255   0.490   0.000   0.659   
+         347   Cingulo-Opercular_51                     0.600   0.000   0.600   1.000   
+         348   Somatomotor_38                           0.000   1.000   1.000   1.000   
+         349   Cingulo-Opercular_52                     0.600   0.000   0.600   1.000   
+         350   Frontoparietal_48                        1.000   1.000   0.000   1.000   
+         351   Frontoparietal_49                        1.000   1.000   0.000   1.000   
+         352   Language_22                              0.000   0.608   0.608   1.000   
+         353   Auditory_12                              0.980   0.243   0.984   1.000   
+         354   Auditory_13                              0.980   0.243   0.984   1.000   
+         355   Auditory_14                              0.980   0.243   0.984   1.000   
+         356   Default_75                               1.000   0.000   0.000   1.000   
+         357   Default_76                               1.000   0.000   0.000   1.000   
+         358   Cingulo-Opercular_53                     0.600   0.000   0.600   1.000   
+         359   Cingulo-Opercular_54                     0.600   0.000   0.600   1.000   
+         360   Cingulo-Opercular_55                     0.600   0.000   0.600   1.000   
+        1010   Visual-1_L-Accumbens                     0.000   0.000   1.000   1.000   
+        1020   Visual-2_L-Accumbens                     0.000   0.000   1.000   1.000   
+        1050   Visual-5_L-Brainstem                     0.000   0.000   1.000   1.000   
+        1060   Visual-6_L-Brainstem                     0.000   0.000   1.000   1.000   
+        1080   Visual-8_L-Brainstem                     0.000   0.000   1.000   1.000   
+        1090   Visual-9_L-Brainstem                     0.000   0.000   1.000   1.000   
+        1100   Visual-10_LR-Brainstem                   0.000   0.000   1.000   1.000   
+        1110   Visual-11_L-Brainstem                    0.000   0.000   1.000   1.000   
+        1120   Visual-12_L-Brainstem                    0.000   0.000   1.000   1.000   
+        1130   Visual-13_L-Caudate                      0.000   0.000   1.000   1.000   
+        1150   Visual-15_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1160   Visual-16_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1170   Visual-17_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1180   Visual-18_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1190   Visual-19_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1200   Visual-20_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1210   Visual-21_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1220   Visual-22_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1230   Visual-23_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1240   Visual-24_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1250   Visual-25_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1260   Visual-26_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1270   Visual-27_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1280   Visual-28_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1290   Visual-29_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1300   Visual-30_L-Cerebellum                   0.000   0.000   1.000   1.000   
+        1340   Visual-34_R-Cerebellum                   0.000   0.000   1.000   1.000   
+        1360   Visual-36_R-Cerebellum                   0.000   0.000   1.000   1.000   
+        1400   Visual-40_R-Cerebellum                   0.000   0.000   1.000   1.000   
+        1410   Visual-41_R-Cerebellum                   0.000   0.000   1.000   1.000   
+        1420   Visual-42_L-Diencephalon                 0.000   0.000   1.000   1.000   
+        1440   Visual-44_L-Hippocampus                  0.000   0.000   1.000   1.000   
+        1460   Visual-46_L-Pallidum                     0.000   0.000   1.000   1.000   
+        1470   Visual-47_L-Pallidum                     0.000   0.000   1.000   1.000   
+        1500   Visual-50_L-Putamen                      0.000   0.000   1.000   1.000   
+        1510   Visual-51_L-Putamen                      0.000   0.000   1.000   1.000   
+        1520   Visual-52_L-Putamen                      0.000   0.000   1.000   1.000   
+        1550   Visual-55_L-Thalamus                     0.000   0.000   1.000   1.000   
+        1560   Visual-56_L-Thalamus                     0.000   0.000   1.000   1.000   
+        1570   Visual-57_L-Thalamus                     0.000   0.000   1.000   1.000   
+        1580   Visual-58_L-Thalamus                     0.000   0.000   1.000   1.000   
+        1590   Visual-59_L-Thalamus                     0.000   0.000   1.000   1.000   
+        1600   Visual-60_L-Thalamus                     0.000   0.000   1.000   1.000   
+        2010   Visual2-1_L-Amygdala                     0.392   0.000   1.000   1.000   
+        2030   Visual2-3_LR-Brainstem                   0.392   0.000   1.000   1.000   
+        2040   Visual2-4_L-Brainstem                    0.392   0.000   1.000   1.000   
+        2050   Visual2-5_L-Brainstem                    0.392   0.000   1.000   1.000   
+        2070   Visual2-7_L-Brainstem                    0.392   0.000   1.000   1.000   
+        2080   Visual2-8_L-Cerebellum                   0.392   0.000   1.000   1.000   
+        2090   Visual2-9_L-Cerebellum                   0.392   0.000   1.000   1.000   
+        2100   Visual2-10_L-Cerebellum                  0.392   0.000   1.000   1.000   
+        2110   Visual2-11_L-Cerebellum                  0.392   0.000   1.000   1.000   
+        2150   Visual2-15_R-Cerebellum                  0.392   0.000   1.000   1.000   
+        2160   Visual2-16_L-Diencephalon                0.392   0.000   1.000   1.000   
+        2200   Visual2-20_L-Hippocampus                 0.392   0.000   1.000   1.000   
+        2210   Visual2-21_L-Hippocampus                 0.392   0.000   1.000   1.000   
+        2220   Visual2-22_L-Hippocampus                 0.392   0.000   1.000   1.000   
+        2230   Visual2-23_L-Hippocampus                 0.392   0.000   1.000   1.000   
+        2240   Visual2-24_L-Hippocampus                 0.392   0.000   1.000   1.000   
+        2280   Visual2-28_L-Thalamus                    0.392   0.000   1.000   1.000   
+        3020   Somatomotor-2_L-Amygdala                 0.000   1.000   1.000   1.000   
+        3040   Somatomotor-4_LR-Brainstem               0.000   1.000   1.000   1.000   
+        3050   Somatomotor-5_LR-Brainstem               0.000   1.000   1.000   1.000   
+        3060   Somatomotor-6_L-Cerebellum               0.000   1.000   1.000   1.000   
+        3070   Somatomotor-7_L-Cerebellum               0.000   1.000   1.000   1.000   
+        3080   Somatomotor-8_L-Cerebellum               0.000   1.000   1.000   1.000   
+        3090   Somatomotor-9_L-Cerebellum               0.000   1.000   1.000   1.000   
+        3100   Somatomotor-10_L-Cerebellum              0.000   1.000   1.000   1.000   
+        3120   Somatomotor-12_R-Cerebellum              0.000   1.000   1.000   1.000   
+        3150   Somatomotor-15_L-Diencephalon            0.000   1.000   1.000   1.000   
+        3160   Somatomotor-16_L-Hippocampus             0.000   1.000   1.000   1.000   
+        3170   Somatomotor-17_L-Hippocampus             0.000   1.000   1.000   1.000   
+        3180   Somatomotor-18_L-Hippocampus             0.000   1.000   1.000   1.000   
+        3220   Somatomotor-22_L-Pallidum                0.000   1.000   1.000   1.000   
+        3250   Somatomotor-25_L-Putamen                 0.000   1.000   1.000   1.000   
+        3270   Somatomotor-27_L-Thalamus                0.000   1.000   1.000   1.000   
+        4010   Cingulo-Opercular-1_L-Accumbens          0.600   0.000   0.600   1.000   
+        4040   Cingulo-Opercular-4_LR-Brainstem         0.600   0.000   0.600   1.000   
+        4060   Cingulo-Opercular-6_L-Brainstem          0.600   0.000   0.600   1.000   
+        4080   Cingulo-Opercular-8_L-Caudate            0.600   0.000   0.600   1.000   
+        4090   Cingulo-Opercular-9_L-Caudate            0.600   0.000   0.600   1.000   
+        4120   Cingulo-Opercular-12_L-Cerebellum        0.600   0.000   0.600   1.000   
+        4130   Cingulo-Opercular-13_L-Cerebellum        0.600   0.000   0.600   1.000   
+        4140   Cingulo-Opercular-14_L-Cerebellum        0.600   0.000   0.600   1.000   
+        4150   Cingulo-Opercular-15_L-Cerebellum        0.600   0.000   0.600   1.000   
+        4210   Cingulo-Opercular-21_R-Cerebellum        0.600   0.000   0.600   1.000   
+        4230   Cingulo-Opercular-23_L-Diencephalon      0.600   0.000   0.600   1.000   
+        4240   Cingulo-Opercular-24_L-Diencephalon      0.600   0.000   0.600   1.000   
+        4250   Cingulo-Opercular-25_L-Diencephalon      0.600   0.000   0.600   1.000   
+        4260   Cingulo-Opercular-26_L-Diencephalon      0.600   0.000   0.600   1.000   
+        4320   Cingulo-Opercular-32_L-Pallidum          0.600   0.000   0.600   1.000   
+        4340   Cingulo-Opercular-34_L-Putamen           0.600   0.000   0.600   1.000   
+        4360   Cingulo-Opercular-36_L-Thalamus          0.600   0.000   0.600   1.000   
+        4370   Cingulo-Opercular-37_L-Thalamus          0.600   0.000   0.600   1.000   
+        4380   Cingulo-Opercular-38_R-Thalamus          0.600   0.000   0.600   1.000   
+        5010   Dorsal Attention-1_L-Amygdala            0.000   1.000   0.000   1.000   
+        5020   Dorsal Attention-2_R-Brainstem           0.000   1.000   0.000   1.000   
+        5030   Dorsal Attention-3_L-Brainstem           0.000   1.000   0.000   1.000   
+        5040   Dorsal Attention-4_L-Brainstem           0.000   1.000   0.000   1.000   
+        5060   Dorsal Attention-6_L-Brainstem           0.000   1.000   0.000   1.000   
+        5080   Dorsal Attention-8_L-Cerebellum          0.000   1.000   0.000   1.000   
+        5090   Dorsal Attention-9_L-Cerebellum          0.000   1.000   0.000   1.000   
+        5100   Dorsal Attention-10_L-Cerebellum         0.000   1.000   0.000   1.000   
+        5110   Dorsal Attention-11_L-Cerebellum         0.000   1.000   0.000   1.000   
+        5120   Dorsal Attention-12_L-Cerebellum         0.000   1.000   0.000   1.000   
+        5130   Dorsal Attention-13_L-Cerebellum         0.000   1.000   0.000   1.000   
+        5140   Dorsal Attention-14_L-Cerebellum         0.000   1.000   0.000   1.000   
+        5210   Dorsal Attention-21_L-Putamen            0.000   1.000   0.000   1.000   
+        5230   Dorsal Attention-23_L-Thalamus           0.000   1.000   0.000   1.000   
+        6010   Language-1_L-Amygdala                    0.000   0.608   0.608   1.000   
+        6030   Language-3_L-Caudate                     0.000   0.608   0.608   1.000   
+        6050   Language-5_L-Cerebellum                  0.000   0.608   0.608   1.000   
+        6140   Language-14_L-Putamen                    0.000   0.608   0.608   1.000   
+        7010   Frontoparietal-1_L-Brainstem             1.000   1.000   0.000   1.000   
+        7020   Frontoparietal-2_L-Brainstem             1.000   1.000   0.000   1.000   
+        7030   Frontoparietal-3_LR-Brainstem            1.000   1.000   0.000   1.000   
+        7060   Frontoparietal-6_L-Brainstem             1.000   1.000   0.000   1.000   
+        7070   Frontoparietal-7_LR-Brainstem            1.000   1.000   0.000   1.000   
+        7090   Frontoparietal-9_L-Brainstem             1.000   1.000   0.000   1.000   
+        7100   Frontoparietal-10_L-Caudate              1.000   1.000   0.000   1.000   
+        7120   Frontoparietal-12_L-Cerebellum           1.000   1.000   0.000   1.000   
+        7130   Frontoparietal-13_L-Cerebellum           1.000   1.000   0.000   1.000   
+        7140   Frontoparietal-14_L-Cerebellum           1.000   1.000   0.000   1.000   
+        7150   Frontoparietal-15_L-Cerebellum           1.000   1.000   0.000   1.000   
+        7160   Frontoparietal-16_L-Cerebellum           1.000   1.000   0.000   1.000   
+        7170   Frontoparietal-17_L-Cerebellum           1.000   1.000   0.000   1.000   
+        7180   Frontoparietal-18_L-Cerebellum           1.000   1.000   0.000   1.000   
+        7190   Frontoparietal-19_L-Cerebellum           1.000   1.000   0.000   1.000   
+        7200   Frontoparietal-20_L-Cerebellum           1.000   1.000   0.000   1.000   
+        7210   Frontoparietal-21_L-Cerebellum           1.000   1.000   0.000   1.000   
+        7220   Frontoparietal-22_L-Cerebellum           1.000   1.000   0.000   1.000   
+        7230   Frontoparietal-23_L-Cerebellum           1.000   1.000   0.000   1.000   
+        7240   Frontoparietal-24_L-Cerebellum           1.000   1.000   0.000   1.000   
+        7250   Frontoparietal-25_L-Cerebellum           1.000   1.000   0.000   1.000   
+        7300   Frontoparietal-30_R-Cerebellum           1.000   1.000   0.000   1.000   
+        7330   Frontoparietal-33_R-Cerebellum           1.000   1.000   0.000   1.000   
+        7340   Frontoparietal-34_R-Cerebellum           1.000   1.000   0.000   1.000   
+        7350   Frontoparietal-35_R-Cerebellum           1.000   1.000   0.000   1.000   
+        7390   Frontoparietal-39_L-Diencephalon         1.000   1.000   0.000   1.000   
+        7400   Frontoparietal-40_R-Diencephalon         1.000   1.000   0.000   1.000   
+        7410   Frontoparietal-41_L-Hippocampus          1.000   1.000   0.000   1.000   
+        7420   Frontoparietal-42_L-Pallidum             1.000   1.000   0.000   1.000   
+        7450   Frontoparietal-45_L-Putamen              1.000   1.000   0.000   1.000   
+        7470   Frontoparietal-47_L-Thalamus             1.000   1.000   0.000   1.000   
+        7480   Frontoparietal-48_R-Thalamus             1.000   1.000   0.000   1.000   
+        8010   Auditory-1_L-Accumbens                   0.980   0.243   0.984   1.000   
+        8030   Auditory-3_L-Brainstem                   0.980   0.243   0.984   1.000   
+        8040   Auditory-4_L-Brainstem                   0.980   0.243   0.984   1.000   
+        8050   Auditory-5_LR-Brainstem                  0.980   0.243   0.984   1.000   
+        8060   Auditory-6_L-Cerebellum                  0.980   0.243   0.984   1.000   
+        8080   Auditory-8_L-Diencephalon                0.980   0.243   0.984   1.000   
+        8090   Auditory-9_L-Diencephalon                0.980   0.243   0.984   1.000   
+        8100   Auditory-10_L-Diencephalon               0.980   0.243   0.984   1.000   
+        8140   Auditory-14_L-Hippocampus                0.980   0.243   0.984   1.000   
+        8150   Auditory-15_L-Hippocampus                0.980   0.243   0.984   1.000   
+        8160   Auditory-16_L-Hippocampus                0.980   0.243   0.984   1.000   
+        8170   Auditory-17_L-Hippocampus                0.980   0.243   0.984   1.000   
+        8200   Auditory-20_L-Pallidum                   0.980   0.243   0.984   1.000   
+        8210   Auditory-21_L-Pallidum                   0.980   0.243   0.984   1.000   
+        8230   Auditory-23_L-Thalamus                   0.980   0.243   0.984   1.000   
+        8240   Auditory-24_L-Thalamus                   0.980   0.243   0.984   1.000   
+        8250   Auditory-25_L-Thalamus                   0.980   0.243   0.984   1.000   
+        8260   Auditory-26_L-Thalamus                   0.980   0.243   0.984   1.000   
+        8270   Auditory-27_L-Thalamus                   0.980   0.243   0.984   1.000   
+        8300   Auditory-30_R-Thalamus                   0.980   0.243   0.984   1.000   
+        9010   Default-1_L-Accumbens                    1.000   0.000   0.000   1.000   
+        9030   Default-3_LR-Brainstem                   1.000   0.000   0.000   1.000   
+        9040   Default-4_LR-Brainstem                   1.000   0.000   0.000   1.000   
+        9050   Default-5_L-Caudate                      1.000   0.000   0.000   1.000   
+        9060   Default-6_L-Caudate                      1.000   0.000   0.000   1.000   
+        9070   Default-7_L-Caudate                      1.000   0.000   0.000   1.000   
+        9100   Default-10_L-Cerebellum                  1.000   0.000   0.000   1.000   
+        9110   Default-11_L-Cerebellum                  1.000   0.000   0.000   1.000   
+        9120   Default-12_L-Cerebellum                  1.000   0.000   0.000   1.000   
+        9130   Default-13_L-Cerebellum                  1.000   0.000   0.000   1.000   
+        9140   Default-14_R-Cerebellum                  1.000   0.000   0.000   1.000   
+        9180   Default-18_L-Diencephalon                1.000   0.000   0.000   1.000   
+        9190   Default-19_L-Diencephalon                1.000   0.000   0.000   1.000   
+        9200   Default-20_R-Diencephalon                1.000   0.000   0.000   1.000   
+        9220   Default-22_R-Diencephalon                1.000   0.000   0.000   1.000   
+        9230   Default-23_L-Hippocampus                 1.000   0.000   0.000   1.000   
+        9240   Default-24_L-Hippocampus                 1.000   0.000   0.000   1.000   
+        9270   Default-27_L-Thalamus                    1.000   0.000   0.000   1.000   
+        9280   Default-28_L-Thalamus                    1.000   0.000   0.000   1.000   
+        9290   Default-29_L-Thalamus                    1.000   0.000   0.000   1.000   
+        9310   Default-31_R-Thalamus                    1.000   0.000   0.000   1.000   
+       10010   Posterior Multimodal-1_L-Amygdala        0.694   0.349   0.157   1.000   
+       10030   Posterior Multimodal-3_R-Brainstem       0.694   0.349   0.157   1.000   
+       10050   Posterior Multimodal-5_L-Brainstem       0.694   0.349   0.157   1.000   
+       10060   Posterior Multimodal-6_L-Brainstem       0.694   0.349   0.157   1.000   
+       10080   Posterior Multimodal-8_L-Brainstem       0.694   0.349   0.157   1.000   
+       10090   Posterior Multimodal-9_LR-Brainstem      0.694   0.349   0.157   1.000   
+       10100   Posterior Multimodal-10_L-Cerebellum     0.694   0.349   0.157   1.000   
+       10110   Posterior Multimodal-11_L-Cerebellum     0.694   0.349   0.157   1.000   
+       10120   Posterior Multimodal-12_L-Cerebellum     0.694   0.349   0.157   1.000   
+       10130   Posterior Multimodal-13_L-Cerebellum     0.694   0.349   0.157   1.000   
+       10140   Posterior Multimodal-14_L-Cerebellum     0.694   0.349   0.157   1.000   
+       10200   Posterior Multimodal-20_R-Cerebellum     0.694   0.349   0.157   1.000   
+       10210   Posterior Multimodal-21_L-Diencephalon   0.694   0.349   0.157   1.000   
+       10220   Posterior Multimodal-22_L-Diencephalon   0.694   0.349   0.157   1.000   
+       10230   Posterior Multimodal-23_L-Diencephalon   0.694   0.349   0.157   1.000   
+       10280   Posterior Multimodal-28_L-Thalamus       0.694   0.349   0.157   1.000   
+       11010   Ventral Multimodal-1_L-Amygdala          1.000   0.616   0.000   1.000   
+       11030   Ventral Multimodal-3_L-Hippocampus       1.000   0.616   0.000   1.000   
+       12010   Orbito-Affective-1_L-Accumbens           0.255   0.490   0.000   0.659   
+       12030   Orbito-Affective-3_L-Caudate             0.255   0.490   0.000   0.659   
+       12050   Orbito-Affective-5_L-Diencephalon        0.255   0.490   0.000   0.659   
+       12060   Orbito-Affective-6_L-Diencephalon        0.255   0.490   0.000   0.659   
+       12090   Orbito-Affective-9_L-Pallidum            0.255   0.490   0.000   0.659   
+       12100   Orbito-Affective-10_L-Pallidum           0.255   0.490   0.000   0.659   
+       12110   Orbito-Affective-11_L-Pallidum           0.255   0.490   0.000   0.659   
+       12140   Orbito-Affective-14_L-Putamen            0.255   0.490   0.000   0.659   
+       12150   Orbito-Affective-15_L-Putamen            0.255   0.490   0.000   0.659   
+
+
