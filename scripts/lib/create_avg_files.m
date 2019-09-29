@@ -1,8 +1,10 @@
 
-path_subjects = [pwd '/movie_parcellated/sub/'];
+% create average files for all subjects in 2mm folder
+
+path_subjects = [pwd '/parcellate/output/'];
 path_inner = ''; %'MNINonLinear/Results/tfMRI_MOVIE1_7T_AP/tfMRI_MOVIE1_7T_AP_Atlas_MSMAll_hp2000_clean.dtseries.nii';
-path_avg = [pwd '/movie_parcellated/avg/'];
-file_ext = '.ptseries.nii';
+path_avg = [path_subjects '../avg/'];
+file_ext = '.dtseries.nii';
 path_wb_command = '/Applications/workbench/bin_macosx64/wb_command';
 dims = [718,921];
 
@@ -23,6 +25,7 @@ for k=1:n
     avg_data = avg_data./(n-1);
     nii_file.cdata = avg_data;
     file_path = [path_avg 'A' num2str(k) file_ext];
+    mkdir(path_avg)
     ciftisave(nii_file, file_path,path_wb_command, 1);
 end
 fprintf('finish \n')
