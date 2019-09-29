@@ -14,4 +14,4 @@ twin_pred/ - all code of twin predictions by resting stat scans
 
 tfMRI/ - all code of fluid intelligence prediction by movie watching scans
 
-# Prerequisites
+## Prerequisites
