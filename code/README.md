@@ -10,8 +10,11 @@
 
 - parcellate/ - hcp data parcellation script + info
 
-- twin_pred/ - all code of twin predictions by resting stat scans
+- twin_pred/ - twins prediction by resting stat scans
 
-- tfMRI/ - all code of fluid intelligence prediction by movie watching scans
+- fluid_intelligence_pred/ - fluid intelligence prediction by movie watching scans
 
 ## Prerequisites
+ - GIFTI matlab lib - https://www.artefact.tk/software/matlab/gifti/
+ - HCP Pipeline CIFTI matlab functions (only ciftiopen.m, ciftisave.m, ciftisavereset.m) - https://github.com/Washington-University/HCPpipelines/tree/master/global/matlab 
+ - HCP workbench (wb_command) -  https://www.humanconnectome.org/software/get-connectome-workbench
