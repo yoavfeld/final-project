@@ -1,11 +1,8 @@
 clear
 path_wb_command = '/Applications/workbench/bin_macosx64/wb_command';
-base_data_path = '/Users/yoav.feldman/fmri/final-project/scripts/tfMRI/isfc_data/isfc_7T_movie4/test/';
-labels_file = '/Users/yoav.feldman/fmri/final-project/behavior_tests/fluid_inteligence.csv';
-%path_wb_command = '/home/michael/workbench/bin_linux64/wb_command';
-%data_path = '/home/michael/localrepo/final-project/final-project/scripts/fc_7T_rest1_182/net_13';
-%output_dir = '/home/michael/localrepo/final-project/final-project/scripts/sum_of_matrix/output';
-%%
+labels_file = [pwd,'/../../../behavior_tests/fluid_inteligence.csv'];
+base_data_path = [pwd '/isfc_data/isfc_7T_movie4/test/'];
+
 data_type = "ISFC" % FC or ISFC
 parts = 4;
 stratTime = tic;

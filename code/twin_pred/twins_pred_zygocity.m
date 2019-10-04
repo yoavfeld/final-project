@@ -15,7 +15,7 @@ function [trues,falses,err_rate] = twins_pred_zygocity(varargin)
     count = 1; % how many highest correlations to take from each subject
     from = 1; % from which highest correlation to start
 
-    labels_file = '/Users/yoav.feldman/fmri/final-project/behavior_tests/RESTRICTED_yoavf_4_18_2019_10_37_3.csv';
+    labels_file = [pwd, '/../../../behavior_tests/RESTRICTED_yoavf_4_18_2019_10_37_3.csv'];
     sub_names_file = strcat(corr_mtx_path, 'fileNames.txt');
     labels = Labels(labels_file, sub_names_file);
     
