@@ -10,7 +10,7 @@ function [trues,falses,err_rate] = twins_pred(varargin)
         cov_files = dir([corr_mtx_path, '*.mat']);
     end
     
-    labels_file = '/Users/yoav.feldman/fmri/final-project/behavior_tests/RESTRICTED_yoavf_4_18_2019_10_37_3.csv';
+    labels_file = [pwd,'/../../../behavior_tests/RESTRICTED_yoavf_4_18_2019_10_37_3.csv'];
     sub_names_file = strcat(corr_mtx_path, 'fileNames.txt');
     labels = Labels(labels_file, sub_names_file);
     

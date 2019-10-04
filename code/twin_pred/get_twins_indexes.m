@@ -37,7 +37,7 @@ function [twins] = get_twins_indexes(cov_files_path, cov_files ,th, count, from)
         end
         [best_v,best_i] = max(pred_vector);
         %best_v
-        if best_v > 1
+        if best_v > 0
             twins = [twins;[s best_i]];
         end
     end

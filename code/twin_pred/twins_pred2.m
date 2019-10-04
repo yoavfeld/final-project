@@ -1,7 +1,7 @@
 
 % covMtxFiles=dir('/home/michael/localrepo/final-project/final-project/scripts/twin_pred/cov_mtx/*.mat');
 trues_total = zeros(1,13);
-cov_files_path = '/Users/yoav.feldman/fmri/final-project/scripts/fc_network_cov/output/7T_rest1/'
+cov_files_path = [pwd, '/../fc_network_cov/output/7T_rest1/'];
 cov_file_prefix = 'fc_rest_net_';
 
 cnt_vec = [1 5 10];

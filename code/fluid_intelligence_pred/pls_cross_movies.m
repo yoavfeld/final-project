@@ -1,8 +1,8 @@
 
 clear
-data_path = '/Users/yoav.feldman/fmri/final-project/scripts/tfMRI/';
-fc_data_path = strcat(data_path,'fc_data/');
-isfc_data_path = strcat(data_path,'isfc_data/');
+data_path = pwd;
+fc_data_path = strcat(data_path,'/fc_data/');
+isfc_data_path = strcat(data_path,'/isfc_data/');
 
 net = 13;
 components = 5;

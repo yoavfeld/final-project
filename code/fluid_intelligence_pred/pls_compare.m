@@ -1,8 +1,8 @@
 
 clear
-data_path = '/Users/yoav.feldman/fmri/final-project/scripts/tfMRI/';
-fc_data_path = strcat(data_path,'fc_data/fc_7T_movie2/');
-isfc_data_path = strcat(data_path,'isfc_data/isfc_7T_movie2/');
+data_path = pwd;
+fc_data_path = strcat(data_path,'/fc_data/fc_7T_movie2/');
+isfc_data_path = strcat(data_path,'/isfc_data/isfc_7T_movie2/');
 
 movie_number = 2;
 nets = 13;
