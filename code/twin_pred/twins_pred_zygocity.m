@@ -5,7 +5,7 @@ function [trues,falses,err_rate] = twins_pred_zygocity(varargin)
         corr_mtx_path = varargin{2};
     else
         clear
-        corr_mtx_path = [pwd, '/../fc_network_cov/output_dist/7T_rest1/'];
+        corr_mtx_path = [pwd, '/../fc_network_cov/output_corr/7T_rest1/'];
         %corr_mtx_path = [pwd, '/../fc_network_cov/output/3T_rest1_LR_splited_4/'];
         cov_files = dir([corr_mtx_path, '*.mat']);
     end
@@ -24,7 +24,7 @@ function [trues,falses,err_rate] = twins_pred_zygocity(varargin)
     %labels(:,3) = famils(randperm(length(famils)));
     
     %fprintf("num of cov files: %d", length(cov_files));
-    twins_indexes_pred = get_twins_indexes(corr_mtx_path, cov_files, 182, th, count, from);
+    twins_indexes_pred = get_twins_indexes(corr_mtx_path, cov_files, th, count, from);
     n = size(twins_indexes_pred,1);
 
     trues = 0;

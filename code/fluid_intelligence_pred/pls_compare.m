@@ -7,7 +7,7 @@ isfc_data_path = strcat(data_path,'/isfc_data/isfc_7T_movie2/');
 movie_number = 2;
 nets = 13;
 parts = 4;
-components = 10;
+components = 5;
 
 net_names = {'Primary Visual', 'Secondary Visual', 'Somatomotor', 'Cingulo-Opercular', 'Dorsal-attention', 'Language', 'Frontoparietal', 'Auditory', 'Default', 'Posterior Multimodal', 'Ventral Multimodal', 'Orbito-Affective', 'All Brain'};
 rng(0);

@@ -5,7 +5,7 @@ function [trues,falses,err_rate] = twins_pred(varargin)
         corr_mtx_path = varargin{2};
     else
         clear
-        corr_mtx_path = [pwd, '/../fc_network_cov/output_dist/7T_rest1/'];
+        corr_mtx_path = [pwd, '/../fc_network_cov/output_corr/7T_rest1/'];
         %corr_mtx_path = [pwd, '/../fc_network_cov/output/3T_rest1_LR_splited_4/'];
         cov_files = dir([corr_mtx_path, '*.mat']);
     end

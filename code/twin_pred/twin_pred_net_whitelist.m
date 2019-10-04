@@ -19,13 +19,15 @@ for n=1:num_of_networks
     if ~ismember(n,network_white_list)
         continue
     end
-    fprintf('adding network %d \n', n);
     net_cov_files_path_prefix = strcat(corr_mtx_path, cov_files_prefix, string(n), "_*");
     f = dir(net_cov_files_path_prefix);
     files = [files;f];
 end
-fprintf('start prediction by %d cov files \n', length(files));
+
+fprintf('start all twins prediction...');
 [trues, falses, ~] = twins_pred(files, corr_mtx_path)
-%[trues, falses, ~] = twins_pred_zygocity(files, corr_mtx_path)
+
+fprintf('start MZ twins prediction...');
+[trues, falses, ~] = twins_pred_zygocity(files, corr_mtx_path)
 
 

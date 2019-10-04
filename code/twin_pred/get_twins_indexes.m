@@ -9,7 +9,7 @@ function [twins] = get_twins_indexes(cov_files_path, cov_files ,th, count, from)
     end
     cov = [];
     same_person_failures = 0;
-    numOfSubjects = length(cov_matrices{1})
+    numOfSubjects = length(cov_matrices{1});
     for s=1:numOfSubjects
         pred_vector = zeros(numOfSubjects, 1);
         for f=1:length(cov_matrices)

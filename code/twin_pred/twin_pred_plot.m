@@ -1,6 +1,6 @@
 
 num_of_networks = 13;
-corr_mtx_path = [pwd, '/../fc_network_cov/output_dist/7T_rest1_splited_4/'];
+corr_mtx_path = [pwd, '/../fc_network_cov/output_corr/7T_rest1_splited_4/'];
 cov_files_prefix = 'fc_7T_rest1_cov_net_';
 %corr_mtx_path = [pwd, '/../fc_network_cov/output/3T_rest1_LR_splited_4/'];
 %cov_files_prefix = 'fc_3T_rest1_LR_cov_net_';
