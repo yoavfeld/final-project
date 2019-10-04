@@ -3,7 +3,7 @@ This folder contains code for fluide intelligence prediction by movie-task fMRI 
 
 Scripts in this folder, is running on 718x900 data that was parcelated by [parcellate script](/../parcellate/parcellate.m)
 
-# Entry point scripts:
+# Entry points:
 
 ## Preprocessing
 - fc_parts.m - Create FC matrices per movie part per network
