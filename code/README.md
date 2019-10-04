@@ -2,7 +2,7 @@
 
 ## Folders
 
-- connectivity/ - many scripts to calculate several brain connectivities
+- connectivity/ - many scripts to calculate brain connectivities (FC, ISC, ISFC)
 
 - fc_network_cov/ - calculate fc corellations matrix for twin prediction algorithm
 
@@ -16,5 +16,5 @@
 
 ## Prerequisites
  - GIFTI matlab lib - https://www.artefact.tk/software/matlab/gifti/
- - HCP Pipeline CIFTI matlab functions (only ciftiopen.m, ciftisave.m, ciftisavereset.m) - https://github.com/Washington-University/HCPpipelines/tree/master/global/matlab 
+ - HCP CIFTI matlab functions (only ciftiopen.m, ciftisave.m, ciftisavereset.m) - https://github.com/Washington-University/HCPpipelines/tree/master/global/matlab 
  - HCP workbench (wb_command) -  https://www.humanconnectome.org/software/get-connectome-workbench
