@@ -1,7 +1,7 @@
 # General
 This folder contains code for fluide intelligence prediction by movie-task fMRI scans.
 
-Scripts in this folder, is running on 718x900 data that was parcelated by [parcellate script](/../parcellate/parcellate.m)
+Scripts in this folder, is running on 718x900 data that was parcelated by [parcellate script](/code/parcellate/parcellate.m)
 
 # Entry points:
 
