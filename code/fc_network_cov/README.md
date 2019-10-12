@@ -2,7 +2,7 @@
 
 This Folder contains code to create correlations matrices for twins predictions (twin_pred folder)
 
-Scripts in this folder, is running on 718x900 data that was parcelated by [parcellate script](/code/parcellate/parcellate.m)
+Scripts in this folder, is running on 718x900 data that was parcellated by [parcellate script](/code/parcellate/parcellate.m)
 
 # Entry Points
 
